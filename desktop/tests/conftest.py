@@ -6,10 +6,10 @@ from PySide6 import QtTest
 
 
 # Force tests to look for resources in the source code tree
-sys.onionshare_dev_mode = True
+sys.burnbox_dev_mode = True
 
-# Let OnionShare know the tests are running, to avoid colliding with settings files
-sys.onionshare_test_mode = True
+# Let BurnBox know the tests are running, to avoid colliding with settings files
+sys.burnbox_test_mode = True
 
 
 @staticmethod
@@ -23,7 +23,7 @@ def qWait(t, qtapp):
 # https://stackoverflow.com/questions/17960159/qwait-analogue-in-pyside
 QtTest.QTest.qWait = qWait
 
-# Allow importing onionshare_cli from the source tree
+# Allow importing burnbox_cli from the source tree
 sys.path.insert(
     0,
     os.path.join(
@@ -33,12 +33,12 @@ sys.path.insert(
 )
 
 # Create common and qtapp singletons
-from onionshare_cli.common import Common
-from onionshare import Application
+from burnbox_cli.common import Common
+from burnbox import Application
 
 common = Common(verbose=True)
 qtapp = Application(common)
 
 # Attach them to sys, so GuiBaseTest can retrieve them
-sys.onionshare_common = common
-sys.onionshare_qtapp = qtapp
+sys.burnbox_common = common
+sys.burnbox_qtapp = qtapp

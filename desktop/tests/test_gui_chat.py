@@ -78,7 +78,7 @@ class TestChat(GuiBaseTest):
         url = f"http://127.0.0.1:{tab.app.port}/"
         self.hit_405(
             url,
-            expected_resp="OnionShare: 405 Method Not Allowed",
+            expected_resp="BurnBox: 405 Method Not Allowed",
             data={"foo": "bar"},
             methods=["put", "post", "delete", "options"],
         )

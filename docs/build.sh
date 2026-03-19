@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION=$(cat ../cli/onionshare_cli/resources/version.txt)
+VERSION=$(cat ../cli/burnbox_cli/resources/version.txt)
 
 # Supported locales
 LOCALES="en sq bg zh_CN de el ga ja pl ru es tr uk"

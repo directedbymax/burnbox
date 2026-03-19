@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=BurnBox
+Exec=burnbox
+Terminal=false
+Type=Application
+Icon=chat.hideaway.burnbox
+Categories=Network;FileTransfer;
+Keywords=tor;anonymity;privacy;onion service;file sharing;file hosting;
+StartupNotify=true
+StartupWMClass=burnbox

@@ -5,13 +5,13 @@ import tempfile
 
 import pytest
 
-from onionshare_cli import common, web
+from burnbox_cli import common, web
 
 # Force tests to look for resources in the source code tree
-sys.onionshare_dev_mode = True
+sys.burnbox_dev_mode = True
 
-# Let OnionShare know the tests are running, to avoid colliding with settings files
-sys.onionshare_test_mode = True
+# Let BurnBox know the tests are running, to avoid colliding with settings files
+sys.burnbox_test_mode = True
 
 # The temporary directory for CLI tests
 test_temp_dir = None
@@ -165,8 +165,8 @@ def sys_meipass(monkeypatch):
 
 
 @pytest.fixture  # (scope="session")
-def sys_onionshare_dev_mode(monkeypatch):
-    monkeypatch.setattr("sys.onionshare_dev_mode", True, raising=False)
+def sys_burnbox_dev_mode(monkeypatch):
+    monkeypatch.setattr("sys.burnbox_dev_mode", True, raising=False)
 
 
 @pytest.fixture

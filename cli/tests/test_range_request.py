@@ -1,7 +1,7 @@
 import pytest
 from werkzeug.exceptions import RequestedRangeNotSatisfiable
 
-from onionshare_cli.web.share_mode import parse_range_header
+from burnbox_cli.web.share_mode import parse_range_header
 
 
 VALID_RANGES = [

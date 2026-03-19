@@ -1,3 +1,0 @@
-import onionshare
-
-onionshare.main()

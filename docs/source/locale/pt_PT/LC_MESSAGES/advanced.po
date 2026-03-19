@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) Micah Lee, et al.
-# This file is distributed under the same license as the OnionShare package.
+# This file is distributed under the same license as the BurnBox package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OnionShare 2.3\n"
+"Project-Id-Version: BurnBox 2.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-18 17:24+1100\n"
 "PO-Revision-Date: 2024-09-06 15:09+0000\n"
@@ -29,7 +29,7 @@ msgstr "Gravar Guias"
 
 #: ../../source/advanced.rst:9
 msgid ""
-"Closing OnionShare tabs you host destroys them, preventing reuse. "
+"Closing BurnBox tabs you host destroys them, preventing reuse. "
 "Persistently hosted websites are available on the same address even if the "
 "computer they are shared from is rebooted."
 msgstr ""
@@ -37,14 +37,14 @@ msgstr ""
 #: ../../source/advanced.rst:12
 msgid ""
 "Make any tab persistent by checking the \"Always open this tab when "
-"OnionShare is started\" box before starting your server."
+"BurnBox is started\" box before starting your server."
 msgstr ""
 
 #: ../../source/advanced.rst:16
 msgid ""
-"When opening OnionShare, your saved tabs from the prior session will start "
+"When opening BurnBox, your saved tabs from the prior session will start "
 "opened. Each service then can be started manually, and will be available on "
-"the same OnionShare address and be protected by the same private key."
+"the same BurnBox address and be protected by the same private key."
 msgstr ""
 
 #: ../../source/advanced.rst:19
@@ -53,7 +53,7 @@ msgid ""
 "computer."
 msgstr ""
 "Se gravar uma guia, uma cópia da chave secreta do serviço onion dessa guia "
-"será armazenada no seu computador com as suas configurações OnionShare."
+"será armazenada no seu computador com as suas configurações BurnBox."
 
 #: ../../source/advanced.rst:24
 msgid "Turn Off Private Key"
@@ -61,28 +61,28 @@ msgstr "Desligar Chave Privada"
 
 #: ../../source/advanced.rst:26
 msgid ""
-"By default, all OnionShare services are protected with a private key, which "
+"By default, all BurnBox services are protected with a private key, which "
 "Tor calls \"client authentication\"."
 msgstr ""
-"Por padrão, todos os serviços do OnionShare são protegidos com uma chave "
+"Por padrão, todos os serviços do BurnBox são protegidos com uma chave "
 "privada, que o Tor chama de \"autenticação de cliente\"."
 
 #: ../../source/advanced.rst:28
 msgid ""
 "The Tor Browser will ask you to enter your private key when you load an "
-"OnionShare service. If you want to allow the public to use your service, "
+"BurnBox service. If you want to allow the public to use your service, "
 "it's better to disable the private key altogether."
 msgstr ""
 
 #: ../../source/advanced.rst:31
 msgid ""
 "To turn off the private key for any tab, check the \"This is a public "
-"OnionShare service (disables private key)\" box before starting the server. "
+"BurnBox service (disables private key)\" box before starting the server. "
 "Then the server will be public and a private key is not needed to load it in "
 "the Tor Browser."
 msgstr ""
 "Para desligar a chave privada para qualquer guia, marque a caixa \"Este é um "
-"serviço público OnionShare (desativa a chave privada)\" antes de iniciar o "
+"serviço público BurnBox (desativa a chave privada)\" antes de iniciar o "
 "servidor. Então o servidor será público e não precisará de uma chave privada "
 "para visualizar no Navegador Tor."
 
@@ -92,13 +92,13 @@ msgstr "Títulos Personalizados"
 
 #: ../../source/advanced.rst:39
 msgid ""
-"When people load OnionShare services in the Tor Browser they see the default "
+"When people load BurnBox services in the Tor Browser they see the default "
 "title for each type of service. For example, the default title for chat "
-"services is \"OnionShare Chat\"."
+"services is \"BurnBox Chat\"."
 msgstr ""
-"Por padrão, quando as pessoas carregam serviços OnionShare no Navegador Tor "
+"Por padrão, quando as pessoas carregam serviços BurnBox no Navegador Tor "
 "elas veem o título padrão para cada tipo de serviço. Por exemplo, o título "
-"padrão de serviços de bate-papo é \"OnionShare Chat\"."
+"padrão de serviços de bate-papo é \"BurnBox Chat\"."
 
 #: ../../source/advanced.rst:42
 msgid ""
@@ -112,13 +112,13 @@ msgstr "Horários programados"
 
 #: ../../source/advanced.rst:47
 msgid ""
-"OnionShare supports scheduling exactly when a service should start and stop. "
+"BurnBox supports scheduling exactly when a service should start and stop. "
 "Before starting a server, click \"Show advanced settings\" in its tab and "
 "then check the boxes next to either \"Start onion service at scheduled "
 "time\", \"Stop onion service at scheduled time\", or both, and set the "
 "respective desired dates and times."
 msgstr ""
-"OnionShare suporta agendamento exatamente quando um serviço deve iniciar e "
+"BurnBox suporta agendamento exatamente quando um serviço deve iniciar e "
 "parar. Antes de iniciar um servidor, clique em \"Mostrar configurações "
 "avançadas\" na sua guia e marque as caixas ao lado de \"Iniciar serviço "
 "onion no horário agendado\", \"Parar serviço onion no horário agendado\", ou "
@@ -133,7 +133,7 @@ msgstr ""
 
 #: ../../source/advanced.rst:54
 msgid ""
-"**Scheduling an OnionShare service to automatically start can be used as a "
+"**Scheduling an BurnBox service to automatically start can be used as a "
 "dead man's switch**. This means your service is made public at a given time "
 "in the future if you are not there to prevent it. If nothing happens to you, "
 "you can cancel the service before it's scheduled to start."
@@ -141,7 +141,7 @@ msgstr ""
 
 #: ../../source/advanced.rst:60
 msgid ""
-"**Scheduling an OnionShare service to automatically stop limits its "
+"**Scheduling an BurnBox service to automatically stop limits its "
 "exposure**. If you want to share secret info or something that will be "
 "outdated, you can do so for selected limited time."
 msgstr ""
@@ -152,10 +152,10 @@ msgstr "Interface da Linha de comando"
 
 #: ../../source/advanced.rst:70
 msgid ""
-"In addition to its graphical interface, OnionShare has a command-line "
+"In addition to its graphical interface, BurnBox has a command-line "
 "interface."
 msgstr ""
-"Além da sua interface gráfica, OnionShare possui uma interface de linha de "
+"Além da sua interface gráfica, BurnBox possui uma interface de linha de "
 "comando."
 
 #: ../../source/advanced.rst:73
@@ -171,13 +171,13 @@ msgstr ""
 #: ../../source/advanced.rst:77
 #, fuzzy
 #| msgid ""
-#| "You can install just the command-line version of OnionShare using "
+#| "You can install just the command-line version of BurnBox using "
 #| "``pip3``::"
 msgid ""
-"Alternatively, you can install just the command-line version of OnionShare "
+"Alternatively, you can install just the command-line version of BurnBox "
 "using ``pip3``::"
 msgstr ""
-"Pode instalar apenas a versão de linha de comando do OnionShare usando `` "
+"Pode instalar apenas a versão de linha de comando do BurnBox usando `` "
 "pip3`` ::"
 
 #: ../../source/advanced.rst:81
@@ -195,7 +195,7 @@ msgstr "Em seguida, execute-o assim:"
 #: ../../source/advanced.rst:87
 msgid ""
 "Info about installing it on different operating systems can be found in the "
-"`CLI README file <https://github.com/onionshare/onionshare/blob/develop/cli/"
+"`CLI README file <https://github.com/directedbymax/burnbox/blob/develop/cli/"
 "README.md>`_ in the Git repository."
 msgstr ""
 
@@ -205,7 +205,7 @@ msgstr ""
 
 #: ../../source/advanced.rst:92
 msgid ""
-"If you installed OnionShare using the Snap package, you can run ``onionshare."
+"If you installed BurnBox using the Snap package, you can run ``burnbox."
 "cli`` to access the command-line interface version."
 msgstr ""
 
@@ -215,8 +215,8 @@ msgstr ""
 
 #: ../../source/advanced.rst:97
 msgid ""
-"From Terminal, you can run ``/Applications/OnionShare.app/Contents/MacOS/"
-"onionshare-cli --help``"
+"From Terminal, you can run ``/Applications/BurnBox.app/Contents/MacOS/"
+"burnbox-cli --help``"
 msgstr ""
 
 #: ../../source/advanced.rst:100
@@ -225,7 +225,7 @@ msgstr ""
 
 #: ../../source/advanced.rst:102
 msgid ""
-"In the Windows installation, the executable ``onionshare-cli.exe`` is "
+"In the Windows installation, the executable ``burnbox-cli.exe`` is "
 "available."
 msgstr ""
 
@@ -235,7 +235,7 @@ msgstr "Uso"
 
 #: ../../source/advanced.rst:107
 msgid ""
-"Browse the command-line documentation by running ``onionshare --help``::"
+"Browse the command-line documentation by running ``burnbox --help``::"
 msgstr ""
 
 #: ../../source/advanced.rst:170
@@ -244,7 +244,7 @@ msgstr ""
 
 #: ../../source/advanced.rst:172
 msgid ""
-"It is possible to automatically start OnionShare from the CLI using a "
+"It is possible to automatically start BurnBox from the CLI using a "
 "systemd unit file."
 msgstr ""
 
@@ -256,21 +256,21 @@ msgid ""
 msgstr ""
 
 #: ../../source/advanced.rst:176
-msgid "To do this, you need to prepare some OnionShare json config first."
+msgid "To do this, you need to prepare some BurnBox json config first."
 msgstr ""
 
 #: ../../source/advanced.rst:178
 msgid ""
-"Here is the main OnionShare config. In this example, it's stored in ``/home/"
-"user/.config/onionshare/onionshare.json``. You may need to adjust some of "
-"the settings, but if you already have OnionShare installed, it probably "
+"Here is the main BurnBox config. In this example, it's stored in ``/home/"
+"user/.config/burnbox/burnbox.json``. You may need to adjust some of "
+"the settings, but if you already have BurnBox installed, it probably "
 "looks much like this already::"
 msgstr ""
 
 #: ../../source/advanced.rst:207
 msgid ""
 "Notice the 'persistent_tabs' section. We will now create a file at ``/home/"
-"user/.config/onionshare/persistent/my-persistent-onion.json``, that looks "
+"user/.config/burnbox/persistent/my-persistent-onion.json``, that looks "
 "like this::"
 msgstr ""
 
@@ -283,18 +283,18 @@ msgstr ""
 #: ../../source/advanced.rst:249
 msgid ""
 "The easiest way to generate the onion address and private key is to first "
-"create a 'pinned' OnionShare tab in the desktop app and started the share "
+"create a 'pinned' BurnBox tab in the desktop app and started the share "
 "for the first time. This will then have saved the persistent settings to "
-"your ``.config/onionshare/persistent/`` folder with a random name. You can "
+"your ``.config/burnbox/persistent/`` folder with a random name. You can "
 "unpin that tab once you've generated it the first time. Or, you can leave it "
 "where it is, and use that persistent file in your systemd unit file below."
 msgstr ""
 
 #: ../../source/advanced.rst:251
 msgid ""
-"Now you can create a systemd unit file in ``/etc/systemd/system/onionshare-"
+"Now you can create a systemd unit file in ``/etc/systemd/system/burnbox-"
 "cli.service``. Be sure to adjust the User and Group to your own user/group, "
-"as well as changes to any paths to the onionshare-cli binary or the paths to "
+"as well as changes to any paths to the burnbox-cli binary or the paths to "
 "your JSON configs and shares."
 msgstr ""
 
@@ -306,7 +306,7 @@ msgstr ""
 msgid ""
 "Note that although ``/home/user/my-shared-file.txt`` was defined in the "
 "``filenames`` section of the ``my-persistent-onion.json`` file, it's still "
-"necessary to specify it as the argument to the onionshare-cli command."
+"necessary to specify it as the argument to the burnbox-cli command."
 msgstr ""
 
 #: ../../source/advanced.rst:270
@@ -316,8 +316,8 @@ msgstr ""
 
 #: ../../source/advanced.rst:272
 msgid ""
-"Now you can run ``sudo systemctl start onionshare-cli.service``. If you have "
-"``journalctl`` installed, you can run ``sudo journalctl -f -t onionshare-"
+"Now you can run ``sudo systemctl start burnbox-cli.service``. If you have "
+"``journalctl`` installed, you can run ``sudo journalctl -f -t burnbox-"
 "cli``, and you should see some output of your service starting::"
 msgstr ""
 
@@ -333,7 +333,7 @@ msgstr ""
 
 #: ../../source/advanced.rst:288
 msgid ""
-"The OnionShare desktop application contains some keyboard shortcuts, for "
+"The BurnBox desktop application contains some keyboard shortcuts, for "
 "convenience and accessibility::"
 msgstr ""
 
@@ -342,32 +342,32 @@ msgid "And from the main mode chooser screen::"
 msgstr ""
 
 #: ../../source/advanced.rst:303
-msgid "Migrating your OnionShare data to another computer"
+msgid "Migrating your BurnBox data to another computer"
 msgstr ""
 
 #: ../../source/advanced.rst:305
 msgid ""
-"You may want to migrate your OnionShare data when switching to another "
+"You may want to migrate your BurnBox data when switching to another "
 "computer. This is especially true if you had a 'persistent' onion address "
 "and you want to preserve it."
 msgstr ""
 
 #: ../../source/advanced.rst:307
 msgid ""
-"OnionShare stores all such data in a specific folder. Copy the relevant "
+"BurnBox stores all such data in a specific folder. Copy the relevant "
 "folder for your operating system below, to your new computer:"
 msgstr ""
 
 #: ../../source/advanced.rst:309
-msgid "Linux: ``~/.config/onionshare``"
+msgid "Linux: ``~/.config/burnbox``"
 msgstr ""
 
 #: ../../source/advanced.rst:310
-msgid "macOS: ``~/Library/Application Support/OnionShare``"
+msgid "macOS: ``~/Library/Application Support/BurnBox``"
 msgstr ""
 
 #: ../../source/advanced.rst:311
-msgid "Windows: ``%APPDATA%\\OnionShare``"
+msgid "Windows: ``%APPDATA%\\BurnBox``"
 msgstr ""
 
 #: ../../source/advanced.rst:315
@@ -376,7 +376,7 @@ msgstr ""
 
 #: ../../source/advanced.rst:317
 msgid ""
-"OnionShare stores its settings in a JSON file. Both the CLI and the Desktop "
+"BurnBox stores its settings in a JSON file. Both the CLI and the Desktop "
 "versions use this configuration file. The CLI also lets you specify a path "
 "to a custom configuration file with ``--config``."
 msgstr ""
@@ -385,7 +385,7 @@ msgstr ""
 msgid ""
 "Below are the configuration file parameters and what they mean. If your "
 "configuration file has other parameters not listed here, they may be "
-"obsolete from older OnionShare versions."
+"obsolete from older BurnBox versions."
 msgstr ""
 
 #: ../../source/advanced.rst:322 ../../source/advanced.rst:402
@@ -429,7 +429,7 @@ msgstr ""
 
 #: ../../source/advanced.rst:324
 msgid ""
-"The version of OnionShare. You should not ever need to change this value."
+"The version of BurnBox. You should not ever need to change this value."
 msgstr ""
 
 #: ../../source/advanced.rst:325
@@ -438,7 +438,7 @@ msgstr ""
 
 #: ../../source/advanced.rst:325
 msgid ""
-"The way in which OnionShare connects to Tor. Valid options are 'bundled', "
+"The way in which BurnBox connects to Tor. Valid options are 'bundled', "
 "'automatic' (use Tor Browser's Tor connection), 'control_port' or "
 "'socket_file'. Default: 'bundled'"
 msgstr ""
@@ -535,7 +535,7 @@ msgstr ""
 
 #: ../../source/advanced.rst:333
 msgid ""
-"Whether OnionShare should automatically connect to Tor when it starts. "
+"Whether BurnBox should automatically connect to Tor when it starts. "
 "Default: False"
 msgstr ""
 
@@ -545,7 +545,7 @@ msgstr ""
 
 #: ../../source/advanced.rst:334
 msgid ""
-"Whether OnionShare should automatically check for updates (over Tor). This "
+"Whether BurnBox should automatically check for updates (over Tor). This "
 "setting is only valid for MacOS or Windows installations. Default: True."
 msgstr ""
 
@@ -554,7 +554,7 @@ msgid "autoupdate_timestamp"
 msgstr ""
 
 #: ../../source/advanced.rst:335
-msgid "The last time OnionShare checked for updates. Default: None"
+msgid "The last time BurnBox checked for updates. Default: None"
 msgstr ""
 
 #: ../../source/advanced.rst:336
@@ -572,7 +572,7 @@ msgstr ""
 #: ../../source/advanced.rst:337
 msgid ""
 "When ``bridges_enabled`` is True, where to load bridges from. Options are "
-"\"built-in\" (bridges shipped with OnionShare and which may get updated from "
+"\"built-in\" (bridges shipped with BurnBox and which may get updated from "
 "Tor), \"moat\" (request bridges from Tor's Moat API), or \"custom\" (user-"
 "supplied bridges). Default: \"built-in\""
 msgstr ""
@@ -619,7 +619,7 @@ msgstr ""
 
 #: ../../source/advanced.rst:341
 msgid ""
-"When ``bridges_type`` is set to \"built-in\", OnionShare obtains the latest "
+"When ``bridges_type`` is set to \"built-in\", BurnBox obtains the latest "
 "built-in bridges recommended by Tor and stores them here. Default: {}"
 msgstr ""
 
@@ -635,10 +635,10 @@ msgstr ""
 #: ../../source/advanced.rst:342
 msgid ""
 "If the user has defined any tabs as 'saved' (meaning that they are "
-"persistent each time OnionShare starts, and their onion address doesn't "
+"persistent each time BurnBox starts, and their onion address doesn't "
 "change), these are given a random identifier which gets listed here. The "
 "persistent onion is stored as a JSON file with the same name as this "
-"identifier, in a subfolder of the OnionShare configuration folder called "
+"identifier, in a subfolder of the BurnBox configuration folder called "
 "'persistent'. Default: []"
 msgstr ""
 
@@ -648,9 +648,9 @@ msgstr ""
 
 #: ../../source/advanced.rst:343
 msgid ""
-"The locale used in OnionShare. Default: None (which is the same as 'en'). "
+"The locale used in BurnBox. Default: None (which is the same as 'en'). "
 "For valid locale codes, see 'available_locales' in https://github.com/"
-"onionshare/onionshare/blob/main/cli/onionshare_cli/settings.py"
+"burnbox/burnbox/blob/main/cli/burnbox_cli/settings.py"
 msgstr ""
 
 #: ../../source/advanced.rst:344
@@ -659,7 +659,7 @@ msgstr ""
 
 #: ../../source/advanced.rst:344
 msgid ""
-"The theme for the OnionShare desktop app. Valid options are 0 (automatically "
+"The theme for the BurnBox desktop app. Valid options are 0 (automatically "
 "detect the user's computer's light or dark theme), 1 (light) or 2 (dark)."
 msgstr ""
 
@@ -711,7 +711,7 @@ msgstr ""
 
 #: ../../source/advanced.rst:406
 msgid ""
-"The public key when using Client Authentication. Used on OnionShare's side."
+"The public key when using Client Authentication. Used on BurnBox's side."
 msgstr ""
 
 #: ../../source/advanced.rst:410
@@ -744,7 +744,7 @@ msgstr ""
 
 #: ../../source/advanced.rst:417
 msgid ""
-"Whether to automatically start this persistent onion when OnionShare starts "
+"Whether to automatically start this persistent onion when BurnBox starts "
 "and once Tor is connected. Default: false"
 msgstr ""
 
@@ -759,7 +759,7 @@ msgstr ""
 #: ../../source/advanced.rst:426
 msgid ""
 "An optional custom title for displaying on the onion service. Default: null "
-"(\"OnionShare\" will be shown instead)"
+"(\"BurnBox\" will be shown instead)"
 msgstr ""
 
 #: ../../source/advanced.rst:427
@@ -852,7 +852,7 @@ msgstr ""
 #: ../../source/advanced.rst:452
 msgid ""
 "The path where received files or text messages will be stored. Default: the "
-"'OnionShare' folder of the user's home directory."
+"'BurnBox' folder of the user's home directory."
 msgstr ""
 
 #: ../../source/advanced.rst:453
@@ -861,7 +861,7 @@ msgstr ""
 
 #: ../../source/advanced.rst:453
 msgid ""
-"A webhook URL that OnionShare will POST to when it receives files or text "
+"A webhook URL that BurnBox will POST to when it receives files or text "
 "messages. Default: null"
 msgstr ""
 
@@ -891,7 +891,7 @@ msgstr ""
 
 #: ../../source/advanced.rst:464
 msgid ""
-"If set to ``true``, OnionShare won't set its default Content Security Policy "
+"If set to ``true``, BurnBox won't set its default Content Security Policy "
 "header for the website. Default: ``false``"
 msgstr ""
 

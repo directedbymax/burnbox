@@ -1,5 +1,5 @@
-project = "OnionShare"
-author = copyright = "Micah Lee, et al."
+project = "BurnBox"
+author = copyright = "BurnBox"
 version = release = "2.6.3"
 
 extensions = ["sphinx_rtd_theme"]

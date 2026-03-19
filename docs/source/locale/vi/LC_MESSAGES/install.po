@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) Micah Lee, et al.
-# This file is distributed under the same license as the OnionShare package.
+# This file is distributed under the same license as the BurnBox package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OnionShare 2.6\n"
-"Report-Msgid-Bugs-To: onionshare-dev@lists.riseup.net\n"
+"Project-Id-Version: BurnBox 2.6\n"
+"Report-Msgid-Bugs-To: burnbox-dev@lists.riseup.net\n"
 "POT-Creation-Date: 2025-02-18 17:24+1100\n"
 "PO-Revision-Date: 2025-03-03 20:37+0000\n"
 "Last-Translator: xanhAD <tnhuthao414@gmail.com>\n"
@@ -29,19 +29,19 @@ msgstr "Windows hoặc macOS"
 
 #: ../../source/install.rst:7
 msgid ""
-"You can download OnionShare for Windows and macOS from the `OnionShare "
-"website <https://onionshare.org/>`_."
+"You can download BurnBox for Windows and macOS from the `BurnBox "
+"website <https://burnbox.hideaway.chat/>`_."
 msgstr ""
-"Bạn có thể tải xuống OnionShare cho Windows và macOS từ `trang web "
-"OnionShare <https://onionshare.org/>`_."
+"Bạn có thể tải xuống BurnBox cho Windows và macOS từ `trang web "
+"BurnBox <https://burnbox.hideaway.chat/>`_."
 
 #: ../../source/install.rst:12
 msgid "Mobile"
 msgstr "Điện thoại"
 
 #: ../../source/install.rst:14
-msgid "You can download OnionShare for Mobile from the follow links"
-msgstr "Bạn có thể tải OnionShare cho thiết bị di động từ các liên kết sau"
+msgid "You can download BurnBox for Mobile from the follow links"
+msgstr "Bạn có thể tải BurnBox cho thiết bị di động từ các liên kết sau"
 
 #: ../../source/install.rst:16
 msgid "Android"
@@ -49,31 +49,31 @@ msgstr "Android"
 
 #: ../../source/install.rst:17
 msgid ""
-"Google Play: https://play.google.com/store/apps/details?id=org.onionshare."
+"Google Play: https://play.google.com/store/apps/details?id=org.burnbox."
 "android"
 msgstr ""
 "Cửa hàng Google Play: https://play.google.com/store/apps/"
-"details?id=org.onionshare.android"
+"details?id=org.burnbox.android"
 
 #: ../../source/install.rst:18
-msgid "F-Droid: https://github.com/onionshare/onionshare-android-nightly"
+msgid "F-Droid: https://github.com/directedbymax/burnbox-android-nightly"
 msgstr ""
-"Phần mềm F-Droid: https://github.com/onionshare/onionshare-android-nightly"
+"Phần mềm F-Droid: https://github.com/directedbymax/burnbox-android-nightly"
 
 #: ../../source/install.rst:20
 msgid "iOS"
 msgstr "iOS"
 
 #: ../../source/install.rst:21
-msgid "Apple App Store: https://apps.apple.com/app/onionshare/id1601890129"
+msgid "Apple App Store: https://apps.apple.com/app/burnbox/id1601890129"
 msgstr ""
-"Cửa hàng ứng dụng Apple: https://apps.apple.com/app/onionshare/id1601890129"
+"Cửa hàng ứng dụng Apple: https://apps.apple.com/app/burnbox/id1601890129"
 
 #: ../../source/install.rst:22
 msgid ""
-"Direct IPA download: https://github.com/onionshare/onionshare-ios/releases"
+"Direct IPA download: https://github.com/directedbymax/burnbox-ios/releases"
 msgstr ""
-"Tải xuống IPA trực tiếp: https://github.com/onionshare/onionshare-ios/"
+"Tải xuống IPA trực tiếp: https://github.com/directedbymax/burnbox-ios/"
 "releases"
 
 #: ../../source/install.rst:23
@@ -86,15 +86,15 @@ msgstr "Linux"
 
 #: ../../source/install.rst:29
 msgid ""
-"There are various ways to install OnionShare for Linux, but the recommended "
+"There are various ways to install BurnBox for Linux, but the recommended "
 "way is to use either the `Flatpak <https://flatpak.org/>`_ or the `Snap "
 "<https://snapcraft.io/>`_ package. Flatpak and Snapcraft ensure that you'll "
-"always use the newest version and run OnionShare inside of a sandbox."
+"always use the newest version and run BurnBox inside of a sandbox."
 msgstr ""
-"Có nhiều cách khác nhau để cài đặt OnionShare cho Linux, nhưng cách được "
+"Có nhiều cách khác nhau để cài đặt BurnBox cho Linux, nhưng cách được "
 "khuyến nghị là sử dụng gói `Flatpak <https://flatpak.org/>`_ hoặc `Snap "
 "<https://snapcraft.io/>`_. Flatpak và Snapcraft đảm bảo rằng bạn sẽ luôn sử "
-"dụng phiên bản mới nhất và chạy OnionShare bên trong hộp cát."
+"dụng phiên bản mới nhất và chạy BurnBox bên trong hộp cát."
 
 #: ../../source/install.rst:32
 msgid ""
@@ -108,24 +108,24 @@ msgstr ""
 
 #: ../../source/install.rst:34
 msgid ""
-"**Install OnionShare using Flatpak**: https://flathub.org/apps/details/org."
-"onionshare.OnionShare"
+"**Install BurnBox using Flatpak**: https://flathub.org/apps/details/org."
+"burnbox.BurnBox"
 msgstr ""
-"**Cài đặt OnionShare sử dụng Flatpak**: https://flathub.org/apps/details/org."
-"onionshare.OnionShare"
+"**Cài đặt BurnBox sử dụng Flatpak**: https://flathub.org/apps/details/org."
+"burnbox.BurnBox"
 
 #: ../../source/install.rst:36
-msgid "**Install OnionShare using Snapcraft**: https://snapcraft.io/onionshare"
+msgid "**Install BurnBox using Snapcraft**: https://snapcraft.io/burnbox"
 msgstr ""
-"**Cài đặt OnionShare sử dụng Snapcraft**: https://snapcraft.io/onionshare"
+"**Cài đặt BurnBox sử dụng Snapcraft**: https://snapcraft.io/burnbox"
 
 #: ../../source/install.rst:38
 msgid ""
 "You can also download and install PGP-signed ``.flatpak`` or ``.snap`` "
-"packages from https://onionshare.org/dist/ if you prefer."
+"packages from https://burnbox.hideaway.chat/dist/ if you prefer."
 msgstr ""
 "Bạn cũng có thể tải xuống và cài đặt các gói ``.flatpak`` hoặc ``.snap`` có "
-"chữ ký PGP từ https://onionshare.org/dist/ nếu bạn muốn."
+"chữ ký PGP từ https://burnbox.hideaway.chat/dist/ nếu bạn muốn."
 
 #: ../../source/install.rst:41
 msgid "Manual Flatpak Installation"
@@ -133,11 +133,11 @@ msgstr "Cài đặt Flatpak theo cách thủ công"
 
 #: ../../source/install.rst:43
 msgid ""
-"If you'd like to install OnionShare manually with Flatpak using the PGP-"
+"If you'd like to install BurnBox manually with Flatpak using the PGP-"
 "signed `single-file bundle <https://docs.flatpak.org/en/latest/single-file-"
 "bundles.html>`_, you can do so like this:"
 msgstr ""
-"Nếu bạn muốn cài đặt OnionShare theo cách thủ công với Flatpak bằng cách sử "
+"Nếu bạn muốn cài đặt BurnBox theo cách thủ công với Flatpak bằng cách sử "
 "dụng `gói tập tin đơn có chữ ký PGP <https://docs.flatpak.org/en/latest/"
 "single-file-bundles.html>`_, bạn có thể thực hiện như sau:"
 
@@ -151,20 +151,20 @@ msgstr ""
 msgid ""
 "Add the Flathub repository by running ``flatpak remote-add --if-not-exists "
 "flathub https://flathub.org/repo/flathub.flatpakrepo``. Even though you "
-"won't be downloading OnionShare from Flathub, OnionShare depends on some "
+"won't be downloading BurnBox from Flathub, BurnBox depends on some "
 "packages that are only available there."
 msgstr ""
 "Thêm kho lưu trữ Flathub bằng cách chạy ``flatpak remote-add --if-not-exists "
 "flathub https://flathub.org/repo/flathub.flatpakrepo``. Mặc dù bạn sẽ không "
-"tải xuống OnionShare từ Flathub, nhưng OnionShare phụ thuộc vào một số gói "
+"tải xuống BurnBox từ Flathub, nhưng BurnBox phụ thuộc vào một số gói "
 "package chỉ khả dụng ở đó mà thôi."
 
 #: ../../source/install.rst:47
 msgid ""
-"Go to https://onionshare.org/dist/, choose the latest version of OnionShare, "
+"Go to https://burnbox.hideaway.chat/dist/, choose the latest version of BurnBox, "
 "and download the ``.flatpak`` and ``.flatpak.asc`` files."
 msgstr ""
-"Đi tới https://onionshare.org/dist/, lựa chọn phiên bản OnionShare mới nhất, "
+"Đi tới https://burnbox.hideaway.chat/dist/, lựa chọn phiên bản BurnBox mới nhất, "
 "và tải xuống các file tệp tin ``.flatpak`` và ``.flatpak.asc``."
 
 #: ../../source/install.rst:48
@@ -177,18 +177,18 @@ msgstr ""
 
 #: ../../source/install.rst:49
 msgid ""
-"Install the ``.flatpak`` file by running ``flatpak install OnionShare-"
+"Install the ``.flatpak`` file by running ``flatpak install BurnBox-"
 "VERSION.flatpak``. Replace ``VERSION`` with the version number of the file "
 "you downloaded."
 msgstr ""
 "Cài đặt file tệp tin ``.flatpak`` bằng cách chạy ``flatpak install "
-"OnionShare-VERSION.flatpak``. Thay thế ``VERSION`` bằng số phiên bản của "
+"BurnBox-VERSION.flatpak``. Thay thế ``VERSION`` bằng số phiên bản của "
 "file tệp tin bạn đã tải xuống."
 
 #: ../../source/install.rst:51
-msgid "You can run OnionShare with: `flatpak run org.onionshare.OnionShare`."
+msgid "You can run BurnBox with: `flatpak run chat.hideaway.burnbox`."
 msgstr ""
-"Bạn có thể chạy OnionShare với: `flatpak run org.onionshare.OnionShare`."
+"Bạn có thể chạy BurnBox với: `flatpak run chat.hideaway.burnbox`."
 
 #: ../../source/install.rst:54
 msgid "Manual Snapcraft Installation"
@@ -196,10 +196,10 @@ msgstr "Cài đặt Snapcraft theo cách thủ công"
 
 #: ../../source/install.rst:56
 msgid ""
-"If you'd like to install OnionShare manually with Snapcraft using the PGP-"
+"If you'd like to install BurnBox manually with Snapcraft using the PGP-"
 "signed Snapcraft package, you can do so like this:"
 msgstr ""
-"nếu như bạn muốn cài đặt OnionShare theo cách thủ công với Snapcraft bằng "
+"nếu như bạn muốn cài đặt BurnBox theo cách thủ công với Snapcraft bằng "
 "cách sử dụng gói package Snapcraft có chữ ký PGP, bạn có thể làm như thế này:"
 
 #: ../../source/install.rst:58
@@ -212,11 +212,11 @@ msgstr ""
 
 #: ../../source/install.rst:59
 msgid ""
-"Go to https://onionshare.org/dist/, choose the latest version of OnionShare, "
+"Go to https://burnbox.hideaway.chat/dist/, choose the latest version of BurnBox, "
 "and download the ``.snap`` and ``.snap.asc`` files."
 msgstr ""
-"Đi tới https://onionshare.org/dist/, lựa chọn phiên bản mới nhất của "
-"OnionShare, và tải xuống các file tệp tin ``.snap`` và ``.snap.asc``."
+"Đi tới https://burnbox.hideaway.chat/dist/, lựa chọn phiên bản mới nhất của "
+"BurnBox, và tải xuống các file tệp tin ``.snap`` và ``.snap.asc``."
 
 #: ../../source/install.rst:60
 msgid ""
@@ -229,20 +229,20 @@ msgstr ""
 #: ../../source/install.rst:61
 msgid ""
 "Install the ``.snap`` file by running ``snap install --dangerous "
-"onionshare_VERSION_amd64.snap``. Replace ``VERSION`` with the version number "
+"burnbox_VERSION_amd64.snap``. Replace ``VERSION`` with the version number "
 "of the file you downloaded. Note that you must use `--dangerous` because the "
 "package is not signed by the Snapcraft store, however you did verify its PGP "
 "signature, so you know it's legitimate."
 msgstr ""
 "Cài đặt file tệp tin ``.snap`` bằng cách chạy ``snap install --dangerous "
-"onionshare_VERSION_amd64.snap``. Thay thế ``VERSION`` bằng số phiên bản của "
+"burnbox_VERSION_amd64.snap``. Thay thế ``VERSION`` bằng số phiên bản của "
 "file tệp tin mà bạn đã tải xuống. Lưu ý rằng bạn phải sử dụng `--dangerous` "
 "bởi vì gói package không được ký bởi cửa hàng Snapcraft store, tuy nhiên, "
 "bạn đã xác minh chữ ký PGP của nó, vì vậy bạn biết nó là chính chủ hợp pháp."
 
 #: ../../source/install.rst:63
-msgid "You can run OnionShare with: `snap run onionshare`."
-msgstr "Bạn có thể chạy OnionShare với: `snap run onionshare`."
+msgid "You can run BurnBox with: `snap run burnbox`."
+msgstr "Bạn có thể chạy BurnBox với: `snap run burnbox`."
 
 #: ../../source/install.rst:68
 msgid "Command-line only"
@@ -250,10 +250,10 @@ msgstr "Chỉ dòng lệnh command mà thôi"
 
 #: ../../source/install.rst:70
 msgid ""
-"You can install just the command-line version of OnionShare on any operating "
+"You can install just the command-line version of BurnBox on any operating "
 "system using the Python package manager ``pip``. :ref:`cli` has more info."
 msgstr ""
-"Bạn có thể chỉ cài đặt phiên bản dòng lệnh command của OnionShare trên bất "
+"Bạn có thể chỉ cài đặt phiên bản dòng lệnh command của BurnBox trên bất "
 "kỳ hệ điều hành nào bằng cách sử dụng trình quản lý gói Python ``pip``. :ref:"
 "`cli` có thêm thông tin."
 
@@ -263,40 +263,40 @@ msgstr "Hệ điều hành FreeBSD"
 
 #: ../../source/install.rst:77
 msgid ""
-"Althought not being officially developed for this platform, OnionShare can "
+"Althought not being officially developed for this platform, BurnBox can "
 "also be installed on `FreeBSD <https://freebsd.org/>`_. It's available via "
 "its ports collection or as pre-built package. Should you opt to install and "
-"use OnionShare on a FreeBSD operating system, please be aware that it's "
-"**NOT** officially supported by the OnionShare project."
+"use BurnBox on a FreeBSD operating system, please be aware that it's "
+"**NOT** officially supported by the BurnBox project."
 msgstr ""
-"Mặc dù không được phát triển chính thức cho nền tảng này, OnionShare cũng có "
+"Mặc dù không được phát triển chính thức cho nền tảng này, BurnBox cũng có "
 "thể được cài đặt trên `FreeBSD <https://freebsd.org/>`_. Nó có sẵn thông qua "
 "bộ sưu tập cổng của nó hoặc dưới dạng gói dựng sẵn. Nếu bạn chọn cài đặt và "
-"sử dụng OnionShare trên hệ điều hành FreeBSD, vui lòng lưu ý rằng nó "
-"**KHÔNG** được hỗ trợ chính thức bởi dự án OnionShare."
+"sử dụng BurnBox trên hệ điều hành FreeBSD, vui lòng lưu ý rằng nó "
+"**KHÔNG** được hỗ trợ chính thức bởi dự án BurnBox."
 
 #: ../../source/install.rst:79
 msgid ""
-"Though not being offered and officially maintained by the OnionShare "
+"Though not being offered and officially maintained by the BurnBox "
 "developers, the FreeBSD packages and ports do fetch and verifies the source "
-"codes from the official OnionShare repository (or its official release "
-"packages from `PyPI <https://pypi.org/project/onionshare-cli/>`_). Should "
+"codes from the official BurnBox repository (or its official release "
+"packages from `PyPI <https://pypi.org/project/burnbox-cli/>`_). Should "
 "you wish to check changes related to this platform, please refer to the "
 "following resources:"
 msgstr ""
 "Mặc dù không được cung cấp và bảo trì chính thức bởi các nhà phát triển "
-"OnionShare, các gói và cổng FreeBSD sẽ lấy và xác minh mã nguồn từ kho lưu "
-"trữ OnionShare chính thức (hoặc các gói phát hành chính thức từ `PyPI "
-"<https://pypi.org/project/onionshare-cli/>`_). Nếu bạn muốn kiểm tra các "
+"BurnBox, các gói và cổng FreeBSD sẽ lấy và xác minh mã nguồn từ kho lưu "
+"trữ BurnBox chính thức (hoặc các gói phát hành chính thức từ `PyPI "
+"<https://pypi.org/project/burnbox-cli/>`_). Nếu bạn muốn kiểm tra các "
 "thay đổi liên quan đến nền tảng này, vui lòng tham khảo các tài nguyên sau:"
 
 #: ../../source/install.rst:81
-msgid "https://cgit.freebsd.org/ports/log/www/onionshare"
-msgstr "https://cgit.freebsd.org/ports/log/www/onionshare"
+msgid "https://cgit.freebsd.org/ports/log/www/burnbox"
+msgstr "https://cgit.freebsd.org/ports/log/www/burnbox"
 
 #: ../../source/install.rst:82
-msgid "https://www.freshports.org/www/onionshare"
-msgstr "https://www.freshports.org/www/onionshare"
+msgid "https://www.freshports.org/www/burnbox"
+msgstr "https://www.freshports.org/www/burnbox"
 
 #: ../../source/install.rst:85
 msgid "Manual pkg Installation"
@@ -304,22 +304,22 @@ msgstr "Cài đặt Flatpak theo cách thủ công"
 
 #: ../../source/install.rst:87
 msgid ""
-"To install the binary package, use ``pkg install pyXY-onionshare``, with "
+"To install the binary package, use ``pkg install pyXY-burnbox``, with "
 "``pyXY`` specifying the version of Python the package was built for. So, in "
-"order to install OnionShare for Python 3.9, use::"
+"order to install BurnBox for Python 3.9, use::"
 msgstr ""
-"Để cài đặt gói nhị phân, hãy sử dụng ``pkg install pyXY-onionshare``, với "
+"Để cài đặt gói nhị phân, hãy sử dụng ``pkg install pyXY-burnbox``, với "
 "``pyXY`` chỉ định phiên bản Python mà gói được xây dựng cho. Vì vậy, để cài "
-"đặt OnionShare cho Python 3.9, hãy sử dụng::"
+"đặt BurnBox cho Python 3.9, hãy sử dụng::"
 
 #: ../../source/install.rst:91
 msgid ""
-"There's also a **Command-line only** version of OnionShare available as pre-"
-"built package. Replace ``py39-onionshare`` by ``py39-onionshare-cli`` if you "
+"There's also a **Command-line only** version of BurnBox available as pre-"
+"built package. Replace ``py39-burnbox`` by ``py39-burnbox-cli`` if you "
 "want to install that version."
 msgstr ""
-"Ngoài ra còn có phiên bản **Chỉ dòng lệnh** của OnionShare có sẵn dưới dạng "
-"gói dựng sẵn. Thay thế ``py39-onionshare`` bằng ``py39-onionshare-cli`` nếu "
+"Ngoài ra còn có phiên bản **Chỉ dòng lệnh** của BurnBox có sẵn dưới dạng "
+"gói dựng sẵn. Thay thế ``py39-burnbox`` bằng ``py39-burnbox-cli`` nếu "
 "bạn muốn cài đặt phiên bản đó."
 
 #: ../../source/install.rst:93
@@ -349,11 +349,11 @@ msgstr ""
 #: ../../source/install.rst:102
 msgid ""
 "The ports collection also offers a dedicated port for the **Command-line "
-"only** version of OnionShare. Replace ``www/onionshare`` by ``www/onionshare-"
+"only** version of BurnBox. Replace ``www/burnbox`` by ``www/burnbox-"
 "cli`` if you want to install that version."
 msgstr ""
 "Bộ sưu tập cổng cũng cung cấp một cổng chuyên dụng cho phiên bản **Chỉ dòng "
-"lệnh** của OnionShare. Thay thế ``www/onionshare`` bằng ``www/onionshare-"
+"lệnh** của BurnBox. Thay thế ``www/burnbox`` bằng ``www/burnbox-"
 "cli`` nếu bạn muốn cài đặt phiên bản đó."
 
 #: ../../source/install.rst:104
@@ -374,14 +374,14 @@ msgstr "Việc xác minh chữ ký PGP"
 msgid ""
 "You can verify that the package you download is legitimate and hasn't been "
 "tampered with by verifying its PGP signature. For Windows and macOS, this "
-"step is optional and provides defense in depth: the OnionShare binaries "
+"step is optional and provides defense in depth: the BurnBox binaries "
 "include operating system-specific signatures, and you can just rely on those "
 "alone if you'd like."
 msgstr ""
 "Bạn có thể xác minh rằng gói mà bạn tải xuống là hợp pháp hợp lệ và không bị "
 "giả mạo hoặc xáo trộn bằng cách xác minh chữ ký PGP của nó. Đối với hệ điều "
 "hành Windows và macOS, bước này là tùy chọn và cung cấp khả năng bảo vệ "
-"chuyên sâu: các nhị phân OnionShare binaries bao gồm các chữ ký dành riêng "
+"chuyên sâu: các nhị phân BurnBox binaries bao gồm các chữ ký dành riêng "
 "cho hệ điều hành, và bạn có thể chỉ cần dựa vào những chữ ký đó mà thôi nếu "
 "bạn muốn."
 
@@ -393,11 +393,11 @@ msgstr "Khoá key chữ ký"
 msgid ""
 "Packages are signed by the core developer who is responsible for the "
 "particular release. Here is the GPG key information for each of the core "
-"developers of OnionShare:"
+"developers of BurnBox:"
 msgstr ""
 "Các gói được ký bởi nhà phát triển cốt lõi chịu trách nhiệm cho bản phát "
 "hành cụ thể. Sau đây là thông tin khóa GPG cho từng nhà phát triển cốt lõi "
-"của OnionShare:"
+"của BurnBox:"
 
 #: ../../source/install.rst:120
 msgid "Micah Lee:"
@@ -473,15 +473,15 @@ msgstr "Các chữ ký"
 #: ../../source/install.rst:137
 msgid ""
 "You can find the signatures (as ``.asc`` files), as well as Windows, macOS, "
-"Flatpak, Snap, and source packages, at https://onionshare.org/dist/ in the "
-"folders named for each version of OnionShare. You can also find them on the "
-"`GitHub Releases page <https://github.com/onionshare/onionshare/releases>`_."
+"Flatpak, Snap, and source packages, at https://burnbox.hideaway.chat/dist/ in the "
+"folders named for each version of BurnBox. You can also find them on the "
+"`GitHub Releases page <https://github.com/directedbymax/burnbox/releases>`_."
 msgstr ""
 "Bạn có thể tìm thấy các chữ ký (dưới dạng tệp ``.asc``), cũng như các gói "
-"Windows, macOS, Flatpak, Snap và nguồn, tại https://onionshare.org/dist/ "
-"trong các thư mục được đặt tên cho từng phiên bản OnionShare. Bạn cũng có "
+"Windows, macOS, Flatpak, Snap và nguồn, tại https://burnbox.hideaway.chat/dist/ "
+"trong các thư mục được đặt tên cho từng phiên bản BurnBox. Bạn cũng có "
 "thể tìm thấy chúng trên `Trang phát hành GitHub <https://github.com/"
-"onionshare/onionshare/releases>`_."
+"burnbox/burnbox/releases>`_."
 
 #: ../../source/install.rst:141
 msgid "Verifying"

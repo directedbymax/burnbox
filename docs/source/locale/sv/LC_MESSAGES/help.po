@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) Micah Lee, et al.
-# This file is distributed under the same license as the OnionShare package.
+# This file is distributed under the same license as the BurnBox package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OnionShare 2.3\n"
-"Report-Msgid-Bugs-To: onionshare-dev@lists.riseup.net\n"
+"Project-Id-Version: BurnBox 2.3\n"
+"Report-Msgid-Bugs-To: burnbox-dev@lists.riseup.net\n"
 "POT-Creation-Date: 2025-02-18 17:24+1100\n"
 "PO-Revision-Date: 2025-08-18 08:02+0000\n"
 "Last-Translator: Nick Wick <NickWick@users.noreply.hosted.weblate.org>\n"
@@ -29,10 +29,10 @@ msgstr "Läs den här webbsidan"
 
 #: ../../source/help.rst:7
 msgid ""
-"You will find instructions on how to use OnionShare. Look through all of the "
+"You will find instructions on how to use BurnBox. Look through all of the "
 "sections first to see if anything answers your questions."
 msgstr ""
-"Du hittar instruktioner om hur du använder OnionShare. Titta igenom alla "
+"Du hittar instruktioner om hur du använder BurnBox. Titta igenom alla "
 "avsnitt först för att se om något svarar på dina frågor."
 
 #: ../../source/help.rst:10
@@ -42,12 +42,12 @@ msgstr "Kolla GitHub-ärenden"
 #: ../../source/help.rst:12
 msgid ""
 "If it isn't on the website, please check the `GitHub issues <https://github."
-"com/onionshare/onionshare/issues>`_. It's possible someone else has "
+"com/burnbox/burnbox/issues>`_. It's possible someone else has "
 "encountered the same problem and either raised it with the developers, or "
 "maybe even posted a solution."
 msgstr ""
 "Om det inte finns på webbplatsen, kontrollera `GitHub ärenden <https://"
-"github.com/onionshare/onionshare/issues>`_. Det är möjligt att någon annan "
+"github.com/directedbymax/burnbox/issues>`_. Det är möjligt att någon annan "
 "har stött på samma problem och antingen tagit upp det med utvecklarna, eller "
 "kanske till och med publicerat en lösning."
 
@@ -58,12 +58,12 @@ msgstr "Posta ett ärende själv"
 #: ../../source/help.rst:17
 msgid ""
 "If you are unable to find a solution, or wish to ask a question or suggest a "
-"new feature, please `submit an issue <https://github.com/onionshare/"
-"onionshare/issues/new>`_. This requires `creating a GitHub account <https://"
+"new feature, please `submit an issue <https://github.com/directedbymax/"
+"burnbox/issues/new>`_. This requires `creating a GitHub account <https://"
 "help.github.com/articles/signing-up-for-a-new-github-account/>`_."
 msgstr ""
 "Om du inte hittar en lösning, eller vill ställa en fråga eller föreslå en ny "
-"funktion, `skicka in ett ärende <https://github.com/onionshare/onionshare/"
+"funktion, `skicka in ett ärende <https://github.com/directedbymax/burnbox/"
 "issues/new>`_. Detta kräver `skapa ett GitHub-konto <https://help.github.com/"
 "articles/signing-up-for-a-new-github-account/>`_."
 
@@ -82,11 +82,11 @@ msgstr ""
 #~ msgid ""
 #~ "If you are unable to find a solution, or wish to ask a question or "
 #~ "suggest a new feature, please `submit an issue <https://github.com/"
-#~ "micahflee/onionshare/issues/new>`_. This requires `creating a GitHub "
+#~ "micahflee/burnbox/issues/new>`_. This requires `creating a GitHub "
 #~ "account <https://help.github.com/articles/signing-up-for-a-new-github-"
 #~ "account/>`_."
 #~ msgstr ""
 #~ "Om du inte kan hitta en lösning, eller vill ställa en fråga eller föreslå "
 #~ "en ny funktion, vänligen \"posta ett ärende <https://github.com/micahflee/"
-#~ "onionshare/issues/new>\"_. Detta kräver att du skapar ett GitHub-konto "
+#~ "burnbox/issues/new>\"_. Detta kräver att du skapar ett GitHub-konto "
 #~ "<https://help.github.com/articles/signing-up-for-a-new-github-account/>__."

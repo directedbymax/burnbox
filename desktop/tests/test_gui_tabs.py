@@ -210,7 +210,7 @@ class TestTabs(GuiBaseTest):
         self.close_persistent_tab(tab)
 
     def test_15_quit_with_server_started_should_warn(self):
-        """Quitting OnionShare with any active servers should show a warning"""
+        """Quitting BurnBox with any active servers should show a warning"""
         tab = self.new_share_tab()
 
         # Start the server

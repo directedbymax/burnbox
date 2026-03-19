@@ -1,0 +1,3 @@
+import burnbox
+
+burnbox.main()

@@ -2,9 +2,9 @@ import os
 
 import pytest
 
-from onionshare_cli import OnionShare
-from onionshare_cli.common import Common
-from onionshare_cli.mode_settings import ModeSettings
+from burnbox_cli import BurnBox
+from burnbox_cli.common import Common
+from burnbox_cli.mode_settings import ModeSettings
 
 
 class MyOnion:
@@ -21,9 +21,9 @@ class MyOnion:
 
 
 @pytest.fixture
-def onionshare_obj():
+def burnbox_obj():
     common = Common()
-    return OnionShare(common, MyOnion())
+    return BurnBox(common, MyOnion())
 
 
 @pytest.fixture
@@ -32,18 +32,18 @@ def mode_settings_obj():
     return ModeSettings(common)
 
 
-class TestOnionShare:
-    def test_init(self, onionshare_obj):
-        assert onionshare_obj.hidserv_dir is None
-        assert onionshare_obj.onion_host is None
-        assert onionshare_obj.local_only is False
+class TestBurnBox:
+    def test_init(self, burnbox_obj):
+        assert burnbox_obj.hidserv_dir is None
+        assert burnbox_obj.onion_host is None
+        assert burnbox_obj.local_only is False
 
-    def test_start_onion_service(self, onionshare_obj, mode_settings_obj):
-        onionshare_obj.start_onion_service("share", mode_settings_obj)
-        assert 17600 <= onionshare_obj.port <= 17650
-        assert onionshare_obj.onion_host == "test_service_id.onion"
+    def test_start_onion_service(self, burnbox_obj, mode_settings_obj):
+        burnbox_obj.start_onion_service("share", mode_settings_obj)
+        assert 17600 <= burnbox_obj.port <= 17650
+        assert burnbox_obj.onion_host == "test_service_id.onion"
 
-    def test_start_onion_service_local_only(self, onionshare_obj, mode_settings_obj):
-        onionshare_obj.local_only = True
-        onionshare_obj.start_onion_service("share", mode_settings_obj)
-        assert onionshare_obj.onion_host == "127.0.0.1:{}".format(onionshare_obj.port)
+    def test_start_onion_service_local_only(self, burnbox_obj, mode_settings_obj):
+        burnbox_obj.local_only = True
+        burnbox_obj.start_onion_service("share", mode_settings_obj)
+        assert burnbox_obj.onion_host == "127.0.0.1:{}".format(burnbox_obj.port)

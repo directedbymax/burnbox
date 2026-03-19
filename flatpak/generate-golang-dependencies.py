@@ -17,7 +17,7 @@ flatpak_folder = os.path.join(os.getcwd(), 'flatpak')
 
 # Create the flatpak folder and subfolders
 if not os.path.exists(flatpak_folder):
-    raise RuntimeError("You do not appear to be in the onionshare repository. Please cd into it first")
+    raise RuntimeError("You do not appear to be in the burnbox repository. Please cd into it first")
 
 # Function to run a shell command and get the output
 def run_command(command, path):

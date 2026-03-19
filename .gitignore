@@ -20,10 +20,10 @@ develop-eggs
 .installed.cfg
 MANIFEST
 env
-onionshare-*.tar.gz
-onionshare_*.snap
+burnbox-*.tar.gz
+burnbox_*.snap
 .flatpak-builder
-OnionShare.flatpak
+BurnBox.flatpak
 
 # Installer logs
 pip-log.txt
@@ -55,10 +55,12 @@ tags
 
 # virtualenv
 venv
+.venv
+desktop/.venv
 
 # other
 .vscode
 .python-version
-onionshare.dist-info
-desktop/onionshare/resources/tor
+burnbox.dist-info
+desktop/burnbox/resources/tor
 TODO*

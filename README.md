@@ -1,23 +1,23 @@
-![OnionShare](/docs/source/_static/logo.png)
+![BurnBox](/docs/source/_static/logo.png)
 
-[![Run Tests](https://github.com/onionshare/onionshare/actions/workflows/tests.yml/badge.svg)](https://github.com/onionshare/onionshare/actions/workflows/tests.yml)
+[![Run Tests](https://github.com/directedbymax/burnbox/actions/workflows/tests.yml/badge.svg)](https://github.com/directedbymax/burnbox/actions/workflows/tests.yml)
 
-# OnionShare
+# BurnBox
 
-OnionShare is an open source tool that lets you securely and anonymously share files, host websites, and chat with friends using the Tor network.
+BurnBox is an open source tool that lets you securely and anonymously share files, host websites, and chat with friends using the Tor network.
 
-## Installing OnionShare
+## Installing BurnBox
 
-You can download OnionShare for Windows and macOS from the [OnionShare website](https://onionshare.org).
+You can download BurnBox for Windows and macOS from the [BurnBox website](https://burnbox.hideaway.chat).
 
 For macOS you can also use [Homebrew](https://brew.sh/):
 
 ```
-brew install --cask onionshare
+brew install --cask burnbox
 ```
 
-See [these instructions](https://docs.onionshare.org/2.6/en/install.html#linux) to install OnionShare in Linux as a Flatpak or Snap package.
+See [these instructions](https://docs.burnbox.hideaway.chat/2.6/en/install.html#linux) to install BurnBox in Linux as a Flatpak or Snap package.
 
 ## Documentation
 
-To learn how OnionShare works, what its security properties are, how to use it, and how to contribute to the project, check out https://docs.onionshare.org.
+To learn how BurnBox works, what its security properties are, how to use it, and how to contribute to the project, check out https://docs.burnbox.hideaway.chat.

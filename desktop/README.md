@@ -1,6 +1,6 @@
-# OnionShare Desktop
+# BurnBox Desktop
 
-## Building OnionShare
+## Building BurnBox
 
 If you are running Linux, you can make use of the script `setup-project.sh` in the parent directory, which automates most of the steps below.
 
@@ -9,8 +9,8 @@ Otherwise, please continue to read on.
 Start by getting the source code and changing to the `desktop` folder:
 
 ```sh
-git clone https://github.com/onionshare/onionshare.git
-cd onionshare/desktop
+git clone https://github.com/directedbymax/burnbox.git
+cd burnbox/desktop
 ```
 
 Make sure you have Python 3 installed. If you're using Windows or macOS, install the latest version of 3.11 [from python.org](https://www.python.org/downloads/). For Windows, make sure to check the box to add python to the path on the first page of the installer.
@@ -67,21 +67,21 @@ Compile pluggable transports:
 ./scripts/build-pt-meek.sh
 ```
 
-### Running OnionShare from the source code tree
+### Running BurnBox from the source code tree
 
-To run OnionShare from the source tree:
+To run BurnBox from the source tree:
 
 ```sh
-poetry run onionshare
-poetry run onionshare --help
-poetry run onionshare -v
-poetry run onionshare -v --local-only
+poetry run burnbox
+poetry run burnbox --help
+poetry run burnbox -v
+poetry run burnbox -v --local-only
 ```
 
-You can also run `onionshare-cli` from the source tree, and it will look for Tor binaries in `desktop/onionshare/resources/tor`.
+You can also run `burnbox-cli` from the source tree, and it will look for Tor binaries in `desktop/burnbox/resources/tor`.
 
 ```sh
-poetry run onionshare-cli --help
+poetry run burnbox-cli --help
 ```
 
 ## Running tests

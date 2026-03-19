@@ -80,7 +80,7 @@ class TestShare(GuiBaseTest):
 
         z = zipfile.ZipFile(tmp_file.name)
         QtTest.QTest.qWait(5, self.gui.qtapp)
-        self.assertEqual("onionshare", z.read("test.txt").decode("utf-8"))
+        self.assertEqual("burnbox", z.read("test.txt").decode("utf-8"))
 
         QtTest.QTest.qWait(500, self.gui.qtapp)
 
@@ -107,7 +107,7 @@ class TestShare(GuiBaseTest):
             tmp_file.close()
 
             with open(tmp_file.name, "r") as f:
-                self.assertEqual("onionshare", f.read())
+                self.assertEqual("burnbox", f.read())
             os.remove(tmp_file.name)
 
         QtTest.QTest.qWait(500, self.gui.qtapp)
@@ -538,7 +538,7 @@ class TestShare(GuiBaseTest):
         self.run_all_share_mode_started_tests(tab)
 
         url = f"http://127.0.0.1:{tab.app.port}/"
-        self.hit_405(url, expected_resp="OnionShare: 405 Method Not Allowed", data = {'foo':'bar'}, methods = ["put", "post", "delete", "options"])
+        self.hit_405(url, expected_resp="BurnBox: 405 Method Not Allowed", data = {'foo':'bar'}, methods = ["put", "post", "delete", "options"])
         self.history_widgets_present(tab)
         self.close_all_tabs()
 

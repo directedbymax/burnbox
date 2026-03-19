@@ -37,7 +37,7 @@ def poetry_to_requirements(pyproject_filename):
     requirements = []
 
     for dep, version in dependencies.items():
-        if dep == "python" or dep == "onionshare_cli":
+        if dep == "python" or dep == "burnbox_cli":
             continue
 
         formatted = format_version(dep, version)

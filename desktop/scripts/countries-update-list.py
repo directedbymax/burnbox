@@ -4,7 +4,7 @@ import tempfile
 import subprocess
 import json
 
-import onionshare_cli
+import burnbox_cli
 
 
 def main():
@@ -17,12 +17,12 @@ def main():
     repo_dir = os.path.join(tmp_dir.name, "country-list")
 
     # Get the list of enabled languages
-    common = onionshare_cli.common.Common()
-    settings = onionshare_cli.settings.Settings(common)
+    common = burnbox_cli.common.Common()
+    settings = burnbox_cli.settings.Settings(common)
     available_locales = list(settings.available_locales)
 
     # Make a dictionary that makes a language's ISO 3166-1 to its name in all enabled languages
-    os.makedirs(os.path.join("onionshare", "resources", "countries"), exist_ok=True)
+    os.makedirs(os.path.join("burnbox", "resources", "countries"), exist_ok=True)
     for locale in available_locales:
         with open(os.path.join(repo_dir, "data", locale, "country.json")) as f:
             countries = json.loads(f.read())
@@ -32,7 +32,7 @@ def main():
             del countries[key]
 
         with open(
-            os.path.join("onionshare", "resources", "countries", f"{locale}.json"),
+            os.path.join("burnbox", "resources", "countries", f"{locale}.json"),
             "w",
         ) as f:
             f.write(json.dumps(countries))

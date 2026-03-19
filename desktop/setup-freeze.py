@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-OnionShare | https://onionshare.org/
+BurnBox | https://burnbox.hideaway.chat/
 
 Copyright (C) 2014-2022 Micah Lee, et al. <micah@micahflee.com>
 
@@ -27,7 +27,7 @@ from cx_Freeze import setup, Executable
 from setuptools import find_packages
 
 # Discover the version
-with open(os.path.join("..", "cli", "onionshare_cli", "resources", "version.txt")) as f:
+with open(os.path.join("..", "cli", "burnbox_cli", "resources", "version.txt")) as f:
     version = f.read().strip()
     # change a version like 2.6.dev1 to just 2.6, for cx_Freeze's sake
     last_digit = version[-1]
@@ -46,7 +46,7 @@ if platform.system() == "Windows":
     include_msvcr = True
     gui_base = "Win32GUI"
     # gui_base = None
-    exec_icon = os.path.join("onionshare", "resources", "onionshare.ico")
+    exec_icon = os.path.join("burnbox", "resources", "burnbox.ico")
 
 elif platform.system() == "Darwin":
     include_msvcr = False
@@ -71,8 +71,8 @@ build_exe_options = {
         "engineio.async_drivers.gevent_uwsgi",
         "gevent",
         "jinja2.ext",
-        "onionshare",
-        "onionshare_cli",
+        "burnbox",
+        "burnbox_cli",
         "PySide6",
         "shiboken6",
         "PySide6.QtCore",
@@ -145,12 +145,12 @@ if platform.system() == "Darwin" and platform.processor() == "arm":
     ]
 
 setup(
-    name="onionshare",
+    name="burnbox",
     version=version,
     description="Securely and anonymously share files, host websites, and chat with friends using the Tor network",
     packages=find_packages(
         where=".",
-        include=["onionshare"],
+        include=["burnbox"],
         exclude=["package", "screenshots", "scripts", "tests"],
     ),
     options={
@@ -158,8 +158,8 @@ setup(
         "build_exe": build_exe_options,
         # bdist_mac, making the macOS app bundle
         "bdist_mac": {
-            "iconfile": os.path.join("onionshare", "resources", "onionshare.icns"),
-            "bundle_name": "OnionShare",
+            "iconfile": os.path.join("burnbox", "resources", "burnbox.icns"),
+            "bundle_name": "BurnBox",
             "plist_items": [
                 ("CFBundleShortVersionString", version),
                 ("CFBundleVersion", version),
@@ -168,12 +168,12 @@ setup(
     },
     executables=[
         Executable(
-            "package/onionshare.py",
+            "package/burnbox.py",
             base=gui_base,
             icon=exec_icon,
         ),
         Executable(
-            "package/onionshare-cli.py",
+            "package/burnbox-cli.py",
             base=None,
             icon=exec_icon,
         ),

@@ -44,7 +44,7 @@ def sign(filename):
             "sign",
             "/v",
             "/d",
-            "OnionShare",
+            "BurnBox",
             "/n",
             "Science and Design Inc.",
             "/fd",
@@ -123,16 +123,16 @@ def wix_build_dir_xml(root, data):
             component_el,
             "Shortcut",
             Id="ApplicationShortcut1",
-            Name="OnionShare",
-            Description="OnionShare",
-            Target="[INSTALLDIR]onionshare.exe",
+            Name="BurnBox",
+            Description="BurnBox",
+            Target="[INSTALLDIR]burnbox.exe",
             WorkingDirectory="INSTALLDIR",
         )
         ET.SubElement(
             component_el,
             "RegistryValue",
             Root="HKCU",
-            Key="Software\OnionShare",
+            Key="Software\BurnBox",
             Name="installed",
             Type="integer",
             Value="1",
@@ -168,7 +168,7 @@ def wix_build_components_xml(root, data):
 def msi_package(build_path, msi_path, product_update_code):
     print(f"> Build the WiX file")
     version_filename = os.path.join(
-        build_path, "lib", "onionshare_cli", "resources", "version.txt"
+        build_path, "lib", "burnbox_cli", "resources", "version.txt"
     )
     with open(version_filename) as f:
         version = f.read().strip()
@@ -197,7 +197,7 @@ def msi_package(build_path, msi_path, product_update_code):
             build_path,
             ".",
             "INSTALLDIR",
-            "OnionShare",
+            "BurnBox",
         )
     )
 
@@ -205,8 +205,8 @@ def msi_package(build_path, msi_path, product_update_code):
     product_el = ET.SubElement(
         root_el,
         "Product",
-        Name="OnionShare",
-        Manufacturer="Micah Lee, et al.",
+        Name="BurnBox",
+            Manufacturer="BurnBox",
         Id="*",
         UpgradeCode="$(var.ProductUpgradeCode)",
         Language="1033",
@@ -218,8 +218,8 @@ def msi_package(build_path, msi_path, product_update_code):
         "Package",
         Id="*",
         Keywords="Installer",
-        Description="OnionShare $(var.ProductVersion) Installer",
-        Manufacturer="Micah Lee, et al.",
+        Description="BurnBox $(var.ProductVersion) Installer",
+        Manufacturer="BurnBox",
         InstallerVersion="200",
         Languages="1033",
         Compressed="yes",
@@ -232,7 +232,7 @@ def msi_package(build_path, msi_path, product_update_code):
         "Icon",
         Id="ProductIcon",
         SourceFile=os.path.join(
-            desktop_dir, "onionshare", "resources", "onionshare.ico"
+            desktop_dir, "burnbox", "resources", "burnbox.ico"
         ),
     )
     ET.SubElement(product_el, "Property", Id="ARPPRODUCTICON", Value="ProductIcon")
@@ -240,13 +240,13 @@ def msi_package(build_path, msi_path, product_update_code):
         product_el,
         "Property",
         Id="ARPHELPLINK",
-        Value="https://docs.onionshare.org",
+        Value="https://docs.burnbox.hideaway.chat",
     )
     ET.SubElement(
         product_el,
         "Property",
         Id="ARPURLINFOABOUT",
-        Value="https://onionshare.org",
+        Value="https://burnbox.hideaway.chat",
     )
     ET.SubElement(product_el, "UIRef", Id="WixUI_Minimal")
     ET.SubElement(product_el, "UIRef", Id="WixUI_ErrorProgressText")
@@ -277,7 +277,7 @@ def msi_package(build_path, msi_path, product_update_code):
         ET.SubElement(feature_el, "ComponentRef", Id=component_id)
     ET.SubElement(feature_el, "ComponentRef", Id="ApplicationShortcuts")
 
-    with open(os.path.join(build_path, "OnionShare.wxs"), "w") as f:
+    with open(os.path.join(build_path, "BurnBox.wxs"), "w") as f:
         f.write('<?xml version="1.0" encoding="windows-1252"?>\n')
         f.write(f'<?define ProductVersion = "{version}"?>\n')
         f.write(f'<?define ProductUpgradeCode = "{product_update_code}"?>\n')
@@ -287,29 +287,29 @@ def msi_package(build_path, msi_path, product_update_code):
 
     print(f"> Build the MSI")
     run(
-        [shutil.which("candle.exe"), "OnionShare.wxs"],
+        [shutil.which("candle.exe"), "BurnBox.wxs"],
         build_path,
     )
     run(
-        [shutil.which("light.exe"), "-ext", "WixUIExtension", "OnionShare.wixobj"],
+        [shutil.which("light.exe"), "-ext", "WixUIExtension", "BurnBox.wixobj"],
         build_path,
     )
 
-    print(f"> Prepare OnionShare.msi for signing")
+    print(f"> Prepare BurnBox.msi for signing")
     run(
         [
             shutil.which("insignia.exe"),
             "-im",
-            os.path.join(build_path, "OnionShare.msi"),
+            os.path.join(build_path, "BurnBox.msi"),
         ],
         error_ok=True,
     )
-    sign(os.path.join(build_path, "OnionShare.msi"))
+    sign(os.path.join(build_path, "BurnBox.msi"))
 
     print(f"> Final MSI: {msi_path}")
     os.makedirs(os.path.join(desktop_dir, "dist"), exist_ok=True)
     os.rename(
-        os.path.join(build_path, "OnionShare.msi"),
+        os.path.join(build_path, "BurnBox.msi"),
         msi_path,
     )
 
@@ -390,13 +390,13 @@ def codesign(path):
         click.echo("Invalid build path")
         return
 
-    sign(os.path.join(path, "onionshare.exe"))
-    sign(os.path.join(path, "onionshare-cli.exe"))
+    sign(os.path.join(path, "burnbox.exe"))
+    sign(os.path.join(path, "burnbox-cli.exe"))
     sign(
         os.path.join(
             path,
             "lib",
-            "onionshare",
+            "burnbox",
             "resources",
             "tor",
             "meek-client.exe",
@@ -406,7 +406,7 @@ def codesign(path):
         os.path.join(
             path,
             "lib",
-            "onionshare",
+            "burnbox",
             "resources",
             "tor",
             "obfs4proxy.exe",
@@ -416,7 +416,7 @@ def codesign(path):
         os.path.join(
             path,
             "lib",
-            "onionshare",
+            "burnbox",
             "resources",
             "tor",
             "snowflake-client.exe",
@@ -429,14 +429,14 @@ def codesign(path):
 def package(path):
     """Build the MSI package"""
     version_filename = os.path.join(
-        root, "cli", "onionshare_cli", "resources", "version.txt"
+        root, "cli", "burnbox_cli", "resources", "version.txt"
     )
     with open(version_filename) as f:
         version = f.read().strip()
 
     msi_package(
         path,
-        os.path.join(desktop_dir, "dist", f"OnionShare-win64-{version}.msi"),
+        os.path.join(desktop_dir, "dist", f"BurnBox-win64-{version}.msi"),
         "ed7f9243-3528-4b4a-b85c-9943982e75eb",
     )
 

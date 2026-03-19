@@ -13,7 +13,7 @@ class TestWebsite(GuiBaseTest):
         url = f"http://127.0.0.1:{tab.app.port}/"
         r = requests.get(url)
         QtTest.QTest.qWait(500, self.gui.qtapp)
-        self.assertTrue("This is a test website hosted by OnionShare" in r.text)
+        self.assertTrue("This is a test website hosted by BurnBox" in r.text)
 
     def check_csp_header(self, tab):
         """Test that the CSP header is present when enabled or vice versa"""
@@ -112,6 +112,6 @@ class TestWebsite(GuiBaseTest):
         self.run_all_website_mode_setup_tests(tab)
         self.run_all_website_mode_started_tests(tab)
         url = f"http://127.0.0.1:{tab.app.port}/"
-        self.hit_405(url, expected_resp="OnionShare: 405 Method Not Allowed", data = {'foo':'bar'}, methods = ["put", "post", "delete", "options"])
+        self.hit_405(url, expected_resp="BurnBox: 405 Method Not Allowed", data = {'foo':'bar'}, methods = ["put", "post", "delete", "options"])
 
         self.close_all_tabs()

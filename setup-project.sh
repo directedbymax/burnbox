@@ -21,7 +21,7 @@ if [ "$OS" == "Linux" ]; then
     # setup environment
     cd cli
     poetry install
-    echo "OnionShare CLI is installed!"
+    echo "BurnBox CLI is installed!"
     cd ../desktop
     poetry install
 
@@ -35,12 +35,12 @@ if [ "$OS" == "Linux" ]; then
     ./scripts/build-pt-meek.sh
 
     # add alias
-    echo "alias onionshare='cd $(pwd) && poetry run onionshare'" >> ~/.bash_aliases
-    echo "alias onionshare-cli='cd $(pwd) && poetry run onionshare-cli'" >> ~/.bash_aliases
+    echo "alias burnbox='cd $(pwd) && poetry run burnbox'" >> ~/.bash_aliases
+    echo "alias burnbox-cli='cd $(pwd) && poetry run burnbox-cli'" >> ~/.bash_aliases
     source ~/.bash_aliases
 
-    echo "OnionShare Desktop is now installed"
-    echo "Try running 'onionshare' to start onionshare server from source tree"
+    echo "BurnBox Desktop is now installed"
+    echo "Try running 'burnbox' to start burnbox server from source tree"
     echo "Restart a new terminal if the above doesnt work"
     echo "Checkout desktop/README.md for more info"
 else

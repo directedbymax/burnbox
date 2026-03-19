@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) Micah Lee, et al.
-# This file is distributed under the same license as the OnionShare package.
+# This file is distributed under the same license as the BurnBox package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OnionShare 2.6\n"
+"Project-Id-Version: BurnBox 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-18 17:24+1100\n"
 "PO-Revision-Date: 2023-06-20 18:52+0000\n"
@@ -29,10 +29,10 @@ msgstr "Азнаёмцеся з гэтым вэб-сайтам"
 
 #: ../../source/help.rst:7
 msgid ""
-"You will find instructions on how to use OnionShare. Look through all of the "
+"You will find instructions on how to use BurnBox. Look through all of the "
 "sections first to see if anything answers your questions."
 msgstr ""
-"Гэты вэб-сайт змяшчае кіраўніцтва па выкарыстанні OnionShare. Спачатку "
+"Гэты вэб-сайт змяшчае кіраўніцтва па выкарыстанні BurnBox. Спачатку "
 "праглядзіце ўсе раздзелы, каб даведацца, ці змяшчаюць яны адказы на вашы "
 "пытанні."
 
@@ -43,12 +43,12 @@ msgstr "Праглядзіце існуючыя праблемы на GitHub"
 #: ../../source/help.rst:12
 msgid ""
 "If it isn't on the website, please check the `GitHub issues <https://github."
-"com/onionshare/onionshare/issues>`_. It's possible someone else has "
+"com/burnbox/burnbox/issues>`_. It's possible someone else has "
 "encountered the same problem and either raised it with the developers, or "
 "maybe even posted a solution."
 msgstr ""
 "Калі на гэтым вэб-сайце не апісана ваша праблема, паглядзіце `GitHub issues "
-"<https://github.com/onionshare/onionshare/issues>`_. Магчыма, нехта іншы "
+"<https://github.com/directedbymax/burnbox/issues>`_. Магчыма, нехта іншы "
 "сутыкнуўся з той жа праблемай і спытаў пра яе ў распрацоўшчыкаў, ці, "
 "магчыма, нават апублікаваў як яе выправіць."
 
@@ -59,13 +59,13 @@ msgstr "Паведаміць аб праблеме"
 #: ../../source/help.rst:17
 msgid ""
 "If you are unable to find a solution, or wish to ask a question or suggest a "
-"new feature, please `submit an issue <https://github.com/onionshare/"
-"onionshare/issues/new>`_. This requires `creating a GitHub account <https://"
+"new feature, please `submit an issue <https://github.com/directedbymax/"
+"burnbox/issues/new>`_. This requires `creating a GitHub account <https://"
 "help.github.com/articles/signing-up-for-a-new-github-account/>`_."
 msgstr ""
 "Калі вы не можаце знайсці рашэнне, хочаце задаць пытанне ці прапанаваць "
 "новую функцыю, калі ласка, `паведаміце аб праблеме <https://github.com/"
-"onionshare/onionshare/issues/new>`_. Для гэтага неабходна `стварыць уліковы "
+"burnbox/burnbox/issues/new>`_. Для гэтага неабходна `стварыць уліковы "
 "запіс на GitHub <https://help.github.com/articles/signing-up-for-a-new-"
 "github-account/>`_."
 

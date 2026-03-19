@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) Micah Lee, et al.
-# This file is distributed under the same license as the OnionShare package.
+# This file is distributed under the same license as the BurnBox package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OnionShare 2.6\n"
+"Project-Id-Version: BurnBox 2.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-18 17:24+1100\n"
 "PO-Revision-Date: 2024-12-16 11:24+0000\n"
@@ -28,10 +28,10 @@ msgstr "Lexoni Këtë Sajt"
 
 #: ../../source/help.rst:7
 msgid ""
-"You will find instructions on how to use OnionShare. Look through all of the "
+"You will find instructions on how to use BurnBox. Look through all of the "
 "sections first to see if anything answers your questions."
 msgstr ""
-"Do të gjeni udhëzime se si të përdoret OnionShare. Së pari shihni nëpër "
+"Do të gjeni udhëzime se si të përdoret BurnBox. Së pari shihni nëpër "
 "krejt ndarjet, se mos gjeni përgjigje për pyetjet tuaja."
 
 #: ../../source/help.rst:10
@@ -41,12 +41,12 @@ msgstr "Shihni Çështjet në Github"
 #: ../../source/help.rst:12
 msgid ""
 "If it isn't on the website, please check the `GitHub issues <https://github."
-"com/onionshare/onionshare/issues>`_. It's possible someone else has "
+"com/burnbox/burnbox/issues>`_. It's possible someone else has "
 "encountered the same problem and either raised it with the developers, or "
 "maybe even posted a solution."
 msgstr ""
 "Nëse s’është te sajti, ju lutemi, shihni te `çështjet në GitHub <https://"
-"github.com/onionshare/onionshare/issues>`_. Mundet që dikush tjetër të ketë "
+"github.com/directedbymax/burnbox/issues>`_. Mundet që dikush tjetër të ketë "
 "hasur të njëjtin problem dhe ose e ka ngritur me zhvilluesit, ose ndoshta ka "
 "postuar një zgjidhje."
 
@@ -57,13 +57,13 @@ msgstr "Parashtroni Ju Vetë një Çëshjte"
 #: ../../source/help.rst:17
 msgid ""
 "If you are unable to find a solution, or wish to ask a question or suggest a "
-"new feature, please `submit an issue <https://github.com/onionshare/"
-"onionshare/issues/new>`_. This requires `creating a GitHub account <https://"
+"new feature, please `submit an issue <https://github.com/directedbymax/"
+"burnbox/issues/new>`_. This requires `creating a GitHub account <https://"
 "help.github.com/articles/signing-up-for-a-new-github-account/>`_."
 msgstr ""
 "Nëse s’jeni në gjendje të gjeni një zgjidhje, ose dëshironi të bëni një "
 "pyetje, apo të sugjeroni një veçori të re, ju lutemi, `parashtroni një "
-"çështje <https://github.com/onionshare/onionshare/issues/new>`_. Kjo lyp "
+"çështje <https://github.com/directedbymax/burnbox/issues/new>`_. Kjo lyp "
 "`krijimin e një llogarie GitHub <https://help.github.com/articles/signing-up-"
 "for-a-new-github-account/>`_."
 

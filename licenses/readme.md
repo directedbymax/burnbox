@@ -1,6 +1,6 @@
 # Third party licenses and attribution
 
-This folder contains 3rd-party licenses and attribution for software included with OnionShare.
+This folder contains 3rd-party licenses and attribution for software included with BurnBox.
 
 
 ## JQuery
@@ -10,7 +10,7 @@ JQuery is used in the web interface for Receive and Chat modes.
 
 ## Tor
 
-The Tor software is what provides Onion Services in OnionShare.
+The Tor software is what provides Onion Services in BurnBox.
 
 
 ## obfs4
@@ -30,4 +30,4 @@ The Meek-lite tool is a Tor 'pluggable transport', which allows the use of meek-
 
 ## Font Awesome
 
-Some icons used in the desktop version of the OnionShare application are from the 'free' edition of Font Awesome.
+Some icons used in the desktop version of the BurnBox application are from the 'free' edition of Font Awesome.

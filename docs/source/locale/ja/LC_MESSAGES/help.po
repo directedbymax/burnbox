@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) Micah Lee, et al.
-# This file is distributed under the same license as the OnionShare package.
+# This file is distributed under the same license as the BurnBox package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OnionShare 2.3\n"
-"Report-Msgid-Bugs-To: onionshare-dev@lists.riseup.net\n"
+"Project-Id-Version: BurnBox 2.3\n"
+"Report-Msgid-Bugs-To: burnbox-dev@lists.riseup.net\n"
 "POT-Creation-Date: 2025-02-18 17:24+1100\n"
 "PO-Revision-Date: 2025-03-30 03:01+0000\n"
 "Last-Translator: Himmel <himmel@users.noreply.hosted.weblate.org>\n"
@@ -29,10 +29,10 @@ msgstr "このサイトをよく確認しましょう"
 
 #: ../../source/help.rst:7
 msgid ""
-"You will find instructions on how to use OnionShare. Look through all of the "
+"You will find instructions on how to use BurnBox. Look through all of the "
 "sections first to see if anything answers your questions."
 msgstr ""
-"OnionShare "
+"BurnBox "
 "の使用方法に関する説明を確認できます。初めに、すべてのセクションを確認して、"
 "質問に答える情報があるかどうかを確かめてみましょう。"
 
@@ -43,12 +43,12 @@ msgstr "GitHub の Issue を確認"
 #: ../../source/help.rst:12
 msgid ""
 "If it isn't on the website, please check the `GitHub issues <https://github."
-"com/onionshare/onionshare/issues>`_. It's possible someone else has "
+"com/burnbox/burnbox/issues>`_. It's possible someone else has "
 "encountered the same problem and either raised it with the developers, or "
 "maybe even posted a solution."
 msgstr ""
 "質問に答える情報がウェブサイト上にない場合は、`GitHub の Issue <https://"
-"github.com/onionshare/onionshare/issues>`_ "
+"github.com/directedbymax/burnbox/issues>`_ "
 "をご確認ください。他の人が同様の問題に遭遇して開発者に報告したり、解決策を投"
 "稿したりしている可能性があります。"
 
@@ -59,12 +59,12 @@ msgstr "問題を報告"
 #: ../../source/help.rst:17
 msgid ""
 "If you are unable to find a solution, or wish to ask a question or suggest a "
-"new feature, please `submit an issue <https://github.com/onionshare/"
-"onionshare/issues/new>`_. This requires `creating a GitHub account <https://"
+"new feature, please `submit an issue <https://github.com/directedbymax/"
+"burnbox/issues/new>`_. This requires `creating a GitHub account <https://"
 "help.github.com/articles/signing-up-for-a-new-github-account/>`_."
 msgstr ""
 "解決策が見つからない場合、または質問や新機能の提案を希望する場合はは、`Issue "
-"を作成 <https://github.com/onionshare/onionshare/issues/new>`_\\ "
+"を作成 <https://github.com/directedbymax/burnbox/issues/new>`_\\ "
 "してください。その際には `GitHub アカウントの作成 <https://help.github.com/"
 "articles/signing-up-for-a-new-github-account/>`_\\ が必要となります。"
 
@@ -83,11 +83,11 @@ msgstr ""
 #~ msgid ""
 #~ "If you are unable to find a solution, or wish to ask a question or "
 #~ "suggest a new feature, please `submit an issue <https://github.com/"
-#~ "micahflee/onionshare/issues/new>`_. This requires `creating a GitHub "
+#~ "micahflee/burnbox/issues/new>`_. This requires `creating a GitHub "
 #~ "account <https://help.github.com/articles/signing-up-for-a-new-github-"
 #~ "account/>`_."
 #~ msgstr ""
 #~ "解決を見つけれない場合、または質問したいそれとも新機能を提案したい場合、`"
-#~ "イシューを提出して下さい <https://github.com/micahflee/onionshare/issues/"
+#~ "イシューを提出して下さい <https://github.com/micahflee/burnbox/issues/"
 #~ "new>`_。`Githubのアカウントを作成する <https://help.github.com/articles/"
 #~ "signing-up-for-a-new-github-account/>`_ 必要があります。"

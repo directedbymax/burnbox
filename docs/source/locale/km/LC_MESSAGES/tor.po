@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) Micah Lee, et al.
-# This file is distributed under the same license as the OnionShare package.
+# This file is distributed under the same license as the BurnBox package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OnionShare 2.5\n"
+"Project-Id-Version: BurnBox 2.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-18 17:24+1100\n"
 "PO-Revision-Date: 2023-06-03 17:52+0000\n"
@@ -25,14 +25,14 @@ msgstr "កំពុងភ្ជាប់ទៅ Tor"
 
 #: ../../source/tor.rst:4
 msgid ""
-"When OnionShare starts, it will show you a screen asking you to connect to "
+"When BurnBox starts, it will show you a screen asking you to connect to "
 "the Tor network."
 msgstr ""
 
 #: ../../source/tor.rst:8
 msgid ""
 "You can toggle on the switch \"Connect to Tor automatically\" before "
-"clicking \"Connect to Tor\". This means that next time OnionShare starts, it "
+"clicking \"Connect to Tor\". This means that next time BurnBox starts, it "
 "will automatically connect with its Tor connection settings from the last "
 "session, instead of presenting you with the connection options. If the "
 "connection fails, you can still try bridges or reconfigure Tor via the "
@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../source/tor.rst:18
 msgid ""
-"When you click \"Connect to Tor\", if OnionShare fails to connect, it might "
+"When you click \"Connect to Tor\", if BurnBox fails to connect, it might "
 "be because Tor is censored in your country or on your local network."
 msgstr ""
 
@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../source/tor.rst:28
 msgid ""
-"If you choose the \"Try again without a bridge\" option, OnionShare will "
+"If you choose the \"Try again without a bridge\" option, BurnBox will "
 "retry connecting to Tor like normal, without attempting to bypass censorship."
 msgstr ""
 
@@ -92,7 +92,7 @@ msgid ""
 "you can hopefully still connect to a Tor bridge, which will then connect you "
 "to the Tor network, circumventing the censorship. Both of these options use "
 "the Tor Project's Censorship Circumvention API to provide you with bridge "
-"settings that should work for you. OnionShare will temporarily use the `Meek "
+"settings that should work for you. BurnBox will temporarily use the `Meek "
 "<https://gitlab.torproject.org/legacy/trac/-/wikis/doc/meek/>`_ domain-"
 "fronting proxy to make a non-Tor connection from your computer to Tor's "
 "Censorship Circumvention API. The Meek proxy hides the fact that you are "
@@ -122,15 +122,15 @@ msgstr ""
 #: ../../source/tor.rst:48
 msgid ""
 "If the Censorship Circumvention API finds bridges that it believes will suit "
-"you, OnionShare will try to reconnect to Tor using those bridges. If the API "
-"does not find any bridges for your location, OnionShare will ask the API for "
+"you, BurnBox will try to reconnect to Tor using those bridges. If the API "
+"does not find any bridges for your location, BurnBox will ask the API for "
 "\"fallback\" options, and then try to reconnect using those."
 msgstr ""
 
 #: ../../source/tor.rst:50
 msgid ""
-"If for some reason OnionShare fails to connect to the Censorship API itself, "
-"or if the API returns an error message, OnionShare will attempt to use the "
+"If for some reason BurnBox fails to connect to the Censorship API itself, "
+"or if the API returns an error message, BurnBox will attempt to use the "
 "obfs4 built-in bridges."
 msgstr ""
 
@@ -156,7 +156,7 @@ msgid ""
 "network, you can click \"Network Settings\" (or the Settings icon in the "
 "bottom right corner, followed by the Tor Settings tab in the screen that "
 "appears), and manually configure bridges. After you save any bridge "
-"settings, OnionShare will try to reconnect using those bridges."
+"settings, BurnBox will try to reconnect using those bridges."
 msgstr ""
 
 #: ../../source/tor.rst:59
@@ -173,30 +173,30 @@ msgstr ""
 
 #: ../../source/tor.rst:65
 msgid ""
-"Here are the different ways you can configure OnionShare to connect to Tor:"
+"Here are the different ways you can configure BurnBox to connect to Tor:"
 msgstr ""
 
 #: ../../source/tor.rst:68
-msgid "Use the Tor version built into OnionShare"
-msgstr "ប្រើកម្មវិធី Tor ដែលបានដំឡើងរួចក្នុង OnionShare"
+msgid "Use the Tor version built into BurnBox"
+msgstr "ប្រើកម្មវិធី Tor ដែលបានដំឡើងរួចក្នុង BurnBox"
 
 #: ../../source/tor.rst:70
 msgid ""
-"This is the default, simplest and most reliable way that OnionShare connects "
+"This is the default, simplest and most reliable way that BurnBox connects "
 "to Tor. For this reason, it's recommended for most users."
 msgstr ""
-"នេះគឺជាលំនាំដើម សាមញ្ញបំផុត និងគួរឱ្យទុកចិត្តបំផុតដែល OnionShare ភ្ជាប់ទៅ Tor ។ "
+"នេះគឺជាលំនាំដើម សាមញ្ញបំផុត និងគួរឱ្យទុកចិត្តបំផុតដែល BurnBox ភ្ជាប់ទៅ Tor ។ "
 "ហេតុផលនេះហើយដែលវាត្រូវបានណែនាំសម្រាប់អ្នកប្រើប្រាស់ភាគច្រើន។"
 
 #: ../../source/tor.rst:73
 msgid ""
-"When you open OnionShare, it launches an already configured ``tor`` process "
-"in the background for OnionShare to use. It doesn't interfere with other "
+"When you open BurnBox, it launches an already configured ``tor`` process "
+"in the background for BurnBox to use. It doesn't interfere with other "
 "``tor`` processes on your computer, so you can use the Tor Browser or the "
 "system ``tor`` on their own."
 msgstr ""
-"នៅពេលអ្នកបើក OnionShare វាចាប់ផ្តើមដំណើរការ ``tor`` "
-"ដែលបានកំណត់រចនាសម្ព័ន្ធរួចហើយនៅខាងក្នុងកម្មវិធីសម្រាប់ OnionShare ដើម្បីប្រើប្រាស់។ "
+"នៅពេលអ្នកបើក BurnBox វាចាប់ផ្តើមដំណើរការ ``tor`` "
+"ដែលបានកំណត់រចនាសម្ព័ន្ធរួចហើយនៅខាងក្នុងកម្មវិធីសម្រាប់ BurnBox ដើម្បីប្រើប្រាស់។ "
 "វាមិនជ្រៀតជ្រែកជាមួយដំណើរការ ``tor`` ផ្សេងទៀតនៅលើកុំព្យូទ័ររបស់អ្នកទេ "
 "ដូច្នេះអ្នកអាចប្រើកម្មវិធីរុករក Tor ឬប្រព័ន្ធ ``tor`` ដោយខ្លួនឯង។"
 
@@ -208,10 +208,10 @@ msgstr ""
 #, fuzzy
 msgid ""
 "To use a bridge, you must select \"Use the Tor version built into "
-"OnionShare\" and check the \"Use a bridge\" checkbox."
+"BurnBox\" and check the \"Use a bridge\" checkbox."
 msgstr ""
 "ដើម្បីប្រើ bridge សូមបើកផ្ទាំងការកំណត់ Tor ។ អ្នកត្រូវតែជ្រើសរើស \"ប្រើកម្មវិធី Tor "
-"ដែលបានដំឡើងរួចនៅក្នុង OnionShare\" ហើយធីកប្រអប់ធីក \"ប្រើ bridge\" ។"
+"ដែលបានដំឡើងរួចនៅក្នុង BurnBox\" ហើយធីកប្រអប់ធីក \"ប្រើ bridge\" ។"
 
 #: ../../source/tor.rst:80
 msgid ""
@@ -248,11 +248,11 @@ msgid ""
 "If you have `downloaded the Tor Browser <https://www.torproject.org>`_ and "
 "don't want two ``tor`` processes running, you can use the ``tor`` process "
 "from the Tor Browser. Keep in mind you need to keep Tor Browser open in the "
-"background while you're using OnionShare for this to work."
+"background while you're using BurnBox for this to work."
 msgstr ""
 "ប្រសិនបើអ្នកបានទាញយកកម្មវិធីរុករក Tor <https://www.torproject.org>`_ "
 "ហើយមិនចង់ឱ្យដំណើរការ ``tor`` ពីរដំណាលគ្នា អ្នកអាចប្រើដំណើរការ ``tor`` ពីកម្មវិធីរុករ Tor។ "
-"សូមចងចាំថា អ្នកត្រូវរបើកកម្មវិធីរុករក Tor ខាងក្នុង ខណៈដែលអ្នកកំពុងប្រើ OnionShare "
+"សូមចងចាំថា អ្នកត្រូវរបើកកម្មវិធីរុករក Tor ខាងក្នុង ខណៈដែលអ្នកកំពុងប្រើ BurnBox "
 "ដើម្បីឱ្យវាដំណើរការ។"
 
 #: ../../source/tor.rst:97
@@ -335,15 +335,15 @@ msgstr "ឥឡូវនេះ អ្នកកំពុងដំណើរកា�
 #: ../../source/tor.rst:125
 #, fuzzy
 msgid ""
-"Open OnionShare, click the \"⚙\" icon in it, and switch to the Tor Settings "
-"tab. Under \"How should OnionShare connect to Tor?\" choose \"Connect using "
+"Open BurnBox, click the \"⚙\" icon in it, and switch to the Tor Settings "
+"tab. Under \"How should BurnBox connect to Tor?\" choose \"Connect using "
 "control port\", and set \"Control port\" to ``127.0.0.1`` and \"Port\" to "
 "``9051``. Under \"Tor authentication settings\" choose \"Password\" and set "
 "the password to the control port password you picked above. Click the \"Test "
 "Connection to Tor\" button. If all goes well, you should see \"Connected to "
 "the Tor controller\"."
 msgstr ""
-"បើក OnionShare ហើយចុចលើរូបតំណាង \"⚙\" នៅខាងក្នុង។ នៅខាងក្រោម \"តើ OnionShare "
+"បើក BurnBox ហើយចុចលើរូបតំណាង \"⚙\" នៅខាងក្នុង។ នៅខាងក្រោម \"តើ BurnBox "
 "គួរភ្ជាប់ទៅ Tor យ៉ាងដូចម្តេច?\" សូមជ្រើសរើស \"ភ្ជាប់ដោយប្រើច្រកត្រួតពិនិត្យ\" ហើយកំណត់ "
 "\"ច្រកត្រួតពិនិត្យ\" ទៅ ``127.0.0.1`` និង \"ច្រក\" ទៅ ``9051``។ នៅខាងក្រោម \"យថាភូតកម្ម "
 "Tor\" សូមជ្រើសរើស \"ពាក្យសម្ងាត់\" "
@@ -364,8 +364,8 @@ msgstr ""
 "ហើយបន្ទាប់មកដំឡើង Tor::"
 
 #: ../../source/tor.rst:140
-msgid "Now configure Tor to allow connections from OnionShare::"
-msgstr "ឥឡូវនេះ កំណត់រចនាសម្ព័ន្ធ Tor ដើម្បីអនុញ្ញាតឱ្យមានការតភ្ជាប់ពី OnionShare::"
+msgid "Now configure Tor to allow connections from BurnBox::"
+msgstr "ឥឡូវនេះ កំណត់រចនាសម្ព័ន្ធ Tor ដើម្បីអនុញ្ញាតឱ្យមានការតភ្ជាប់ពី BurnBox::"
 
 #: ../../source/tor.rst:147
 msgid "And start the system Tor service::"
@@ -374,14 +374,14 @@ msgstr "ហើយចាប់ផ្តើមប្រព័ន្ធសេវា
 #: ../../source/tor.rst:151
 #, fuzzy
 msgid ""
-"Open OnionShare, click the \"⚙\" icon in it, and switch to the Tor Settings "
-"tab. Under \"How should OnionShare connect to Tor?\" choose \"Connect using "
+"Open BurnBox, click the \"⚙\" icon in it, and switch to the Tor Settings "
+"tab. Under \"How should BurnBox connect to Tor?\" choose \"Connect using "
 "socket file\", and set the socket file to be ``/usr/local/var/run/tor/"
 "control.socket``. Under \"Tor authentication settings\" choose \"No "
 "authentication, or cookie authentication\". Click the \"Test Connection to "
 "Tor\" button."
 msgstr ""
-"បើក OnionShare ហើយចុចលើរូបតំណាង \"⚙\" នៅខាងក្នុង។ នៅក្រោម \"តើ OnionShare គួរភ្ជាប់ទៅ "
+"បើក BurnBox ហើយចុចលើរូបតំណាង \"⚙\" នៅខាងក្នុង។ នៅក្រោម \"តើ BurnBox គួរភ្ជាប់ទៅ "
 "Tor យ៉ាងដូចម្តេច?\" សូមជ្រើសរើស \"ភ្ជាប់ដោយប្រើ socket file\" ហើយកំណត់ socket file "
 "ទៅជា ``/usr/local/var/run/tor/control.socket``។ នៅក្រោម \"យថាភូតកម្ម Tor\" "
 "សូមជ្រើសរើស \"មិនយកយថាភូតកម្ម ឬ ខូឃីយថាភូតកម្ម\"។ ចុចប៊ូតុង \"សាកល្បងការតភ្ជាប់ទៅ Tor\"។"
@@ -407,11 +407,11 @@ msgstr ""
 #: ../../source/tor.rst:164
 msgid ""
 "Next, add your user to the group that runs the ``tor`` process (in the case "
-"of Debian and Ubuntu, ``debian-tor``) and configure OnionShare to connect to "
+"of Debian and Ubuntu, ``debian-tor``) and configure BurnBox to connect to "
 "your system ``tor``'s control socket file."
 msgstr ""
 "បន្ទាប់មក បញ្ចូលអ្នកប្រើប្រាស់របស់អ្នកទៅក្រុមដែលដំណើរ ``tor`` (ក្នុងករណី Debian និង Ubuntu, "
-"``debian-tor``) ហើយកំណត់រចនាសម្ព័ន្ធ OnionShare ដើម្បីភ្ជាប់ទៅប្រព័ន្ធគ្រប់គ្រង ``tor`` "
+"``debian-tor``) ហើយកំណត់រចនាសម្ព័ន្ធ BurnBox ដើម្បីភ្ជាប់ទៅប្រព័ន្ធគ្រប់គ្រង ``tor`` "
 "socket file របស់អ្នក។"
 
 #: ../../source/tor.rst:166
@@ -425,36 +425,36 @@ msgstr ""
 #: ../../source/tor.rst:170
 #, fuzzy
 msgid ""
-"Reboot your computer. After it boots up again, open OnionShare, click the "
+"Reboot your computer. After it boots up again, open BurnBox, click the "
 "\"⚙\" icon in it, and switch to the Tor Settings tab. Under \"How should "
-"OnionShare connect to Tor?\" choose \"Connect using socket file\". Set the "
+"BurnBox connect to Tor?\" choose \"Connect using socket file\". Set the "
 "socket file to be ``/var/run/tor/control``. Under \"Tor authentication "
 "settings\" choose \"No authentication, or cookie authentication\". Click the "
 "\"Test Connection to Tor\" button."
 msgstr ""
-"ចាប់ផ្ដើមកុំព្យូទ័ររបស់អ្នកឡើងវិញ។ បន្ទាប់ពីវាចាប់ផ្តើមម្តងទៀត សូមបើក OnionShare "
-"ហើយចុចលើរូបតំណាង \"⚙\" នៅខាងក្នុង។ នៅខាងក្រោម \"តើ OnionShare គួរភ្ជាប់ទៅ Tor "
+"ចាប់ផ្ដើមកុំព្យូទ័ររបស់អ្នកឡើងវិញ។ បន្ទាប់ពីវាចាប់ផ្តើមម្តងទៀត សូមបើក BurnBox "
+"ហើយចុចលើរូបតំណាង \"⚙\" នៅខាងក្នុង។ នៅខាងក្រោម \"តើ BurnBox គួរភ្ជាប់ទៅ Tor "
 "យ៉ាងដូចម្តេច?\" ជ្រើសរើស \"ភ្ជាប់ដោយប្រើ socket file\"។ កំណត់ socket file ទៅជា ``/var/"
 "run/tor/control``។ នៅខាងក្រោម \"យថាភូតកម្ម Tor\" ជ្រើសរើស \"មិនយកយថាភូតកម្ម ឬ "
 "ខូឃីយថាភូតកម្ម\"។ ចុចប៊ូតុង \"សាកល្បងការតភ្ជាប់ទៅ Tor\"។"
 
 #~ msgid ""
-#~ "Pick a way to connect OnionShare to Tor by clicking the Tor onion icon in "
-#~ "the bottom right of the OnionShare window to open the Tor Settings tab."
+#~ "Pick a way to connect BurnBox to Tor by clicking the Tor onion icon in "
+#~ "the bottom right of the BurnBox window to open the Tor Settings tab."
 #~ msgstr ""
-#~ "ជ្រើសរើសវិធីដើម្បីភ្ជាប់ OnionShare ទៅ Tor ដោយចុចលើរូបតំណាង Tor onion "
-#~ "នៅខាងស្តាំផ្នែកខាងក្រោមនៃ window OnionShare ដើម្បីបើកផ្ទាំងការកំណត់ Tor។"
+#~ "ជ្រើសរើសវិធីដើម្បីភ្ជាប់ BurnBox ទៅ Tor ដោយចុចលើរូបតំណាង Tor onion "
+#~ "នៅខាងស្តាំផ្នែកខាងក្រោមនៃ window BurnBox ដើម្បីបើកផ្ទាំងការកំណត់ Tor។"
 
 #~ msgid "Getting Around Censorship"
 #~ msgstr "ដំណោះស្រាយជុំវិញការរឹតត្បិត"
 
 #~ msgid ""
-#~ "If your access to the internet is censored, you can configure OnionShare "
+#~ "If your access to the internet is censored, you can configure BurnBox "
 #~ "to connect to the Tor network using `Tor bridges <https://tb-manual."
-#~ "torproject.org/bridges/>`_. If OnionShare connects to Tor without one, "
+#~ "torproject.org/bridges/>`_. If BurnBox connects to Tor without one, "
 #~ "you don't need to use a bridge."
 #~ msgstr ""
-#~ "ប្រសិនបើការចូលប្រើអ៊ីនធឺណិតរបស់អ្នកត្រូវបានរឹតត្បិត នោះអ្នកអាចកំណត់រចនាសម្ព័ន្ធ OnionShare "
+#~ "ប្រសិនបើការចូលប្រើអ៊ីនធឺណិតរបស់អ្នកត្រូវបានរឹតត្បិត នោះអ្នកអាចកំណត់រចនាសម្ព័ន្ធ BurnBox "
 #~ "ដើម្បីភ្ជាប់ទៅបណ្តាញ Tor ដោយប្រើ `Tor Bridges <https://tb-manual.torproject.org/"
-#~ "bridges/>`_ ។ ប្រសិនបើ OnionShare ភ្ជាប់ទៅ Tor ដោយគ្មាន bridge អ្នកមិនចាំបាច់ប្រើ "
+#~ "bridges/>`_ ។ ប្រសិនបើ BurnBox ភ្ជាប់ទៅ Tor ដោយគ្មាន bridge អ្នកមិនចាំបាច់ប្រើ "
 #~ "bridge ទេ។"

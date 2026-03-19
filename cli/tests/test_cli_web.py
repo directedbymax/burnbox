@@ -18,12 +18,12 @@ from urllib.request import urlopen, Request
 from werkzeug.datastructures import Headers
 from werkzeug.exceptions import RequestedRangeNotSatisfiable
 
-from onionshare_cli.common import Common
-from onionshare_cli.web import Web
-from onionshare_cli.web.share_mode import parse_range_header
-from onionshare_cli.settings import Settings
-from onionshare_cli.mode_settings import ModeSettings
-import onionshare_cli.web.receive_mode
+from burnbox_cli.common import Common
+from burnbox_cli.web import Web
+from burnbox_cli.web.share_mode import parse_range_header
+from burnbox_cli.settings import Settings
+from burnbox_cli.mode_settings import ModeSettings
+import burnbox_cli.web.receive_mode
 
 # Stub requests.post, for receive mode webhook tests
 webhook_url = None
@@ -36,10 +36,10 @@ def requests_post_stub(url, data, timeout, proxies):
     webhook_data = data
 
 
-onionshare_cli.web.receive_mode.requests.post = requests_post_stub
+burnbox_cli.web.receive_mode.requests.post = requests_post_stub
 
 
-DEFAULT_ZW_FILENAME_REGEX = re.compile(r"^onionshare_[a-z2-7]{6}.zip$")
+DEFAULT_ZW_FILENAME_REGEX = re.compile(r"^burnbox_[a-z2-7]{6}.zip$")
 RANDOM_STR_REGEX = re.compile(r"^[a-z2-7]+$")
 
 
@@ -168,12 +168,12 @@ class TestWeb:
             assert res.status_code == 200
 
             assert webhook_url == "http://127.0.0.1:1337/example"
-            assert webhook_data == "1 file submitted to OnionShare"
+            assert webhook_data == "1 file submitted to BurnBox"
 
     def test_receive_mode_message_no_files(self, temp_dir, common_obj):
         web = web_obj(temp_dir, common_obj, "receive")
 
-        data_dir = os.path.join(temp_dir.name, "OnionShare")
+        data_dir = os.path.join(temp_dir.name, "BurnBox")
         os.makedirs(data_dir, exist_ok=True)
 
         web.settings.set("receive", "data_dir", data_dir)
@@ -189,7 +189,7 @@ class TestWeb:
             assert res.status_code == 200
             assert b"Message submitted" in content
 
-        # ~/OnionShare should have a folder for the date
+        # ~/BurnBox should have a folder for the date
         filenames = os.listdir(data_dir)
         assert len(filenames) == 1
         data_dir_date = os.path.join(data_dir, filenames[0])
@@ -204,7 +204,7 @@ class TestWeb:
     def test_receive_mode_message_and_files(self, temp_dir, common_obj):
         web = web_obj(temp_dir, common_obj, "receive")
 
-        data_dir = os.path.join(temp_dir.name, "OnionShare")
+        data_dir = os.path.join(temp_dir.name, "BurnBox")
         os.makedirs(data_dir, exist_ok=True)
 
         web.settings.set("receive", "data_dir", data_dir)
@@ -239,7 +239,7 @@ class TestWeb:
     def test_receive_mode_files_no_message(self, temp_dir, common_obj):
         web = web_obj(temp_dir, common_obj, "receive")
 
-        data_dir = os.path.join(temp_dir.name, "OnionShare")
+        data_dir = os.path.join(temp_dir.name, "BurnBox")
         os.makedirs(data_dir, exist_ok=True)
 
         web.settings.set("receive", "data_dir", data_dir)
@@ -271,7 +271,7 @@ class TestWeb:
     def test_receive_mode_no_message_no_files(self, temp_dir, common_obj):
         web = web_obj(temp_dir, common_obj, "receive")
 
-        data_dir = os.path.join(temp_dir.name, "OnionShare")
+        data_dir = os.path.join(temp_dir.name, "BurnBox")
         os.makedirs(data_dir, exist_ok=True)
 
         web.settings.set("receive", "data_dir", data_dir)
@@ -321,7 +321,7 @@ class TestZipWriterDefault:
     @pytest.mark.parametrize(
         "test_input",
         (
-            f"onionshare_{''.join(random.choice('abcdefghijklmnopqrstuvwxyz234567') for _ in range(6))}.zip"
+            f"burnbox_{''.join(random.choice('abcdefghijklmnopqrstuvwxyz234567') for _ in range(6))}.zip"
             for _ in range(50)
         ),
     )

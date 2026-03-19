@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) Micah Lee, et al.
-# This file is distributed under the same license as the OnionShare package.
+# This file is distributed under the same license as the BurnBox package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OnionShare 2.3\n"
-"Report-Msgid-Bugs-To: onionshare-dev@lists.riseup.net\n"
+"Project-Id-Version: BurnBox 2.3\n"
+"Report-Msgid-Bugs-To: burnbox-dev@lists.riseup.net\n"
 "POT-Creation-Date: 2025-02-18 17:24+1100\n"
 "PO-Revision-Date: 2025-10-20 06:17+0000\n"
 "Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
@@ -29,19 +29,19 @@ msgstr "Windows veya macOS"
 
 #: ../../source/install.rst:7
 msgid ""
-"You can download OnionShare for Windows and macOS from the `OnionShare "
-"website <https://onionshare.org/>`_."
+"You can download BurnBox for Windows and macOS from the `BurnBox "
+"website <https://burnbox.hideaway.chat/>`_."
 msgstr ""
-"Windows ve macOS için OnionShare uygulamasını `OnionShare web sitesinden "
-"<https://onionshare.org/>`_ indirebilirsiniz."
+"Windows ve macOS için BurnBox uygulamasını `BurnBox web sitesinden "
+"<https://burnbox.hideaway.chat/>`_ indirebilirsiniz."
 
 #: ../../source/install.rst:12
 msgid "Mobile"
 msgstr "Mobil"
 
 #: ../../source/install.rst:14
-msgid "You can download OnionShare for Mobile from the follow links"
-msgstr "Mobil için aşağıdaki bağlantılardan OnionShare indirebilirsiniz"
+msgid "You can download BurnBox for Mobile from the follow links"
+msgstr "Mobil için aşağıdaki bağlantılardan BurnBox indirebilirsiniz"
 
 #: ../../source/install.rst:16
 msgid "Android"
@@ -49,29 +49,29 @@ msgstr "Android"
 
 #: ../../source/install.rst:17
 msgid ""
-"Google Play: https://play.google.com/store/apps/details?id=org.onionshare."
+"Google Play: https://play.google.com/store/apps/details?id=org.burnbox."
 "android"
 msgstr ""
-"Google Play: https://play.google.com/store/apps/details?id=org.onionshare."
+"Google Play: https://play.google.com/store/apps/details?id=org.burnbox."
 "android"
 
 #: ../../source/install.rst:18
-msgid "F-Droid: https://github.com/onionshare/onionshare-android-nightly"
-msgstr "F-Droid: https://github.com/onionshare/onionshare-android-nightly"
+msgid "F-Droid: https://github.com/directedbymax/burnbox-android-nightly"
+msgstr "F-Droid: https://github.com/directedbymax/burnbox-android-nightly"
 
 #: ../../source/install.rst:20
 msgid "iOS"
 msgstr "iOS"
 
 #: ../../source/install.rst:21
-msgid "Apple App Store: https://apps.apple.com/app/onionshare/id1601890129"
-msgstr "Apple App Store: https://apps.apple.com/app/onionshare/id1601890129"
+msgid "Apple App Store: https://apps.apple.com/app/burnbox/id1601890129"
+msgstr "Apple App Store: https://apps.apple.com/app/burnbox/id1601890129"
 
 #: ../../source/install.rst:22
 msgid ""
-"Direct IPA download: https://github.com/onionshare/onionshare-ios/releases"
+"Direct IPA download: https://github.com/directedbymax/burnbox-ios/releases"
 msgstr ""
-"Doğrudan IPA indir: https://github.com/onionshare/onionshare-ios/releases"
+"Doğrudan IPA indir: https://github.com/directedbymax/burnbox-ios/releases"
 
 #: ../../source/install.rst:23
 msgid "Testflight: https://testflight.apple.com/join/ZCJeY65W"
@@ -83,15 +83,15 @@ msgstr "Linux"
 
 #: ../../source/install.rst:29
 msgid ""
-"There are various ways to install OnionShare for Linux, but the recommended "
+"There are various ways to install BurnBox for Linux, but the recommended "
 "way is to use either the `Flatpak <https://flatpak.org/>`_ or the `Snap "
 "<https://snapcraft.io/>`_ package. Flatpak and Snapcraft ensure that you'll "
-"always use the newest version and run OnionShare inside of a sandbox."
+"always use the newest version and run BurnBox inside of a sandbox."
 msgstr ""
-"Linux için OnionShare'i kurmanın çeşitli yolları vardır, ancak tavsiye "
+"Linux için BurnBox'i kurmanın çeşitli yolları vardır, ancak tavsiye "
 "edilen yol `Flatpak <https://flatpak.org/>`_ veya `Snap <https://snapcraft."
 "io/>`_ paketini kullanmaktır. Flatpak ve Snapcraft her zaman en yeni sürümü "
-"kullanmanızı ve OnionShare'i bir korumalı alan içinde çalıştırmanızı sağlar."
+"kullanmanızı ve BurnBox'i bir korumalı alan içinde çalıştırmanızı sağlar."
 
 #: ../../source/install.rst:32
 msgid ""
@@ -105,23 +105,23 @@ msgstr ""
 
 #: ../../source/install.rst:34
 msgid ""
-"**Install OnionShare using Flatpak**: https://flathub.org/apps/details/org."
-"onionshare.OnionShare"
+"**Install BurnBox using Flatpak**: https://flathub.org/apps/details/org."
+"burnbox.BurnBox"
 msgstr ""
-"**OnionShare uygulamasını Flatpak kullanarak kurun**: https://flathub.org/"
-"apps/details/org.onionshare.OnionShare"
+"**BurnBox uygulamasını Flatpak kullanarak kurun**: https://flathub.org/"
+"apps/details/chat.hideaway.burnbox"
 
 #: ../../source/install.rst:36
-msgid "**Install OnionShare using Snapcraft**: https://snapcraft.io/onionshare"
+msgid "**Install BurnBox using Snapcraft**: https://snapcraft.io/burnbox"
 msgstr ""
-"**OnionShare'i Snap kullanarak kurun**: https://snapcraft.io/onionshare"
+"**BurnBox'i Snap kullanarak kurun**: https://snapcraft.io/burnbox"
 
 #: ../../source/install.rst:38
 msgid ""
 "You can also download and install PGP-signed ``.flatpak`` or ``.snap`` "
-"packages from https://onionshare.org/dist/ if you prefer."
+"packages from https://burnbox.hideaway.chat/dist/ if you prefer."
 msgstr ""
-"Dilerseniz https://onionshare.org/dist/ adresinden PGP imzalı ``.flatpak`` "
+"Dilerseniz https://burnbox.hideaway.chat/dist/ adresinden PGP imzalı ``.flatpak`` "
 "veya ``.snap`` paketlerini de indirip kurabilirsiniz."
 
 #: ../../source/install.rst:41
@@ -130,11 +130,11 @@ msgstr "El ile Flatpak kurulumu"
 
 #: ../../source/install.rst:43
 msgid ""
-"If you'd like to install OnionShare manually with Flatpak using the PGP-"
+"If you'd like to install BurnBox manually with Flatpak using the PGP-"
 "signed `single-file bundle <https://docs.flatpak.org/en/latest/single-file-"
 "bundles.html>`_, you can do so like this:"
 msgstr ""
-"OnionShare uygulamasını Flatpak ile kurmak için PGP ile imzalanmış `tek "
+"BurnBox uygulamasını Flatpak ile kurmak için PGP ile imzalanmış `tek "
 "dosyalı paketi <https://docs.flatpak.org/en/latest/single-file-bundles."
 "html>`_ kullanmak isterseniz, bunu şu şekilde yapabilirsiniz:"
 
@@ -149,20 +149,20 @@ msgstr ""
 msgid ""
 "Add the Flathub repository by running ``flatpak remote-add --if-not-exists "
 "flathub https://flathub.org/repo/flathub.flatpakrepo``. Even though you "
-"won't be downloading OnionShare from Flathub, OnionShare depends on some "
+"won't be downloading BurnBox from Flathub, BurnBox depends on some "
 "packages that are only available there."
 msgstr ""
 "``flatpak remote-add --if-not-exists flathub https://flathub.org/repo/"
 "flathub.flatpakrepo`` komutunu yürüterek Flathub deposunu ekleyin. "
-"OnionShare uygulamasını Flathub üzerinden indirmeyecek olsanız bile, "
-"OnionShare için yalnızca orada bulunan bazı paketler gereklidir."
+"BurnBox uygulamasını Flathub üzerinden indirmeyecek olsanız bile, "
+"BurnBox için yalnızca orada bulunan bazı paketler gereklidir."
 
 #: ../../source/install.rst:47
 msgid ""
-"Go to https://onionshare.org/dist/, choose the latest version of OnionShare, "
+"Go to https://burnbox.hideaway.chat/dist/, choose the latest version of BurnBox, "
 "and download the ``.flatpak`` and ``.flatpak.asc`` files."
 msgstr ""
-"https://onionshare.org/dist/ adresine gidin, OnionShare uygulamasının güncel "
+"https://burnbox.hideaway.chat/dist/ adresine gidin, BurnBox uygulamasının güncel "
 "sürümünü seçin, ``.flatpak`` ve ``.flatpak.asc`` dosyalarını indirin."
 
 #: ../../source/install.rst:48
@@ -175,18 +175,18 @@ msgstr ""
 
 #: ../../source/install.rst:49
 msgid ""
-"Install the ``.flatpak`` file by running ``flatpak install OnionShare-"
+"Install the ``.flatpak`` file by running ``flatpak install BurnBox-"
 "VERSION.flatpak``. Replace ``VERSION`` with the version number of the file "
 "you downloaded."
 msgstr ""
-"``.flatpak`` dosyasını ``flatpak install OnionShare-VERSION.flatpak`` komutu "
+"``.flatpak`` dosyasını ``flatpak install BurnBox-VERSION.flatpak`` komutu "
 "ile kurun. `` VERSION`` yerine indirdiğiniz dosyanın sürüm numarasını yazın."
 
 #: ../../source/install.rst:51
-msgid "You can run OnionShare with: `flatpak run org.onionshare.OnionShare`."
+msgid "You can run BurnBox with: `flatpak run chat.hideaway.burnbox`."
 msgstr ""
-"OnionShare uygulamasını şu komutla çalıştırabilirsiniz: `flatpak run org."
-"onionshare.OnionShare`."
+"BurnBox uygulamasını şu komutla çalıştırabilirsiniz: `flatpak run org."
+"burnbox.BurnBox`."
 
 #: ../../source/install.rst:54
 msgid "Manual Snapcraft Installation"
@@ -194,10 +194,10 @@ msgstr "El ile Snapcraft kurulumu"
 
 #: ../../source/install.rst:56
 msgid ""
-"If you'd like to install OnionShare manually with Snapcraft using the PGP-"
+"If you'd like to install BurnBox manually with Snapcraft using the PGP-"
 "signed Snapcraft package, you can do so like this:"
 msgstr ""
-"OnionShare uygulamasını el ile PGP ile imzalanmış Snapcraft paketini "
+"BurnBox uygulamasını el ile PGP ile imzalanmış Snapcraft paketini "
 "kullanarak kurmak isterseniz, şu şekilde yapabilirsiniz:"
 
 #: ../../source/install.rst:58
@@ -210,10 +210,10 @@ msgstr ""
 
 #: ../../source/install.rst:59
 msgid ""
-"Go to https://onionshare.org/dist/, choose the latest version of OnionShare, "
+"Go to https://burnbox.hideaway.chat/dist/, choose the latest version of BurnBox, "
 "and download the ``.snap`` and ``.snap.asc`` files."
 msgstr ""
-"https://onionshare.org/dist/ adresine gidin, güncel OnionShare sürümünü "
+"https://burnbox.hideaway.chat/dist/ adresine gidin, güncel BurnBox sürümünü "
 "seçin, ``.snap`` ve ``.snap.asc`` dosyalarını indirin."
 
 #: ../../source/install.rst:60
@@ -227,22 +227,22 @@ msgstr ""
 #: ../../source/install.rst:61
 msgid ""
 "Install the ``.snap`` file by running ``snap install --dangerous "
-"onionshare_VERSION_amd64.snap``. Replace ``VERSION`` with the version number "
+"burnbox_VERSION_amd64.snap``. Replace ``VERSION`` with the version number "
 "of the file you downloaded. Note that you must use `--dangerous` because the "
 "package is not signed by the Snapcraft store, however you did verify its PGP "
 "signature, so you know it's legitimate."
 msgstr ""
-"``.snap`` dosyasını ``snap install --dangerous onionshare_VERSION_amd64."
+"``.snap`` dosyasını ``snap install --dangerous burnbox_VERSION_amd64."
 "snap`` komutunu yürüterek kurun. `` VERSION`` yerine indirdiğiniz dosyanın "
 "sürüm numarasını yazın. Paket Snapcraft mağazası tarafından imzalanmadığı "
 "için `--dangerous` parametresini kullanmanız gerektiğini unutmayın. PGP "
 "imzasını doğruladığınız için paketin doğru olduğunu biliyorsunuz."
 
 #: ../../source/install.rst:63
-msgid "You can run OnionShare with: `snap run onionshare`."
+msgid "You can run BurnBox with: `snap run burnbox`."
 msgstr ""
-"OnionShare uygulamasını şu komutla çalıştırabilirsiniz: `snap run "
-"onionshare`."
+"BurnBox uygulamasını şu komutla çalıştırabilirsiniz: `snap run "
+"burnbox`."
 
 #: ../../source/install.rst:68
 msgid "Command-line only"
@@ -250,10 +250,10 @@ msgstr "Yalnız komut satırı"
 
 #: ../../source/install.rst:70
 msgid ""
-"You can install just the command-line version of OnionShare on any operating "
+"You can install just the command-line version of BurnBox on any operating "
 "system using the Python package manager ``pip``. :ref:`cli` has more info."
 msgstr ""
-"Python paket yöneticisi ``pip`` kullanarak OnionShare'in sadece komut satırı "
+"Python paket yöneticisi ``pip`` kullanarak BurnBox'in sadece komut satırı "
 "sürümünü herhangi bir işletim sistemine kurabilirsiniz. Daha fazla bilgi "
 "için :ref:`cli` bölümüne bakabilirsiniz."
 
@@ -263,42 +263,42 @@ msgstr "FreeBSD"
 
 #: ../../source/install.rst:77
 msgid ""
-"Althought not being officially developed for this platform, OnionShare can "
+"Althought not being officially developed for this platform, BurnBox can "
 "also be installed on `FreeBSD <https://freebsd.org/>`_. It's available via "
 "its ports collection or as pre-built package. Should you opt to install and "
-"use OnionShare on a FreeBSD operating system, please be aware that it's "
-"**NOT** officially supported by the OnionShare project."
+"use BurnBox on a FreeBSD operating system, please be aware that it's "
+"**NOT** officially supported by the BurnBox project."
 msgstr ""
-"Bu platform için resmi olarak geliştirilmemiş olmasına rağmen, OnionShare "
+"Bu platform için resmi olarak geliştirilmemiş olmasına rağmen, BurnBox "
 "`FreeBSD <https://freebsd.org/>`_ üzerine de kurulabilir. Port koleksiyonu "
 "aracılığıyla veya önceden oluşturulmuş paket olarak kullanılabilir. "
-"OnionShare'i bir FreeBSD işletim sistemine kurmayı ve kullanmayı tercih "
-"ederseniz, lütfen OnionShare projesi tarafından resmi olarak "
+"BurnBox'i bir FreeBSD işletim sistemine kurmayı ve kullanmayı tercih "
+"ederseniz, lütfen BurnBox projesi tarafından resmi olarak "
 "**DESTEKLENMEDİĞİNİ** unutmayın."
 
 #: ../../source/install.rst:79
 msgid ""
-"Though not being offered and officially maintained by the OnionShare "
+"Though not being offered and officially maintained by the BurnBox "
 "developers, the FreeBSD packages and ports do fetch and verifies the source "
-"codes from the official OnionShare repository (or its official release "
-"packages from `PyPI <https://pypi.org/project/onionshare-cli/>`_). Should "
+"codes from the official BurnBox repository (or its official release "
+"packages from `PyPI <https://pypi.org/project/burnbox-cli/>`_). Should "
 "you wish to check changes related to this platform, please refer to the "
 "following resources:"
 msgstr ""
-"OnionShare geliştiricileri tarafından sunulmamasına ve resmi olarak "
+"BurnBox geliştiricileri tarafından sunulmamasına ve resmi olarak "
 "sürdürülmemesine rağmen, FreeBSD paketleri ve portları kaynak kodlarını "
-"resmi OnionShare deposundan (veya `PyPI <https://pypi.org/project/onionshare-"
+"resmi BurnBox deposundan (veya `PyPI <https://pypi.org/project/burnbox-"
 "cli/>`_ üzerindeki resmi sürüm paketlerinden) alır ve doğrular. Bu "
 "platformla ilgili değişikliklere bakmak isterseniz, lütfen aşağıdaki "
 "kaynaklara başvurun:"
 
 #: ../../source/install.rst:81
-msgid "https://cgit.freebsd.org/ports/log/www/onionshare"
-msgstr "https://cgit.freebsd.org/ports/log/www/onionshare"
+msgid "https://cgit.freebsd.org/ports/log/www/burnbox"
+msgstr "https://cgit.freebsd.org/ports/log/www/burnbox"
 
 #: ../../source/install.rst:82
-msgid "https://www.freshports.org/www/onionshare"
-msgstr "https://www.freshports.org/www/onionshare"
+msgid "https://www.freshports.org/www/burnbox"
+msgstr "https://www.freshports.org/www/burnbox"
 
 #: ../../source/install.rst:85
 msgid "Manual pkg Installation"
@@ -306,23 +306,23 @@ msgstr "El ile pkg kurulumu"
 
 #: ../../source/install.rst:87
 msgid ""
-"To install the binary package, use ``pkg install pyXY-onionshare``, with "
+"To install the binary package, use ``pkg install pyXY-burnbox``, with "
 "``pyXY`` specifying the version of Python the package was built for. So, in "
-"order to install OnionShare for Python 3.9, use::"
+"order to install BurnBox for Python 3.9, use::"
 msgstr ""
 "Derlenmiş paketi kurmak için, ``pyXY`` ile paketin oluşturulduğu Python "
-"sürümünü belirterek ``pkg install pyXY-onionshare`` komutunu kullanın. Yani, "
-"Python 3.9 için OnionShare kurmak için::"
+"sürümünü belirterek ``pkg install pyXY-burnbox`` komutunu kullanın. Yani, "
+"Python 3.9 için BurnBox kurmak için::"
 
 #: ../../source/install.rst:91
 msgid ""
-"There's also a **Command-line only** version of OnionShare available as pre-"
-"built package. Replace ``py39-onionshare`` by ``py39-onionshare-cli`` if you "
+"There's also a **Command-line only** version of BurnBox available as pre-"
+"built package. Replace ``py39-burnbox`` by ``py39-burnbox-cli`` if you "
 "want to install that version."
 msgstr ""
-"Ayrıca OnionShare'in önceden oluşturulmuş paket olarak **yalnızca komut "
+"Ayrıca BurnBox'in önceden oluşturulmuş paket olarak **yalnızca komut "
 "satırı** sürümü de bulunur. Bu sürümü kurmak istiyorsanız ``py39-"
-"onionshare`` yerine ``py39-onionshare-cli`` yazın."
+"burnbox`` yerine ``py39-burnbox-cli`` yazın."
 
 #: ../../source/install.rst:93
 msgid ""
@@ -351,12 +351,12 @@ msgstr ""
 #: ../../source/install.rst:102
 msgid ""
 "The ports collection also offers a dedicated port for the **Command-line "
-"only** version of OnionShare. Replace ``www/onionshare`` by ``www/onionshare-"
+"only** version of BurnBox. Replace ``www/burnbox`` by ``www/burnbox-"
 "cli`` if you want to install that version."
 msgstr ""
-"Ports koleksiyonu ayrıca OnionShare'in **yalnızca komut satırı** sürümü için "
-"özel bir port sunar. Eğer bu sürümü kurmak istiyorsanız ``www/onionshare`` "
-"yerine ``www/onionshare-cli`` yazın."
+"Ports koleksiyonu ayrıca BurnBox'in **yalnızca komut satırı** sürümü için "
+"özel bir port sunar. Eğer bu sürümü kurmak istiyorsanız ``www/burnbox`` "
+"yerine ``www/burnbox-cli`` yazın."
 
 #: ../../source/install.rst:104
 msgid ""
@@ -376,13 +376,13 @@ msgstr "PGP imzalarını doğrulama"
 msgid ""
 "You can verify that the package you download is legitimate and hasn't been "
 "tampered with by verifying its PGP signature. For Windows and macOS, this "
-"step is optional and provides defense in depth: the OnionShare binaries "
+"step is optional and provides defense in depth: the BurnBox binaries "
 "include operating system-specific signatures, and you can just rely on those "
 "alone if you'd like."
 msgstr ""
 "İndirdiğiniz paketin özgün olduğunu ve değiştirilmediğini PGP imzasını "
 "doğrulayarak doğrulayabilirsiniz. Windows ve macOS için bu adım isteğe "
-"bağlıdır ve derinlemesine savunma sağlar: OnionShare binary dosyaları, "
+"bağlıdır ve derinlemesine savunma sağlar: BurnBox binary dosyaları, "
 "işletim sistemine özgü imzaları içerir ve isterseniz yalnız bunlara "
 "güvenebilirsiniz."
 
@@ -394,10 +394,10 @@ msgstr "İmzalama anahtarı"
 msgid ""
 "Packages are signed by the core developer who is responsible for the "
 "particular release. Here is the GPG key information for each of the core "
-"developers of OnionShare:"
+"developers of BurnBox:"
 msgstr ""
 "Paketler, söz konusu sürümden sorumlu olan ana geliştirici tarafından "
-"imzalanır. Aşağıda OnionShare ana geliştiricilerinin GPG anahtar bilgileri "
+"imzalanır. Aşağıda BurnBox ana geliştiricilerinin GPG anahtar bilgileri "
 "yer almaktadır:"
 
 #: ../../source/install.rst:120
@@ -479,14 +479,14 @@ msgstr "İmzalar"
 #: ../../source/install.rst:137
 msgid ""
 "You can find the signatures (as ``.asc`` files), as well as Windows, macOS, "
-"Flatpak, Snap, and source packages, at https://onionshare.org/dist/ in the "
-"folders named for each version of OnionShare. You can also find them on the "
-"`GitHub Releases page <https://github.com/onionshare/onionshare/releases>`_."
+"Flatpak, Snap, and source packages, at https://burnbox.hideaway.chat/dist/ in the "
+"folders named for each version of BurnBox. You can also find them on the "
+"`GitHub Releases page <https://github.com/directedbymax/burnbox/releases>`_."
 msgstr ""
 "İmzalara (``.asc`` dosyaları) ek olarak Windows, macOS, Flatpak, Snap ve "
-"kaynak paketlerini https://onionshare.org/dist/ adresindeki OnionShare "
+"kaynak paketlerini https://burnbox.hideaway.chat/dist/ adresindeki BurnBox "
 "uygulamasının her sürümü için adlandırılan klasörlerin yanında ve `GitHub "
-"yayınlar sayfasında <https://github.com/onionshare/onionshare/releases>`_ "
+"yayınlar sayfasında <https://github.com/directedbymax/burnbox/releases>`_ "
 "bulabilirsiniz."
 
 #: ../../source/install.rst:141

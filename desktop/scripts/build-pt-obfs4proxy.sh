@@ -10,13 +10,13 @@ cd obfs4
 git checkout $OBFS4PROXY_TAG
 if [ "$OS" == "Darwin" ]; then
     if [[ $(uname -m) == 'arm64' ]]; then
-        go build -o ../../../onionshare/resources/tor/obfs4proxy-arm64 ./obfs4proxy
-        GOOS=darwin GOARCH=amd64 go build -o ../../../onionshare/resources/tor/obfs4proxy-amd64 ./obfs4proxy
-        lipo -create -output ../../../onionshare/resources/tor/obfs4proxy ../../../onionshare/resources/tor/obfs4proxy-arm64 ../../../onionshare/resources/tor/obfs4proxy-amd64
-        rm ../../../onionshare/resources/tor/obfs4proxy-arm64 ../../../onionshare/resources/tor/obfs4proxy-amd64
+        go build -o ../../../burnbox/resources/tor/obfs4proxy-arm64 ./obfs4proxy
+        GOOS=darwin GOARCH=amd64 go build -o ../../../burnbox/resources/tor/obfs4proxy-amd64 ./obfs4proxy
+        lipo -create -output ../../../burnbox/resources/tor/obfs4proxy ../../../burnbox/resources/tor/obfs4proxy-arm64 ../../../burnbox/resources/tor/obfs4proxy-amd64
+        rm ../../../burnbox/resources/tor/obfs4proxy-arm64 ../../../burnbox/resources/tor/obfs4proxy-amd64
     elif [[ $(uname -m) == 'x86_64' ]]; then
-        go build -o ../../../onionshare/resources/tor/obfs4proxy ./obfs4proxy
+        go build -o ../../../burnbox/resources/tor/obfs4proxy ./obfs4proxy
     fi
 else
-    go build -o ../../../onionshare/resources/tor/obfs4proxy ./obfs4proxy
+    go build -o ../../../burnbox/resources/tor/obfs4proxy ./obfs4proxy
 fi

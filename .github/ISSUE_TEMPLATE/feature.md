@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Use this form to submit a suggestion about a feature you think OnionShare should have.
+about: Use this form to submit a suggestion about a feature you think BurnBox should have.
 ---
 - [ ] I have already searched the issue queue for my feature request
 

@@ -5,11 +5,11 @@ import sys
 
 import pytest
 
-from onionshare_cli import common, settings
+from burnbox_cli import common, settings
 
 
 @pytest.fixture
-def settings_obj(sys_onionshare_dev_mode, platform_linux):
+def settings_obj(sys_burnbox_dev_mode, platform_linux):
     _common = common.Common()
     _common.version = "DUMMY_VERSION_1.2.3"
     return settings.Settings(_common)
@@ -124,21 +124,21 @@ class TestSettings:
     def test_filename_darwin(self, monkeypatch, platform_darwin):
         obj = settings.Settings(common.Common())
         assert obj.filename == os.path.expanduser(
-            "~/Library/Application Support/OnionShare-testdata/onionshare.json"
+            "~/Library/Application Support/BurnBox-testdata/burnbox.json"
         )
 
     @pytest.mark.skipif(sys.platform != "linux", reason="requires Linux")
     def test_filename_linux(self, monkeypatch, platform_linux):
         obj = settings.Settings(common.Common())
         assert obj.filename == os.path.expanduser(
-            "~/.config/onionshare-testdata/onionshare.json"
+            "~/.config/burnbox-testdata/burnbox.json"
         )
 
     @pytest.mark.skipif(sys.platform != "win32", reason="requires Windows")
     def test_filename_windows(self, monkeypatch, platform_windows):
         obj = settings.Settings(common.Common())
         assert obj.filename == os.path.expanduser(
-            "~\\AppData\\Roaming\\OnionShare-testdata\\onionshare.json"
+            "~\\AppData\\Roaming\\BurnBox-testdata\\burnbox.json"
         )
 
     def test_set_custom_bridge(self, settings_obj):

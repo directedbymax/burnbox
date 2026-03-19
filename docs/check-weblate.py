@@ -32,14 +32,14 @@ async def api(path):
 
 async def get_app_translation(lang_code):
     global app_translations
-    obj = await api(f"/api/translations/onionshare/translations/{lang_code}/")
+    obj = await api(f"/api/translations/burnbox/translations/{lang_code}/")
     if obj:
         app_translations[lang_code] = obj["translated_percent"]
 
 
 async def get_docs_translation(component, lang_code):
     global docs_translations
-    obj = await api(f"/api/translations/onionshare/{component}/{lang_code}/")
+    obj = await api(f"/api/translations/burnbox/{component}/{lang_code}/")
     if obj:
         if component not in docs_translations:
             docs_translations[component] = {}
@@ -108,8 +108,8 @@ async def main():
 
     api_token = sys.argv[1]
 
-    # Get the list of languages in the OnionShare project
-    res = await api("/api/projects/onionshare/languages/")
+    # Get the list of languages in the BurnBox project
+    res = await api("/api/projects/burnbox/languages/")
     for obj in res:
         languages[obj["code"]] = obj["name"]
 

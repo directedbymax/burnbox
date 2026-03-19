@@ -1,4 +1,4 @@
-Developing OnionShare
+Developing BurnBox
 =====================
 
 .. _collaborating:
@@ -6,18 +6,18 @@ Developing OnionShare
 Collaborating
 -------------
 
-OnionShare has an open Keybase team to discuss the project, ask questions, share ideas and designs, and making plans for future development. (It's also an easy way to send end-to-end encrypted direct messages to others in the OnionShare community, like OnionShare addresses.)
-To use Keybase, download the `Keybase app <https://keybase.io/download>`_, make an account, and `join this team <https://keybase.io/team/onionshare>`_. Within the app, go to "Teams", click "Join a Team", and type "onionshare".
+BurnBox has an open Keybase team to discuss the project, ask questions, share ideas and designs, and making plans for future development. (It's also an easy way to send end-to-end encrypted direct messages to others in the BurnBox community, like BurnBox addresses.)
+To use Keybase, download the `Keybase app <https://keybase.io/download>`_, make an account, and `join this team <https://keybase.io/team/burnbox>`_. Within the app, go to "Teams", click "Join a Team", and type "burnbox".
 
-OnionShare also has a `mailing list <https://lists.riseup.net/www/subscribe/onionshare-dev>`_ for developers and and designers to discuss the project.
+BurnBox also has a `mailing list <https://lists.riseup.net/www/subscribe/burnbox-dev>`_ for developers and and designers to discuss the project.
 
 Contributing Code
 -----------------
 
-OnionShare source code is to be found in this Git repository: https://github.com/onionshare/onionshare
+BurnBox source code is to be found in this Git repository: https://github.com/directedbymax/burnbox
 
-If you'd like to contribute code to OnionShare, it helps to join the Keybase team and ask questions about what you're thinking of working on.
-You should also review all of the `open issues <https://github.com/onionshare/onionshare/issues>`_ on GitHub to see if there are any you'd like to tackle.
+If you'd like to contribute code to BurnBox, it helps to join the Keybase team and ask questions about what you're thinking of working on.
+You should also review all of the `open issues <https://github.com/directedbymax/burnbox/issues>`_ on GitHub to see if there are any you'd like to tackle.
 
 When you're ready to contribute code, open a pull request in the GitHub repository and one of the project maintainers will review it and possibly ask questions, request changes, reject it, or merge it into the project.
 
@@ -26,10 +26,10 @@ When you're ready to contribute code, open a pull request in the GitHub reposito
 Starting Development
 --------------------
 
-OnionShare is developed in Python.
-To get started, clone the Git repository at https://github.com/onionshare/onionshare/ and then consult the ``cli/README.md`` file to learn how to set up your development environment for the command-line version, and the ``desktop/README.md`` file to learn how to set up your development environment for the graphical version.
+BurnBox is developed in Python.
+To get started, clone the Git repository at https://github.com/directedbymax/burnbox/ and then consult the ``cli/README.md`` file to learn how to set up your development environment for the command-line version, and the ``desktop/README.md`` file to learn how to set up your development environment for the graphical version.
 
-Those files contain the necessary technical instructions and commands install dependencies for your platform, and to run OnionShare from the source tree.
+Those files contain the necessary technical instructions and commands install dependencies for your platform, and to run BurnBox from the source tree.
 
 Debugging tips
 --------------
@@ -37,10 +37,10 @@ Debugging tips
 Verbose mode
 ^^^^^^^^^^^^
 
-When developing, it's convenient to run OnionShare from a terminal and add the ``--verbose`` (or ``-v``) flag to the command.
+When developing, it's convenient to run BurnBox from a terminal and add the ``--verbose`` (or ``-v``) flag to the command.
 This prints a lot of helpful messages to the terminal, such as when certain objects are initialized, when events occur (like buttons clicked, settings saved or reloaded), and other debug info. For example::
 
-    $ poetry run onionshare-cli -v ~/Documents/roms/nes/Q-bert\ \(USA\).nes
+    $ poetry run burnbox-cli -v ~/Documents/roms/nes/Q-bert\ \(USA\).nes
     ╭───────────────────────────────────────────╮
     │    *            ▄▄█████▄▄            *    │
     │               ▄████▀▀▀████▄     *         │
@@ -60,15 +60,15 @@ This prints a lot of helpful messages to the terminal, such as when certain obje
     │                                           │
     │                  v2.4.1                   │
     │                                           │
-    │          https://onionshare.org/          │
+    │          https://burnbox.hideaway.chat/          │
     ╰───────────────────────────────────────────╯
 
     [Sep 09 2021 19:13:20] Settings.__init__
     [Sep 09 2021 19:13:20] Settings.load
-    [Sep 09 2021 19:13:20] Settings.load: Trying to load /home/user/.config/onionshare/onionshare.json
+    [Sep 09 2021 19:13:20] Settings.load: Trying to load /home/user/.config/burnbox/burnbox.json
     [Sep 09 2021 19:13:20] Common.get_resource_path: filename=wordlist.txt
-    [Sep 09 2021 19:13:20] Common.get_resource_path: filename=wordlist.txt, path=/home/user/code/onionshare/cli/onionshare_cli/resources/wordlist.txt
-    [Sep 09 2021 19:13:20] ModeSettings.load: creating /home/user/.config/onionshare/persistent/polish-pushpin-hydrated.json
+    [Sep 09 2021 19:13:20] Common.get_resource_path: filename=wordlist.txt, path=/home/user/code/burnbox/cli/burnbox_cli/resources/wordlist.txt
+    [Sep 09 2021 19:13:20] ModeSettings.load: creating /home/user/.config/burnbox/persistent/polish-pushpin-hydrated.json
     [Sep 09 2021 19:13:20] ModeSettings.set: updating polish-pushpin-hydrated: general.title = None
     [Sep 09 2021 19:13:20] ModeSettings.set: updating polish-pushpin-hydrated: general.public = False
     [Sep 09 2021 19:13:20] ModeSettings.set: updating polish-pushpin-hydrated: general.autostart_timer = 0
@@ -76,25 +76,25 @@ This prints a lot of helpful messages to the terminal, such as when certain obje
     [Sep 09 2021 19:13:20] ModeSettings.set: updating polish-pushpin-hydrated: share.autostop_sharing = True
     [Sep 09 2021 19:13:20] Web.__init__: is_gui=False, mode=share
     [Sep 09 2021 19:13:20] Common.get_resource_path: filename=static
-    [Sep 09 2021 19:13:20] Common.get_resource_path: filename=static, path=/home/user/code/onionshare/cli/onionshare_cli/resources/static
+    [Sep 09 2021 19:13:20] Common.get_resource_path: filename=static, path=/home/user/code/burnbox/cli/burnbox_cli/resources/static
     [Sep 09 2021 19:13:20] Common.get_resource_path: filename=templates
-    [Sep 09 2021 19:13:20] Common.get_resource_path: filename=templates, path=/home/user/code/onionshare/cli/onionshare_cli/resources/templates
+    [Sep 09 2021 19:13:20] Common.get_resource_path: filename=templates, path=/home/user/code/burnbox/cli/burnbox_cli/resources/templates
     [Sep 09 2021 19:13:20] Web.generate_static_url_path: new static_url_path is /static_gvvq2hplxhs2cekk665kagei6m
     [Sep 09 2021 19:13:20] ShareModeWeb.init
     [Sep 09 2021 19:13:20] Onion.__init__
     [Sep 09 2021 19:13:20] Onion.connect
     [Sep 09 2021 19:13:20] Settings.__init__
     [Sep 09 2021 19:13:20] Settings.load
-    [Sep 09 2021 19:13:20] Settings.load: Trying to load /home/user/.config/onionshare/onionshare.json
-    [Sep 09 2021 19:13:20] Onion.connect: tor_data_directory_name=/home/user/.config/onionshare/tmp/tmpf3akiouy
+    [Sep 09 2021 19:13:20] Settings.load: Trying to load /home/user/.config/burnbox/burnbox.json
+    [Sep 09 2021 19:13:20] Onion.connect: tor_data_directory_name=/home/user/.config/burnbox/tmp/tmpf3akiouy
     [Sep 09 2021 19:13:20] Common.get_resource_path: filename=torrc_template
-    [Sep 09 2021 19:13:20] Common.get_resource_path: filename=torrc_template, path=/home/user/code/onionshare/cli/onionshare_cli/resources/torrc_template
+    [Sep 09 2021 19:13:20] Common.get_resource_path: filename=torrc_template, path=/home/user/code/burnbox/cli/burnbox_cli/resources/torrc_template
     Connecting to the Tor network: 100% - Done
     [Sep 09 2021 19:13:30] Onion.connect: Connected to tor 0.4.6.7
     [Sep 09 2021 19:13:30] Settings.load
-    [Sep 09 2021 19:13:30] Settings.load: Trying to load /home/user/.config/onionshare/onionshare.json
-    [Sep 09 2021 19:13:30] OnionShare.__init__
-    [Sep 09 2021 19:13:30] OnionShare.start_onion_service
+    [Sep 09 2021 19:13:30] Settings.load: Trying to load /home/user/.config/burnbox/burnbox.json
+    [Sep 09 2021 19:13:30] BurnBox.__init__
+    [Sep 09 2021 19:13:30] BurnBox.start_onion_service
     [Sep 09 2021 19:13:30] Onion.start_onion_service: port=17616
     [Sep 09 2021 19:13:30] Onion.start_onion_service: key_type=NEW, key_content=ED25519-V3
     [Sep 09 2021 19:13:35] ModeSettings.set: updating polish-pushpin-hydrated: general.service_id = vucwsdmjt7szoc6pel3puqoxobiepdsowmqaq7pm7dzhembtzr2capad
@@ -114,11 +114,11 @@ This prints a lot of helpful messages to the terminal, such as when certain obje
 
     Press Ctrl+C to stop the server
 
-You can add your own debug messages by running the ``Common.log`` method from ``onionshare/common.py``. For example::
+You can add your own debug messages by running the ``Common.log`` method from ``burnbox/common.py``. For example::
 
-    common.log('OnionShareGui', 'start_server', 'I ran here')
+    common.log('BurnBoxGui', 'start_server', 'I ran here')
 
-This can be useful when learning the chain of events that occur when using OnionShare, or the value of certain variables before and after they are manipulated.
+This can be useful when learning the chain of events that occur when using BurnBox, or the value of certain variables before and after they are manipulated.
 
 Local Only
 ^^^^^^^^^^
@@ -126,7 +126,7 @@ Local Only
 Tor is slow, and it's often convenient to skip starting onion services altogether during development.
 You can do this with the ``--local-only`` flag. For example::
 
-    $ poetry run onionshare-cli --local-only --receive
+    $ poetry run burnbox-cli --local-only --receive
     ╭───────────────────────────────────────────╮
     │    *            ▄▄█████▄▄            *    │
     │               ▄████▀▀▀████▄     *         │
@@ -146,12 +146,12 @@ You can do this with the ``--local-only`` flag. For example::
     │                                           │
     │                  v2.4.1                   │
     │                                           │
-    │          https://onionshare.org/          │
+    │          https://burnbox.hideaway.chat/          │
     ╰───────────────────────────────────────────╯
 
     * Running on http://127.0.0.1:17641/ (Press CTRL+C to quit)
 
-    Files sent to you appear in this folder: /home/user/OnionShare
+    Files sent to you appear in this folder: /home/user/BurnBox
 
     Warning: Receive mode lets people upload files to your computer. Some files can potentially take control of your computer if you open them. Only open things from people you trust, or if you know what you are doing.
 
@@ -167,7 +167,7 @@ In this case, you load the URL ``http://127.0.0.1:17641`` in a normal web-browse
 Contributing Translations
 -------------------------
 
-Help make OnionShare easier to use and more familiar and welcoming for people by translating it on `Hosted Weblate <https://hosted.weblate.org/projects/onionshare/>`_. Always keep the "OnionShare" in latin letters, and use "OnionShare (localname)" if needed.
+Help make BurnBox easier to use and more familiar and welcoming for people by translating it on `Hosted Weblate <https://hosted.weblate.org/projects/burnbox/>`_. Always keep the "BurnBox" in latin letters, and use "BurnBox (localname)" if needed.
 
 To help translate, make a Hosted Weblate account and start contributing.
 
@@ -182,6 +182,6 @@ The latter ensures all upstream developers see the suggestion, and can potential
 Status of Translations
 ^^^^^^^^^^^^^^^^^^^^^^
 Here is the current translation status.
-If you want start a translation in a language not yet started, please write to the mailing list: onionshare-dev@lists.riseup.net
+If you want start a translation in a language not yet started, please write to the mailing list: burnbox-dev@lists.riseup.net
 
-.. image:: https://hosted.weblate.org/widgets/onionshare/-/translations/multi-auto.svg
+.. image:: https://hosted.weblate.org/widgets/burnbox/-/translations/multi-auto.svg

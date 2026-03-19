@@ -22,7 +22,7 @@ entitlements_plist_path = f"{desktop_dir}/package/Entitlements.plist"
 
 
 def get_app_path():
-    return os.path.join(desktop_dir, "build", "OnionShare.app")
+    return os.path.join(desktop_dir, "build", "BurnBox.app")
 
 
 def run(cmd, cwd=None, error_ok=False):
@@ -270,30 +270,30 @@ def package(app_path):
         return
 
     print("> Create DMG")
-    version_filename = f"{root}/cli/onionshare_cli/resources/version.txt"
+    version_filename = f"{root}/cli/burnbox_cli/resources/version.txt"
     with open(version_filename) as f:
         version = f.read().strip()
 
     os.makedirs(f"{desktop_dir}/dist", exist_ok=True)
-    dmg_path = f"{desktop_dir}/dist/OnionShare-{version}.dmg"
+    dmg_path = f"{desktop_dir}/dist/BurnBox-{version}.dmg"
     run(
         [
             "create-dmg",
             "--volname",
-            "OnionShare",
+            "BurnBox",
             "--volicon",
-            f"{desktop_dir}/onionshare/resources/onionshare.icns",
+            f"{desktop_dir}/burnbox/resources/burnbox.icns",
             "--window-size",
             "400",
             "200",
             "--icon-size",
             "100",
             "--icon",
-            "OnionShare.app",
+            "BurnBox.app",
             "100",
             "70",
             "--hide-extension",
-            "OnionShare.app",
+            "BurnBox.app",
             "--app-drop-link",
             "300",
             "70",

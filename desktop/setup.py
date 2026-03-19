@@ -6,16 +6,16 @@ import setuptools
 version = "2.6.3"
 
 setuptools.setup(
-    name="onionshare",
+    name="burnbox",
     version=version,
     long_description="Securely and anonymously share files, host websites, and chat with friends using the Tor network",
-    author="Micah Lee",
-    author_email="micah@micahflee.com",
-    maintainer="Micah Lee",
-    maintainer_email="micah@micahflee.com",
-    url="https://onionshare.org",
+    author="BurnBox",
+    author_email="support@burnbox.hideaway.chat",
+    maintainer="BurnBox",
+    maintainer_email="support@burnbox.hideaway.chat",
+    url="https://burnbox.hideaway.chat",
     license="GPLv3",
-    keywords="onion, share, onionshare, tor, anonymous, web server",
+    keywords="onion, share, burnbox, tor, anonymous, web server",
     classifiers=[
         "Programming Language :: Python :: 3",
         "Framework :: Flask",
@@ -27,16 +27,16 @@ setuptools.setup(
         "Environment :: Web Environment",
     ],
     packages=[
-        "onionshare",
-        "onionshare.tab",
-        "onionshare.tab.mode",
-        "onionshare.tab.mode.share_mode",
-        "onionshare.tab.mode.receive_mode",
-        "onionshare.tab.mode.website_mode",
-        "onionshare.tab.mode.chat_mode",
+        "burnbox",
+        "burnbox.tab",
+        "burnbox.tab.mode",
+        "burnbox.tab.mode.share_mode",
+        "burnbox.tab.mode.receive_mode",
+        "burnbox.tab.mode.website_mode",
+        "burnbox.tab.mode.chat_mode",
     ],
     package_data={
-        "onionshare": [
+        "burnbox": [
             "resources/*",
             "resources/images/*",
             "resources/images/countries/*",
@@ -46,8 +46,8 @@ setuptools.setup(
     },
     entry_points={
         "console_scripts": [
-            "onionshare = onionshare:main",
-            "onionshare-cli = onionshare_cli:main",
+            "burnbox = burnbox:main",
+            "burnbox-cli = burnbox_cli:main",
         ],
     },
 )

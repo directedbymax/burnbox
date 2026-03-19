@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-OnionShare | https://onionshare.org/
+BurnBox | https://burnbox.hideaway.chat/
 
 Copyright (C) 2014-2022 Micah Lee, et al. <micah@micahflee.com>
 
@@ -21,25 +21,25 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 import os
 import setuptools
 
-with open(os.path.join("onionshare_cli", "resources", "version.txt")) as f:
+with open(os.path.join("burnbox_cli", "resources", "version.txt")) as f:
     version = f.read().strip()
 
 setuptools.setup(
-    name="onionshare-cli",
+    name="burnbox-cli",
     version=version,
     long_description=(
-        "OnionShare lets you securely and anonymously send and receive files. It works by starting a web server, "
+        "BurnBox lets you securely and anonymously send and receive files. It works by starting a web server, "
         "making it accessible as a Tor onion service, and generating an unguessable web address so others can "
         "download files from you, or upload files to you. It does _not_ require setting up a separate server or "
         "using a third party file-sharing service."
     ),
-    author="Micah Lee",
-    author_email="micah@micahflee.com",
-    maintainer="Micah Lee",
-    maintainer_email="micah@micahflee.com",
-    url="https://onionshare.org",
+    author="BurnBox",
+    author_email="support@burnbox.hideaway.chat",
+    maintainer="BurnBox",
+    maintainer_email="support@burnbox.hideaway.chat",
+    url="https://burnbox.hideaway.chat",
     license="GPLv3",
-    keywords="onion, share, onionshare, tor, anonymous, web server",
+    keywords="onion, share, burnbox, tor, anonymous, web server",
     classifiers=[
         "Programming Language :: Python :: 3",
         "Framework :: Flask",
@@ -51,11 +51,11 @@ setuptools.setup(
         "Environment :: Web Environment",
     ],
     packages=[
-        "onionshare_cli",
-        "onionshare_cli.web",
+        "burnbox_cli",
+        "burnbox_cli.web",
     ],
     package_data={
-        "onionshare_cli": [
+        "burnbox_cli": [
             "resources/*",
             "resources/static/*",
             "resources/static/css/*",
@@ -66,7 +66,7 @@ setuptools.setup(
     },
     entry_points={
         "console_scripts": [
-            "onionshare-cli = onionshare_cli:main",
+            "burnbox-cli = burnbox_cli:main",
         ],
     },
 )

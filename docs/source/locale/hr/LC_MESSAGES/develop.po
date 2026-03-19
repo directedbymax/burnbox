@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) Micah Lee, et al.
-# This file is distributed under the same license as the OnionShare package.
+# This file is distributed under the same license as the BurnBox package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OnionShare 2.3\n"
+"Project-Id-Version: BurnBox 2.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-18 17:24+1100\n"
 "PO-Revision-Date: 2023-11-28 13:05+0000\n"
@@ -20,8 +20,8 @@ msgstr ""
 "X-Generator: Weblate 5.3-dev\n"
 
 #: ../../source/develop.rst:2
-msgid "Developing OnionShare"
-msgstr "Razvijanje OnionSharea"
+msgid "Developing BurnBox"
+msgstr "Razvijanje BurnBoxa"
 
 #: ../../source/develop.rst:7
 msgid "Collaborating"
@@ -29,19 +29,19 @@ msgstr "Surađivanje"
 
 #: ../../source/develop.rst:9
 msgid ""
-"OnionShare has an open Keybase team to discuss the project, ask questions, "
+"BurnBox has an open Keybase team to discuss the project, ask questions, "
 "share ideas and designs, and making plans for future development. (It's also "
 "an easy way to send end-to-end encrypted direct messages to others in the "
-"OnionShare community, like OnionShare addresses.) To use Keybase, download "
+"BurnBox community, like BurnBox addresses.) To use Keybase, download "
 "the `Keybase app <https://keybase.io/download>`_, make an account, and `join "
-"this team <https://keybase.io/team/onionshare>`_. Within the app, go to "
-"\"Teams\", click \"Join a Team\", and type \"onionshare\"."
+"this team <https://keybase.io/team/burnbox>`_. Within the app, go to "
+"\"Teams\", click \"Join a Team\", and type \"burnbox\"."
 msgstr ""
 
 #: ../../source/develop.rst:12
 msgid ""
-"OnionShare also has a `mailing list <https://lists.riseup.net/www/subscribe/"
-"onionshare-dev>`_ for developers and and designers to discuss the project."
+"BurnBox also has a `mailing list <https://lists.riseup.net/www/subscribe/"
+"burnbox-dev>`_ for developers and and designers to discuss the project."
 msgstr ""
 
 #: ../../source/develop.rst:15
@@ -50,18 +50,18 @@ msgstr "Doprinošenje kodu"
 
 #: ../../source/develop.rst:17
 msgid ""
-"OnionShare source code is to be found in this Git repository: https://github."
-"com/onionshare/onionshare"
+"BurnBox source code is to be found in this Git repository: https://github."
+"com/burnbox/burnbox"
 msgstr ""
-"Izvorni kod OnionSharea nalazi se u ovom Git repozitoriju: https://github."
-"com/onionshare/onionshare"
+"Izvorni kod BurnBoxa nalazi se u ovom Git repozitoriju: https://github."
+"com/burnbox/burnbox"
 
 #: ../../source/develop.rst:19
 msgid ""
-"If you'd like to contribute code to OnionShare, it helps to join the Keybase "
+"If you'd like to contribute code to BurnBox, it helps to join the Keybase "
 "team and ask questions about what you're thinking of working on. You should "
-"also review all of the `open issues <https://github.com/onionshare/"
-"onionshare/issues>`_ on GitHub to see if there are any you'd like to tackle."
+"also review all of the `open issues <https://github.com/directedbymax/"
+"burnbox/issues>`_ on GitHub to see if there are any you'd like to tackle."
 msgstr ""
 
 #: ../../source/develop.rst:22
@@ -77,8 +77,8 @@ msgstr "Počinjanje razvoja"
 
 #: ../../source/develop.rst:29
 msgid ""
-"OnionShare is developed in Python. To get started, clone the Git repository "
-"at https://github.com/onionshare/onionshare/ and then consult the ``cli/"
+"BurnBox is developed in Python. To get started, clone the Git repository "
+"at https://github.com/directedbymax/burnbox/ and then consult the ``cli/"
 "README.md`` file to learn how to set up your development environment for the "
 "command-line version, and the ``desktop/README.md`` file to learn how to set "
 "up your development environment for the graphical version."
@@ -87,7 +87,7 @@ msgstr ""
 #: ../../source/develop.rst:32
 msgid ""
 "Those files contain the necessary technical instructions and commands "
-"install dependencies for your platform, and to run OnionShare from the "
+"install dependencies for your platform, and to run BurnBox from the "
 "source tree."
 msgstr ""
 
@@ -101,7 +101,7 @@ msgstr "Modus opširnih poruka"
 
 #: ../../source/develop.rst:40
 msgid ""
-"When developing, it's convenient to run OnionShare from a terminal and add "
+"When developing, it's convenient to run BurnBox from a terminal and add "
 "the ``--verbose`` (or ``-v``) flag to the command. This prints a lot of "
 "helpful messages to the terminal, such as when certain objects are "
 "initialized, when events occur (like buttons clicked, settings saved or "
@@ -111,13 +111,13 @@ msgstr ""
 #: ../../source/develop.rst:117
 msgid ""
 "You can add your own debug messages by running the ``Common.log`` method "
-"from ``onionshare/common.py``. For example::"
+"from ``burnbox/common.py``. For example::"
 msgstr ""
 
 #: ../../source/develop.rst:121
 msgid ""
 "This can be useful when learning the chain of events that occur when using "
-"OnionShare, or the value of certain variables before and after they are "
+"BurnBox, or the value of certain variables before and after they are "
 "manipulated."
 msgstr ""
 
@@ -145,10 +145,10 @@ msgstr "Doprinošenje prijevodima"
 
 #: ../../source/develop.rst:170
 msgid ""
-"Help make OnionShare easier to use and more familiar and welcoming for "
+"Help make BurnBox easier to use and more familiar and welcoming for "
 "people by translating it on `Hosted Weblate <https://hosted.weblate.org/"
-"projects/onionshare/>`_. Always keep the \"OnionShare\" in latin letters, "
-"and use \"OnionShare (localname)\" if needed."
+"projects/burnbox/>`_. Always keep the \"BurnBox\" in latin letters, "
+"and use \"BurnBox (localname)\" if needed."
 msgstr ""
 
 #: ../../source/develop.rst:172
@@ -183,15 +183,15 @@ msgstr "Stanje prijevoda"
 #: ../../source/develop.rst:184
 msgid ""
 "Here is the current translation status. If you want start a translation in a "
-"language not yet started, please write to the mailing list: onionshare-"
+"language not yet started, please write to the mailing list: burnbox-"
 "dev@lists.riseup.net"
 msgstr ""
 "Ovo je trenutačno stanje prijevoda. Ako želiš započeti prijevod na jezik "
-"koji još nije započet, pošalji e-mail na: onionshare-dev@lists.riseup.net"
+"koji još nije započet, pošalji e-mail na: burnbox-dev@lists.riseup.net"
 
 #~ msgid ""
-#~ "OnionShare source code is to be found in this Git repository: https://"
-#~ "github.com/micahflee/onionshare"
+#~ "BurnBox source code is to be found in this Git repository: https://"
+#~ "github.com/micahflee/burnbox"
 #~ msgstr ""
-#~ "Izvorni kod OnionSharea nalazi se u ovom Git repozitoriju: https://github."
-#~ "com/micahflee/onionshare"
+#~ "Izvorni kod BurnBoxa nalazi se u ovom Git repozitoriju: https://github."
+#~ "com/micahflee/burnbox"

@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) Micah Lee, et al.
-# This file is distributed under the same license as the OnionShare package.
+# This file is distributed under the same license as the BurnBox package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OnionShare 2.5\n"
+"Project-Id-Version: BurnBox 2.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-18 17:24+1100\n"
 "PO-Revision-Date: 2024-04-21 10:07+0000\n"
@@ -19,14 +19,14 @@ msgstr ""
 "X-Generator: Weblate 5.5-dev\n"
 
 #: ../../source/index.rst:2
-msgid "OnionShare's documentation"
-msgstr "Az OnionShare dokumentációja"
+msgid "BurnBox's documentation"
+msgstr "Az BurnBox dokumentációja"
 
 #: ../../source/index.rst:6
 msgid ""
-"OnionShare is an open source tool that lets you securely and anonymously "
+"BurnBox is an open source tool that lets you securely and anonymously "
 "share files, host websites, and chat with friends using the Tor network."
 msgstr ""
-"Az OnionShare egy nyílt forráskódú eszköz, amellyel biztonságosan és "
+"Az BurnBox egy nyílt forráskódú eszköz, amellyel biztonságosan és "
 "névtelenül oszthat meg fájlokat, tárolhat webhelyeket, és cseveghet "
 "barátaival a Tor hálózaton keresztül."

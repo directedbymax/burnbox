@@ -53,13 +53,13 @@ jobs:
       - name: Restore cache - obfs4proxy
         uses: actions/cache@v4
         with:
-          path: desktop\onionshare\resources\tor\obfs4proxy.exe
+          path: desktop\burnbox\resources\tor\obfs4proxy.exe
           key: ${{ runner.os }}-win64-obfs4proxy-${{ hashFiles('desktop/scripts/build-pt-obfs4proxy.ps1') }}
 
       - name: Build obfs4proxy
         shell: pwsh
         run: |
-          if ((Test-Path -Path 'desktop\onionshare\resources\tor\obfs4proxy.exe') -eq $True) {
+          if ((Test-Path -Path 'desktop\burnbox\resources\tor\obfs4proxy.exe') -eq $True) {
             Write-Output "obfs4proxy already built"
           } else {
             cd desktop
@@ -69,13 +69,13 @@ jobs:
       - name: Restore cache - snowflake
         uses: actions/cache@v4
         with:
-          path: desktop\onionshare\resources\tor\snowflake-client.exe
+          path: desktop\burnbox\resources\tor\snowflake-client.exe
           key: ${{ runner.os }}-win64-snowflake-${{ hashFiles('desktop/scripts/build-pt-snowflake.ps1') }}
 
       - name: Build snowflake
         shell: pwsh
         run: |
-          if ((Test-Path -Path 'desktop\onionshare\resources\tor\snowflake-client.exe') -eq $True) {
+          if ((Test-Path -Path 'desktop\burnbox\resources\tor\snowflake-client.exe') -eq $True) {
             Write-Output "snowflake already built"
           } else {
             cd desktop
@@ -85,20 +85,20 @@ jobs:
       - name: Restore cache - meek
         uses: actions/cache@v4
         with:
-          path: desktop\onionshare\resources\tor\meek-client.exe
+          path: desktop\burnbox\resources\tor\meek-client.exe
           key: ${{ runner.os }}-win64-meek-${{ hashFiles('desktop/scripts/build-pt-meek.ps1') }}
 
       - name: Build meek
         shell: pwsh
         run: |
-          if ((Test-Path -Path 'desktop\onionshare\resources\tor\meek-client.exe') -eq $True) {
+          if ((Test-Path -Path 'desktop\burnbox\resources\tor\meek-client.exe') -eq $True) {
             Write-Output "meek already built"
           } else {
             cd desktop
             .\scripts\build-pt-meek.ps1
           }
 
-      - name: Build OnionShare
+      - name: Build BurnBox
         run: |
           cd desktop
           C:\hostedtoolcache\windows\Python\3.12.8\x64\Scripts\poetry run python .\setup-freeze.py build
@@ -107,13 +107,13 @@ jobs:
       - name: Compress
         shell: pwsh
         run: |
-          mv desktop\build\exe.win-amd64-3.12\ ~\onionshare-win64
-          Compress-Archive -LiteralPath ~\onionshare-win64 -DestinationPath ~\onionshare-win64.zip
+          mv desktop\build\exe.win-amd64-3.12\ ~\burnbox-win64
+          Compress-Archive -LiteralPath ~\burnbox-win64 -DestinationPath ~\burnbox-win64.zip
 
       - uses: actions/upload-artifact@v4
         with:
           name: win64-build
-          path: ~\onionshare-win64.zip
+          path: ~\burnbox-win64.zip
 
   build-mac-intel:
     runs-on: macos-13
@@ -161,12 +161,12 @@ jobs:
       - name: Restore cache - obfs4proxy
         uses: actions/cache@v4
         with:
-          path: desktop/onionshare/resources/tor/obfs4proxy
+          path: desktop/burnbox/resources/tor/obfs4proxy
           key: ${{ runner.os }}-macos-obfs4proxy-${{ hashFiles('desktop/scripts/build-pt-obfs4proxy.sh') }}
 
       - name: Build obfs4proxy
         run: |
-          if [[ -f "desktop/onionshare/resources/tor/obfs4proxy" ]]; then
+          if [[ -f "desktop/burnbox/resources/tor/obfs4proxy" ]]; then
             echo "obfs4proxy already built"
           else
             cd desktop
@@ -176,12 +176,12 @@ jobs:
       - name: Restore cache - snowflake
         uses: actions/cache@v4
         with:
-          path: desktop/onionshare/resources/tor/snowflake-client
+          path: desktop/burnbox/resources/tor/snowflake-client
           key: ${{ runner.os }}-macos-snowflake-${{ hashFiles('desktop/scripts/build-pt-snowflake.sh') }}
 
       - name: Build snowflake
         run: |
-          if [[ -f "desktop/onionshare/resources/tor/snowflake-client" ]]; then
+          if [[ -f "desktop/burnbox/resources/tor/snowflake-client" ]]; then
             echo "snowflake already built"
           else
             cd desktop
@@ -191,12 +191,12 @@ jobs:
       - name: Restore cache - meek
         uses: actions/cache@v4
         with:
-          path: desktop/onionshare/resources/tor/meek-client
+          path: desktop/burnbox/resources/tor/meek-client
           key: ${{ runner.os }}-macos-meek-${{ hashFiles('desktop/scripts/build-pt-meek.sh') }}
 
       - name: Build meek
         run: |
-          if [[ -f "desktop/onionshare/resources/tor/meek-client" ]]; then
+          if [[ -f "desktop/burnbox/resources/tor/meek-client" ]]; then
             echo "meek already built"
           else
             cd desktop
@@ -216,7 +216,7 @@ jobs:
         run: |
           touch /usr/local/lib/libmimerapi.dylib
 
-      - name: Build OnionShare
+      - name: Build BurnBox
         run: |
           cd desktop
           ~/Library/Application\ Support/pypoetry/venv/bin/poetry run python ./setup-freeze.py bdist_mac
@@ -225,12 +225,12 @@ jobs:
       - name: Compress
         run: |
           cd desktop/build
-          tar -czvf ~/onionshare-macos-intel.tar.gz OnionShare.app
+          tar -czvf ~/burnbox-macos-intel.tar.gz BurnBox.app
 
       - uses: actions/upload-artifact@v4
         with:
           name: mac-intel-build
-          path: ~/onionshare-macos-intel.tar.gz
+          path: ~/burnbox-macos-intel.tar.gz
 
   build-flatpak:
     runs-on: ubuntu-latest
@@ -247,24 +247,24 @@ jobs:
         uses: actions/cache@v4
         with:
           path: flatpak/.flatpak-builder
-          key: flatpak-.flatpak-builder-${{ hashFiles('flatpak/org.onionshare.OnionShare.yaml') }}
+          key: flatpak-.flatpak-builder-${{ hashFiles('flatpak/chat.hideaway.burnbox.yaml') }}
 
       - name: Restore cache - build
         uses: actions/cache@v4
         with:
           path: flatpak/build
-          key: flatpak-build-${{ hashFiles('flatpak/org.onionshare.OnionShare.yaml') }}
+          key: flatpak-build-${{ hashFiles('flatpak/chat.hideaway.burnbox.yaml') }}
 
       - name: Flatpak build
         run: |
           cd flatpak
-          flatpak-builder build --force-clean --verbose --install-deps-from=flathub --install --user org.onionshare.OnionShare.yaml
-          flatpak build-bundle ~/.local/share/flatpak/repo ~/OnionShare.flatpak org.onionshare.OnionShare --runtime-repo=https://flathub.org/repo/flathub.flatpakrepo
+          flatpak-builder build --force-clean --verbose --install-deps-from=flathub --install --user chat.hideaway.burnbox.yaml
+          flatpak build-bundle ~/.local/share/flatpak/repo ~/BurnBox.flatpak chat.hideaway.burnbox --runtime-repo=https://flathub.org/repo/flathub.flatpakrepo
 
       - uses: actions/upload-artifact@v4
         with:
           name: flatpak-build
-          path: ~/OnionShare.flatpak
+          path: ~/BurnBox.flatpak
 
   build-snap:
     runs-on: ubuntu-latest
@@ -301,4 +301,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: snapcraft-build
-          path: onionshare_*.snap
+          path: burnbox_*.snap

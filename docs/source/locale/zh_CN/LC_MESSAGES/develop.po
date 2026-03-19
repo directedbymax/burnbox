@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) Micah Lee, et al.
-# This file is distributed under the same license as the OnionShare package.
+# This file is distributed under the same license as the BurnBox package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OnionShare 2.3\n"
+"Project-Id-Version: BurnBox 2.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-18 17:24+1100\n"
 "PO-Revision-Date: 2025-02-11 08:02+0000\n"
@@ -20,8 +20,8 @@ msgstr ""
 "Generated-By: Babel 2.9.0\n"
 
 #: ../../source/develop.rst:2
-msgid "Developing OnionShare"
-msgstr "开发 OnionShare"
+msgid "Developing BurnBox"
+msgstr "开发 BurnBox"
 
 #: ../../source/develop.rst:7
 msgid "Collaborating"
@@ -29,27 +29,27 @@ msgstr "协作"
 
 #: ../../source/develop.rst:9
 msgid ""
-"OnionShare has an open Keybase team to discuss the project, ask questions, "
+"BurnBox has an open Keybase team to discuss the project, ask questions, "
 "share ideas and designs, and making plans for future development. (It's also "
 "an easy way to send end-to-end encrypted direct messages to others in the "
-"OnionShare community, like OnionShare addresses.) To use Keybase, download "
+"BurnBox community, like BurnBox addresses.) To use Keybase, download "
 "the `Keybase app <https://keybase.io/download>`_, make an account, and `join "
-"this team <https://keybase.io/team/onionshare>`_. Within the app, go to "
-"\"Teams\", click \"Join a Team\", and type \"onionshare\"."
+"this team <https://keybase.io/team/burnbox>`_. Within the app, go to "
+"\"Teams\", click \"Join a Team\", and type \"burnbox\"."
 msgstr ""
-"OnionShare 有一个公开的 Keybase 小组用来讨论专案、提问、分享设计想法与制定未"
-"来发展计画。 (它也方便直接发送端对端加密讯息给 OnionShare 社群成员，一如 "
-"OnionShare 地址) 先下载 `Keybase 应用 <https://keybase.io/download>`_, 建立帐"
-"户再 `join this team <https://keybase.io/team/onionshare>`_. 在 Keybase 应用"
-"程序里头，到 \"Teams\", 点击 \"Join a Team\"并输入 \"onionshare\"。"
+"BurnBox 有一个公开的 Keybase 小组用来讨论专案、提问、分享设计想法与制定未"
+"来发展计画。 (它也方便直接发送端对端加密讯息给 BurnBox 社群成员，一如 "
+"BurnBox 地址) 先下载 `Keybase 应用 <https://keybase.io/download>`_, 建立帐"
+"户再 `join this team <https://keybase.io/team/burnbox>`_. 在 Keybase 应用"
+"程序里头，到 \"Teams\", 点击 \"Join a Team\"并输入 \"burnbox\"。"
 
 #: ../../source/develop.rst:12
 msgid ""
-"OnionShare also has a `mailing list <https://lists.riseup.net/www/subscribe/"
-"onionshare-dev>`_ for developers and and designers to discuss the project."
+"BurnBox also has a `mailing list <https://lists.riseup.net/www/subscribe/"
+"burnbox-dev>`_ for developers and and designers to discuss the project."
 msgstr ""
-"OnionShare 还有开发人员和设计人员讨论项目的 `邮件列表 <https://lists.riseup."
-"net/www/subscribe/onionshare-dev>`_。"
+"BurnBox 还有开发人员和设计人员讨论项目的 `邮件列表 <https://lists.riseup."
+"net/www/subscribe/burnbox-dev>`_。"
 
 #: ../../source/develop.rst:15
 msgid "Contributing Code"
@@ -57,22 +57,22 @@ msgstr "贡献编码"
 
 #: ../../source/develop.rst:17
 msgid ""
-"OnionShare source code is to be found in this Git repository: https://github."
-"com/onionshare/onionshare"
+"BurnBox source code is to be found in this Git repository: https://github."
+"com/burnbox/burnbox"
 msgstr ""
-"OnionShare 源代码可在此 Git 存储库中找到：https://github.com/onionshare/"
-"onionshare"
+"BurnBox 源代码可在此 Git 存储库中找到：https://github.com/directedbymax/"
+"burnbox"
 
 #: ../../source/develop.rst:19
 msgid ""
-"If you'd like to contribute code to OnionShare, it helps to join the Keybase "
+"If you'd like to contribute code to BurnBox, it helps to join the Keybase "
 "team and ask questions about what you're thinking of working on. You should "
-"also review all of the `open issues <https://github.com/onionshare/"
-"onionshare/issues>`_ on GitHub to see if there are any you'd like to tackle."
+"also review all of the `open issues <https://github.com/directedbymax/"
+"burnbox/issues>`_ on GitHub to see if there are any you'd like to tackle."
 msgstr ""
-"如果您想为 OnionShare 贡献代码，加入 Keybase 团队并询问您正在考虑从事的工作会"
+"如果您想为 BurnBox 贡献代码，加入 Keybase 团队并询问您正在考虑从事的工作会"
 "有所帮助。您还应该查看 GitHub 上的所有 `未解决的问题 <https://github.com/"
-"onionshare/onionshare/issues>`_，看看是否有您想要解决的问题。"
+"burnbox/burnbox/issues>`_，看看是否有您想要解决的问题。"
 
 #: ../../source/develop.rst:22
 msgid ""
@@ -89,25 +89,25 @@ msgstr "着手开发"
 
 #: ../../source/develop.rst:29
 msgid ""
-"OnionShare is developed in Python. To get started, clone the Git repository "
-"at https://github.com/onionshare/onionshare/ and then consult the ``cli/"
+"BurnBox is developed in Python. To get started, clone the Git repository "
+"at https://github.com/directedbymax/burnbox/ and then consult the ``cli/"
 "README.md`` file to learn how to set up your development environment for the "
 "command-line version, and the ``desktop/README.md`` file to learn how to set "
 "up your development environment for the graphical version."
 msgstr ""
-"OnionShare 是用 Python 开发的。首先，请克隆 https://github.com/onionshare/"
-"onionshare/ 上的 Git 存储库，然后查阅 ``cli/README.md`` 文件以了解如何为命令"
+"BurnBox 是用 Python 开发的。首先，请克隆 https://github.com/directedbymax/"
+"burnbox/ 上的 Git 存储库，然后查阅 ``cli/README.md`` 文件以了解如何为命令"
 "行版本设置开发环境，并查阅 ``desktop/README.md`` 文件以了解如何为图形版本设置"
 "开发环境。"
 
 #: ../../source/develop.rst:32
 msgid ""
 "Those files contain the necessary technical instructions and commands "
-"install dependencies for your platform, and to run OnionShare from the "
+"install dependencies for your platform, and to run BurnBox from the "
 "source tree."
 msgstr ""
 "这些文件包含必要的技术指示、平台安装命令和依赖包，以便从源码树来执行 "
-"OnionShare。"
+"BurnBox。"
 
 #: ../../source/develop.rst:35
 msgid "Debugging tips"
@@ -119,31 +119,31 @@ msgstr "冗长模式"
 
 #: ../../source/develop.rst:40
 msgid ""
-"When developing, it's convenient to run OnionShare from a terminal and add "
+"When developing, it's convenient to run BurnBox from a terminal and add "
 "the ``--verbose`` (or ``-v``) flag to the command. This prints a lot of "
 "helpful messages to the terminal, such as when certain objects are "
 "initialized, when events occur (like buttons clicked, settings saved or "
 "reloaded), and other debug info. For example::"
 msgstr ""
-"开发时，从终端运行 OnionShare并在命令中添加 ``--verbose``（或 ``-v``）标志非"
+"开发时，从终端运行 BurnBox并在命令中添加 ``--verbose``（或 ``-v``）标志非"
 "常方便。这会在终端上输出很多有用信息，如初始化某些对象时、事件发生时（如点击"
 "了按钮、保存或重新加载了设置）以及其他调试信息。例如::"
 
 #: ../../source/develop.rst:117
 msgid ""
 "You can add your own debug messages by running the ``Common.log`` method "
-"from ``onionshare/common.py``. For example::"
+"from ``burnbox/common.py``. For example::"
 msgstr ""
-"您可以通过运行 ``onionshare/common.py`` 中的 ``Common.log`` 方法添加自己的调"
+"您可以通过运行 ``burnbox/common.py`` 中的 ``Common.log`` 方法添加自己的调"
 "试信息。例如::"
 
 #: ../../source/develop.rst:121
 msgid ""
 "This can be useful when learning the chain of events that occur when using "
-"OnionShare, or the value of certain variables before and after they are "
+"BurnBox, or the value of certain variables before and after they are "
 "manipulated."
 msgstr ""
-"这对学习使用 OnionShare 事件发生链很有帮助，或是了解一些变数值在操纵前后的变"
+"这对学习使用 BurnBox 事件发生链很有帮助，或是了解一些变数值在操纵前后的变"
 "化。"
 
 #: ../../source/develop.rst:124
@@ -175,14 +175,14 @@ msgstr "贡献翻译"
 
 #: ../../source/develop.rst:170
 msgid ""
-"Help make OnionShare easier to use and more familiar and welcoming for "
+"Help make BurnBox easier to use and more familiar and welcoming for "
 "people by translating it on `Hosted Weblate <https://hosted.weblate.org/"
-"projects/onionshare/>`_. Always keep the \"OnionShare\" in latin letters, "
-"and use \"OnionShare (localname)\" if needed."
+"projects/burnbox/>`_. Always keep the \"BurnBox\" in latin letters, "
+"and use \"BurnBox (localname)\" if needed."
 msgstr ""
-"协助 OnionShare 更易使用与亲切，欢迎加入 `Hosted Weblate <https://hosted."
-"weblate.org/projects/onionshare/>`_ 翻译计画。请保持 \"OnionShare\" 原字或使"
-"用 \"OnionShare (本地译名)\"格式 。"
+"协助 BurnBox 更易使用与亲切，欢迎加入 `Hosted Weblate <https://hosted."
+"weblate.org/projects/burnbox/>`_ 翻译计画。请保持 \"BurnBox\" 原字或使"
+"用 \"BurnBox (本地译名)\"格式 。"
 
 #: ../../source/develop.rst:172
 msgid ""
@@ -217,8 +217,8 @@ msgstr "翻译状况"
 #: ../../source/develop.rst:184
 msgid ""
 "Here is the current translation status. If you want start a translation in a "
-"language not yet started, please write to the mailing list: onionshare-"
+"language not yet started, please write to the mailing list: burnbox-"
 "dev@lists.riseup.net"
 msgstr ""
 "这是目前的翻译状况，如果想要新发起一个未列入的语言翻译，请来信到邮件群组:: "
-"onionshare-dev@lists.riseup.net"
+"burnbox-dev@lists.riseup.net"

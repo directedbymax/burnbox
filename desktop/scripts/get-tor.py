@@ -41,7 +41,7 @@ def get_tor_windows(gpg, torkey, win_url, win_filename, expected_win_sig):
     # Build paths
     win_path = os.path.join(working_path, win_filename)
     win_sig_path = os.path.join(working_path, f"{win_filename}.asc")
-    dist_path = os.path.join(root_path, "onionshare", "resources", "tor")
+    dist_path = os.path.join(root_path, "burnbox", "resources", "tor")
 
     # Make sure the working folder exists
     if not os.path.exists(working_path):
@@ -90,7 +90,7 @@ def get_tor_windows(gpg, torkey, win_url, win_filename, expected_win_sig):
         ]
     ).wait()
 
-    # Copy into the onionshare resources
+    # Copy into the burnbox resources
     if os.path.exists(dist_path):
         shutil.rmtree(dist_path)
     os.makedirs(dist_path)
@@ -116,10 +116,10 @@ def get_tor_macos(gpg, torkey, macos_url, macos_filename, expected_macos_sig):
     )
     dmg_path = os.path.join(working_path, macos_filename)
     dmg_sig_path = os.path.join(working_path, f"{macos_filename}.asc")
-    dist_path = os.path.join(root_path, "onionshare", "resources", "tor")
+    dist_path = os.path.join(root_path, "burnbox", "resources", "tor")
     if not os.path.exists(dist_path):
         os.makedirs(dist_path, exist_ok=True)
-    tor_lib_dir =  os.path.join(root_path, "onionshare", "resources", "tor", "lib")
+    tor_lib_dir =  os.path.join(root_path, "burnbox", "resources", "tor", "lib")
     if not os.path.exists(tor_lib_dir):
         os.makedirs(tor_lib_dir, exist_ok=True)
 
@@ -188,7 +188,7 @@ def get_tor_linux64(gpg, torkey, linux64_url, linux64_filename, expected_linux64
     # Build paths
     tarball_path = os.path.join(working_path, linux64_filename)
     tarball_sig_path = os.path.join(working_path, f"{linux64_filename}.asc")
-    dist_path = os.path.join(root_path, "onionshare", "resources", "tor")
+    dist_path = os.path.join(root_path, "burnbox", "resources", "tor")
 
     # Make sure dirs exist
     if not os.path.exists(working_path):
@@ -266,10 +266,10 @@ def get_tor_linux64(gpg, torkey, linux64_url, linux64_filename, expected_linux64
 
 def update_tor_bridges():
     """
-    Update the built-in Tor Bridges in OnionShare's torrc templates.
+    Update the built-in Tor Bridges in BurnBox's torrc templates.
     """
     torrc_template_dir = os.path.join(
-        root_path, os.pardir, "cli/onionshare_cli/resources"
+        root_path, os.pardir, "cli/burnbox_cli/resources"
     )
     endpoint = "https://bridges.torproject.org/moat/circumvention/builtin"
     r = requests.post(

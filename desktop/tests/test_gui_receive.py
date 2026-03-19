@@ -65,7 +65,7 @@ class TestReceive(GuiBaseTest):
                 window.close()
 
         QtCore.QTimer.singleShot(1000, accept_dialog)
-        self.assertTrue("Error uploading, please inform the OnionShare user" in r.text)
+        self.assertTrue("Error uploading, please inform the BurnBox user" in r.text)
 
     def submit_message(self, tab, message):
         """Test that we can submit a message"""
@@ -134,7 +134,7 @@ class TestReceive(GuiBaseTest):
         self.counter_incremented(tab, 3)
         self.upload_file(tab, self.tmpfile_test2, "test2.txt")
         self.counter_incremented(tab, 4)
-        self.submit_message(tab, "onionshare is an interesting piece of software")
+        self.submit_message(tab, "burnbox is an interesting piece of software")
         self.counter_incremented(tab, 5)
         # Test uploading the same file twice at the same time, and make sure no collisions
         self.upload_file(tab, self.tmpfile_test, "test.txt", True)
@@ -158,7 +158,7 @@ class TestReceive(GuiBaseTest):
 
     def run_all_upload_non_writable_dir_tests(self, tab):
         """Test uploading a file when the data_dir is non-writable"""
-        upload_dir = os.path.join(self.tmpdir.name, "OnionShare")
+        upload_dir = os.path.join(self.tmpdir.name, "BurnBox")
         shutil.rmtree(upload_dir, ignore_errors=True)
         os.makedirs(upload_dir, 0o700)
 
@@ -262,7 +262,7 @@ class TestReceive(GuiBaseTest):
         self.run_all_receive_mode_setup_tests(tab)
         self.upload_file(tab, self.tmpfile_test, "test.txt")
         url = f"http://127.0.0.1:{tab.app.port}/"
-        self.hit_405(url, expected_resp="OnionShare: 405 Method Not Allowed", data = {'foo':'bar'}, methods = ["put", "post", "delete", "options"])
+        self.hit_405(url, expected_resp="BurnBox: 405 Method Not Allowed", data = {'foo':'bar'}, methods = ["put", "post", "delete", "options"])
 
         self.server_is_stopped(tab)
         self.web_server_is_stopped(tab)

@@ -16,13 +16,13 @@
 │   █ █ █▀▄ █ ▄▀▄ █▀▄  ▀▄ █▀▄ ▄▀▄ █▄▀ ▄█▄   │
 │   ▀▄▀ █ █ █ ▀▄▀ █ █ ▄▄▀ █ █ ▀▄█ █   ▀▄▄   │
 │                                           │
-│          https://onionshare.org/          │
+│          https://burnbox.hideaway.chat/          │
 ╰───────────────────────────────────────────╯
 ```
 
-## Installing OnionShare CLI
+## Installing BurnBox CLI
 
-First, make sure you have `tor` and `python3` installed. In Linux, install it through your package manager. In macOS, install it with [Homebrew](https://brew.sh): `brew install tor`. Second, OnionShare is written in python, and you can install the command line version use python's package manager `pip`.
+First, make sure you have `tor` and `python3` installed. In Linux, install it through your package manager. In macOS, install it with [Homebrew](https://brew.sh): `brew install tor`. Second, BurnBox is written in python, and you can install the command line version use python's package manager `pip`.
 
 ### Requirements
 
@@ -51,10 +51,10 @@ sudo easy_install pip
 
 #### Installation
 
-Install OnionShare CLI:
+Install BurnBox CLI:
 
 ```sh
-pip install --user onionshare-cli
+pip install --user burnbox-cli
 ```
 
 #### Set path
@@ -73,10 +73,10 @@ printf "PATH=\$PATH:~/.local/bin\n" >> ~/.${SHELL##*/}rc
 Then run it with:
 
 ```sh
-onionshare-cli --help
+burnbox-cli --help
 ```
 
-## Developing OnionShare CLI
+## Developing BurnBox CLI
 
 You must have python3 and [poetry](https://python-poetry.org/) installed.
 
@@ -89,7 +89,7 @@ poetry install
 To run from the source tree:
 
 ```sh
-poetry run onionshare-cli
+poetry run burnbox-cli
 ```
 
 To run tests:

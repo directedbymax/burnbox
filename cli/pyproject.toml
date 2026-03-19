@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "onionshare_cli"
+name = "burnbox_cli"
 version = "2.6.3"
-description = "OnionShare lets you securely and anonymously send and receive files. It works by starting a web server, making it accessible as a Tor onion service, and generating an unguessable web address so others can download files from you, or upload files to you. It does _not_ require setting up a separate server or using a third party file-sharing service."
-authors = ["Micah Lee <micah@micahflee.com>"]
+description = "BurnBox lets you securely and anonymously send and receive files. It works by starting a web server, making it accessible as a Tor onion service, and generating an unguessable web address so others can download files from you, or upload files to you. It does _not_ require setting up a separate server or using a third party file-sharing service."
+authors = ["BurnBox <support@burnbox.hideaway.chat>"]
 license = "GPLv3+"
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -45,7 +45,7 @@ qrcode = "^7.4.2"
 pytest = ">=7.2.0"
 
 [tool.poetry.scripts]
-onionshare-cli = 'onionshare_cli:main'
+burnbox-cli = 'burnbox_cli:main'
 
 [build-system]
 requires = ["poetry-core"]

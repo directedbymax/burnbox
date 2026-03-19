@@ -11,13 +11,13 @@ def main():
     subprocess.run(["git", "clone", "https://github.com/lipis/flag-icons.git", flagsdir])
 
     with open(
-        os.path.join("onionshare", "resources", "countries", "en.json")
+        os.path.join("burnbox", "resources", "countries", "en.json")
     ) as f:
         countries = list(json.loads(f.read()))
 
     os.makedirs(
         os.path.join(
-            "onionshare",
+            "burnbox",
             "resources",
             "images",
             "countries",
@@ -30,7 +30,7 @@ def main():
         if os.path.isfile(os.path.join(flagsdir, "flags", "4x3", f"{country}.svg")):
             src_filename = os.path.join(flagsdir, "flags", "4x3", f"{country}.svg")
             dest_filename = os.path.join(
-                "onionshare",
+                "burnbox",
                 "resources",
                 "images",
                 "countries",

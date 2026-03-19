@@ -36,8 +36,8 @@ fi
 mkdir -p build/source
 mkdir -p dist
 cd build/source
-git clone --single-branch --branch $TAG --depth 1 https://github.com/onionshare/onionshare.git
-cd onionshare
+git clone --single-branch --branch $TAG --depth 1 https://github.com/directedbymax/burnbox.git
+cd burnbox
 
 # Verify tag
 git tag -v $TAG 2> ../verify.txt
@@ -64,15 +64,15 @@ git checkout $TAG
 
 # Delete .git, compress, and PGP sign
 cd ..
-rm -rf onionshare/.git
-tar -czf onionshare-$VERSION.tar.gz onionshare/
+rm -rf burnbox/.git
+tar -czf burnbox-$VERSION.tar.gz burnbox/
 
 # Move source package to dist
 cd ../..
-mv build/source/onionshare-$VERSION.tar.gz dist
+mv build/source/burnbox-$VERSION.tar.gz dist
 
 # Clean up
-rm -rf build/source/onionshare
+rm -rf build/source/burnbox
 rm build/source/verify.txt
 
 echo "Source package complete, file in dist"

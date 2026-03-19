@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) Micah Lee, et al.
-# This file is distributed under the same license as the OnionShare package.
+# This file is distributed under the same license as the BurnBox package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OnionShare 2.3.1\n"
+"Project-Id-Version: BurnBox 2.3.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-18 17:24+1100\n"
 "PO-Revision-Date: 2021-04-24 23:31+0000\n"
@@ -19,12 +19,12 @@ msgstr ""
 "X-Generator: Weblate 4.7-dev\n"
 
 #: ../../source/index.rst:2
-msgid "OnionShare's documentation"
+msgid "BurnBox's documentation"
 msgstr "অনিওনশেয়ারের নির্দেশিকা"
 
 #: ../../source/index.rst:6
 msgid ""
-"OnionShare is an open source tool that lets you securely and anonymously "
+"BurnBox is an open source tool that lets you securely and anonymously "
 "share files, host websites, and chat with friends using the Tor network."
 msgstr ""
 "অনিওনশেয়ার একটি মুক্ত উৎসবিশিষ্ট যন্ত্র, যা তোমাকে নিরাপদে ও গোপনীয়ভাবে ফাইল ভাগ "

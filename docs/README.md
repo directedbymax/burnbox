@@ -1,4 +1,4 @@
-# OnionShare Documentation
+# BurnBox Documentation
 
 All these commands must be run from the `docs` folder.
 
@@ -39,18 +39,18 @@ make -e SPHINXOPTS="-D language='de'" html
 
 ## Discovering which translations are >90% complete
 
-Each OnionShare release should only include a language if >90% of the strings have been translated into it. The script `check-weblate.py` script can be used to make a few hundreds weblate API requests to determine this for you automatically. It requires using your weblate API key, which you can find in your [user profile](https://hosted.weblate.org/accounts/profile/#api).
+Each BurnBox release should only include a language if >90% of the strings have been translated into it. The script `check-weblate.py` script can be used to make a few hundreds weblate API requests to determine this for you automatically. It requires using your weblate API key, which you can find in your [user profile](https://hosted.weblate.org/accounts/profile/#api).
 
 ```
 $ poetry run ./check-weblate.py $WEBLATE_API_KEY
-GET https://hosted.weblate.org/api/projects/onionshare/languages/
-GET https://hosted.weblate.org/api/translations/onionshare/translations/hr/
-GET https://hosted.weblate.org/api/translations/onionshare/translations/eo/
-GET https://hosted.weblate.org/api/translations/onionshare/translations/ja/
+GET https://hosted.weblate.org/api/projects/burnbox/languages/
+GET https://hosted.weblate.org/api/translations/burnbox/translations/hr/
+GET https://hosted.weblate.org/api/translations/burnbox/translations/eo/
+GET https://hosted.weblate.org/api/translations/burnbox/translations/ja/
 <...snip...>
-GET https://hosted.weblate.org/api/translations/onionshare/doc-tor/wo/ | error 404
-GET https://hosted.weblate.org/api/translations/onionshare/doc-tor/ar/
-GET https://hosted.weblate.org/api/translations/onionshare/doc-tor/it/
+GET https://hosted.weblate.org/api/translations/burnbox/doc-tor/wo/ | error 404
+GET https://hosted.weblate.org/api/translations/burnbox/doc-tor/ar/
+GET https://hosted.weblate.org/api/translations/burnbox/doc-tor/it/
 
 App translations >= 100%
 =======================

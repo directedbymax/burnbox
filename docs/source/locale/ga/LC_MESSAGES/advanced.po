@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) Micah Lee, et al.
-# This file is distributed under the same license as the OnionShare package.
+# This file is distributed under the same license as the BurnBox package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OnionShare 2.3\n"
-"Report-Msgid-Bugs-To: onionshare-dev@lists.riseup.net\n"
+"Project-Id-Version: BurnBox 2.3\n"
+"Report-Msgid-Bugs-To: burnbox-dev@lists.riseup.net\n"
 "POT-Creation-Date: 2025-02-18 17:24+1100\n"
 "PO-Revision-Date: 2025-12-04 07:00+0000\n"
 "Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@gmail.com>\n"
@@ -30,11 +30,11 @@ msgstr "Sábháil Cluaisíní"
 
 #: ../../source/advanced.rst:9
 msgid ""
-"Closing OnionShare tabs you host destroys them, preventing reuse. "
+"Closing BurnBox tabs you host destroys them, preventing reuse. "
 "Persistently hosted websites are available on the same address even if the "
 "computer they are shared from is rebooted."
 msgstr ""
-"Má dhúnann tú cluaisíní OnionShare, scriosann tú iad, rud a chuireann cosc "
+"Má dhúnann tú cluaisíní BurnBox, scriosann tú iad, rud a chuireann cosc "
 "ar athúsáid. Tá suíomhanna gréasáin a bhíonn á n-óstáil go seasta ar fáil ar "
 "an seoladh céanna fiú má dhéantar an ríomhaire óna bhfuil siad roinnte a "
 "atosú."
@@ -42,21 +42,21 @@ msgstr ""
 #: ../../source/advanced.rst:12
 msgid ""
 "Make any tab persistent by checking the \"Always open this tab when "
-"OnionShare is started\" box before starting your server."
+"BurnBox is started\" box before starting your server."
 msgstr ""
 "Déan cluaisín ar bith go leanúnach tríd an mbosca \"Oscail an cluaisín seo i "
-"gcónaí nuair a thosaíonn OnionShare\" a sheiceáil sula dtosaíonn tú ar do "
+"gcónaí nuair a thosaíonn BurnBox\" a sheiceáil sula dtosaíonn tú ar do "
 "fhreastalaí."
 
 #: ../../source/advanced.rst:16
 msgid ""
-"When opening OnionShare, your saved tabs from the prior session will start "
+"When opening BurnBox, your saved tabs from the prior session will start "
 "opened. Each service then can be started manually, and will be available on "
-"the same OnionShare address and be protected by the same private key."
+"the same BurnBox address and be protected by the same private key."
 msgstr ""
-"Agus OnionShare á oscailt, cuirfear tús le do chuid cluaisíní sábháilte ón "
+"Agus BurnBox á oscailt, cuirfear tús le do chuid cluaisíní sábháilte ón "
 "seisiún roimhe seo a oscailt. Is féidir tús a chur le gach seirbhís de láimh "
-"ansin, agus beidh sí ar fáil ar an seoladh OnionShare céanna agus beidh sí "
+"ansin, agus beidh sí ar fáil ar an seoladh BurnBox céanna agus beidh sí "
 "cosanta leis an eochair phríobháideach chéanna."
 
 #: ../../source/advanced.rst:19
@@ -73,31 +73,31 @@ msgstr "Múch Eochair Phríobháideach"
 
 #: ../../source/advanced.rst:26
 msgid ""
-"By default, all OnionShare services are protected with a private key, which "
+"By default, all BurnBox services are protected with a private key, which "
 "Tor calls \"client authentication\"."
 msgstr ""
-"De réir réamhshocraithe, tá gach seirbhís OnionShare cosanta le eochair "
+"De réir réamhshocraithe, tá gach seirbhís BurnBox cosanta le eochair "
 "phríobháideach, a dtugann Tor \"fíordheimhniú cliant\" air."
 
 #: ../../source/advanced.rst:28
 msgid ""
 "The Tor Browser will ask you to enter your private key when you load an "
-"OnionShare service. If you want to allow the public to use your service, "
+"BurnBox service. If you want to allow the public to use your service, "
 "it's better to disable the private key altogether."
 msgstr ""
 "Iarrfaidh Brabhsálaí Tor ort d’eochair phríobháideach a chur isteach nuair a "
-"lódálann tú seirbhís OnionShare. Más mian leat ligean don phobal do "
+"lódálann tú seirbhís BurnBox. Más mian leat ligean don phobal do "
 "sheirbhís a úsáid, is fearr an eochair phríobháideach a dhíchumasú ar fad."
 
 #: ../../source/advanced.rst:31
 msgid ""
 "To turn off the private key for any tab, check the \"This is a public "
-"OnionShare service (disables private key)\" box before starting the server. "
+"BurnBox service (disables private key)\" box before starting the server. "
 "Then the server will be public and a private key is not needed to load it in "
 "the Tor Browser."
 msgstr ""
 "Chun an eochair phríobháideach le haghaidh aon chluaisín a mhúchadh, "
-"seiceáil an bosca \"Seirbhís OnionShare poiblí é seo (díchumasaigh eochair "
+"seiceáil an bosca \"Seirbhís BurnBox poiblí é seo (díchumasaigh eochair "
 "phríobháideach)\" sula dtosaíonn tú ar an bhfreastalaí. Ansin beidh an "
 "freastalaí poiblí agus ní gá eochair phríobháideach chun é a lódáil sa "
 "Bhrabhsálaí Tor."
@@ -108,13 +108,13 @@ msgstr "Teidil Chustaim"
 
 #: ../../source/advanced.rst:39
 msgid ""
-"When people load OnionShare services in the Tor Browser they see the default "
+"When people load BurnBox services in the Tor Browser they see the default "
 "title for each type of service. For example, the default title for chat "
-"services is \"OnionShare Chat\"."
+"services is \"BurnBox Chat\"."
 msgstr ""
-"Nuair a lódálann daoine seirbhísí OnionShare sa Bhrabhsálaí Tor feiceann "
+"Nuair a lódálann daoine seirbhísí BurnBox sa Bhrabhsálaí Tor feiceann "
 "siad an teideal réamhshocraithe do gach cineál seirbhíse. Mar shampla, is é "
-"an teideal réamhshocraithe le haghaidh seirbhísí comhrá ná \"OnionShare "
+"an teideal réamhshocraithe le haghaidh seirbhísí comhrá ná \"BurnBox "
 "Chat\"."
 
 #: ../../source/advanced.rst:42
@@ -131,13 +131,13 @@ msgstr "Amanna Sceidealta"
 
 #: ../../source/advanced.rst:47
 msgid ""
-"OnionShare supports scheduling exactly when a service should start and stop. "
+"BurnBox supports scheduling exactly when a service should start and stop. "
 "Before starting a server, click \"Show advanced settings\" in its tab and "
 "then check the boxes next to either \"Start onion service at scheduled "
 "time\", \"Stop onion service at scheduled time\", or both, and set the "
 "respective desired dates and times."
 msgstr ""
-"Tacaíonn OnionShare le sceidealú go díreach nuair ba cheart seirbhís a thosú "
+"Tacaíonn BurnBox le sceidealú go díreach nuair ba cheart seirbhís a thosú "
 "agus a stopadh. Sula dtosaíonn tú ar fhreastalaí, cliceáil \"Taispeáin "
 "socruithe casta\" ina chluaisín agus ansin seiceáil na boscaí in aice le "
 "ceachtar \"Tosaigh seirbhís oinniún ag am sceidealta\", \"Stop seirbhís "
@@ -157,12 +157,12 @@ msgstr ""
 
 #: ../../source/advanced.rst:54
 msgid ""
-"**Scheduling an OnionShare service to automatically start can be used as a "
+"**Scheduling an BurnBox service to automatically start can be used as a "
 "dead man's switch**. This means your service is made public at a given time "
 "in the future if you are not there to prevent it. If nothing happens to you, "
 "you can cancel the service before it's scheduled to start."
 msgstr ""
-"**Is féidir seirbhís OnionShare a sceidealú le tosú go huathoibríoch a úsáid "
+"**Is féidir seirbhís BurnBox a sceidealú le tosú go huathoibríoch a úsáid "
 "mar lasc fear marbh**. Ciallaíonn sé seo go ndéanfar do sheirbhís a phoibliú "
 "ag am ar leith amach anseo mura bhfuil tú ann chun é a chosc. Mura "
 "dtarlaíonn rud ar bith duit, is féidir leat an tseirbhís a chur ar ceal sula "
@@ -170,11 +170,11 @@ msgstr ""
 
 #: ../../source/advanced.rst:60
 msgid ""
-"**Scheduling an OnionShare service to automatically stop limits its "
+"**Scheduling an BurnBox service to automatically stop limits its "
 "exposure**. If you want to share secret info or something that will be "
 "outdated, you can do so for selected limited time."
 msgstr ""
-"**Cuireann sceidealú seirbhís OnionShare teorainn lena nochtadh**. Más mian "
+"**Cuireann sceidealú seirbhís BurnBox teorainn lena nochtadh**. Más mian "
 "leat faisnéis rúnda nó rud éigin a bheidh as dáta a roinnt, is féidir leat é "
 "sin a dhéanamh ar feadh tréimhse teoranta roghnaithe."
 
@@ -184,10 +184,10 @@ msgstr "Comhéadan líne ordaithe"
 
 #: ../../source/advanced.rst:70
 msgid ""
-"In addition to its graphical interface, OnionShare has a command-line "
+"In addition to its graphical interface, BurnBox has a command-line "
 "interface."
 msgstr ""
-"Chomh maith lena chomhéadan grafach, tá comhéadan ordú-líne ag OnionShare."
+"Chomh maith lena chomhéadan grafach, tá comhéadan ordú-líne ag BurnBox."
 
 #: ../../source/advanced.rst:73
 msgid "Installing the CLI version"
@@ -203,10 +203,10 @@ msgstr ""
 
 #: ../../source/advanced.rst:77
 msgid ""
-"Alternatively, you can install just the command-line version of OnionShare "
+"Alternatively, you can install just the command-line version of BurnBox "
 "using ``pip3``::"
 msgstr ""
-"Nó, is féidir leat an leagan ordú-líne de OnionShare a shuiteáil ag baint "
+"Nó, is féidir leat an leagan ordú-líne de BurnBox a shuiteáil ag baint "
 "úsáide as `` pip3`` ::"
 
 #: ../../source/advanced.rst:81
@@ -224,11 +224,11 @@ msgstr "Ansin rith sé mar seo::"
 #: ../../source/advanced.rst:87
 msgid ""
 "Info about installing it on different operating systems can be found in the "
-"`CLI README file <https://github.com/onionshare/onionshare/blob/develop/cli/"
+"`CLI README file <https://github.com/directedbymax/burnbox/blob/develop/cli/"
 "README.md>`_ in the Git repository."
 msgstr ""
 "Tá eolas faoina shuiteáil ar chórais oibriúcháin éagsúla le fáil sa chomhad "
-"`CLI README <https://github.com/onionshare/onionshare/blob/develop/cli/"
+"`CLI README <https://github.com/directedbymax/burnbox/blob/develop/cli/"
 "README.md>`_ sa stór Git."
 
 #: ../../source/advanced.rst:90
@@ -237,11 +237,11 @@ msgstr "Rith an CLI ó Snap"
 
 #: ../../source/advanced.rst:92
 msgid ""
-"If you installed OnionShare using the Snap package, you can run ``onionshare."
+"If you installed BurnBox using the Snap package, you can run ``burnbox."
 "cli`` to access the command-line interface version."
 msgstr ""
-"Má shuiteáil tú OnionShare ag baint úsáide as an bpacáiste Snap, is féidir "
-"leat ``onionshare.cli`` a rith chun rochtain a fháil ar an leagan comhéadan "
+"Má shuiteáil tú BurnBox ag baint úsáide as an bpacáiste Snap, is féidir "
+"leat ``burnbox.cli`` a rith chun rochtain a fháil ar an leagan comhéadan "
 "ordú-líne."
 
 #: ../../source/advanced.rst:95
@@ -250,11 +250,11 @@ msgstr "CLI a rith ó macOS"
 
 #: ../../source/advanced.rst:97
 msgid ""
-"From Terminal, you can run ``/Applications/OnionShare.app/Contents/MacOS/"
-"onionshare-cli --help``"
+"From Terminal, you can run ``/Applications/BurnBox.app/Contents/MacOS/"
+"burnbox-cli --help``"
 msgstr ""
-"Ón Teirminéal, is féidir leat ``/ Applications/OnionShare.app/Contents/MacOS/"
-"onionshare-cli --help`` a rith"
+"Ón Teirminéal, is féidir leat ``/ Applications/BurnBox.app/Contents/MacOS/"
+"burnbox-cli --help`` a rith"
 
 #: ../../source/advanced.rst:100
 msgid "Running the CLI from Windows"
@@ -262,9 +262,9 @@ msgstr "CLI a rith ó Windows"
 
 #: ../../source/advanced.rst:102
 msgid ""
-"In the Windows installation, the executable ``onionshare-cli.exe`` is "
+"In the Windows installation, the executable ``burnbox-cli.exe`` is "
 "available."
-msgstr "I suiteáil Windows, tá an inrite `` onionshare-cli.exe`` ar fáil."
+msgstr "I suiteáil Windows, tá an inrite `` burnbox-cli.exe`` ar fáil."
 
 #: ../../source/advanced.rst:105
 msgid "Usage"
@@ -272,9 +272,9 @@ msgstr "Úsáid"
 
 #: ../../source/advanced.rst:107
 msgid ""
-"Browse the command-line documentation by running ``onionshare --help``::"
+"Browse the command-line documentation by running ``burnbox --help``::"
 msgstr ""
-"Brabhsáil doiciméadú na líne ordaithe trí ``onionshare --help`` a rith::"
+"Brabhsáil doiciméadú na líne ordaithe trí ``burnbox --help`` a rith::"
 
 #: ../../source/advanced.rst:170
 msgid "Running the CLI as a systemd unit file"
@@ -282,10 +282,10 @@ msgstr "An CLI a rith mar chomhad aonaid systemd"
 
 #: ../../source/advanced.rst:172
 msgid ""
-"It is possible to automatically start OnionShare from the CLI using a "
+"It is possible to automatically start BurnBox from the CLI using a "
 "systemd unit file."
 msgstr ""
-"Is féidir OnionShare a thosú go huathoibríoch ón CLI ag baint úsáide as "
+"Is féidir BurnBox a thosú go huathoibríoch ón CLI ag baint úsáide as "
 "comhad aonaid systemd."
 
 #: ../../source/advanced.rst:174
@@ -299,31 +299,31 @@ msgstr ""
 "uair a thosaíonn do mheaisín."
 
 #: ../../source/advanced.rst:176
-msgid "To do this, you need to prepare some OnionShare json config first."
+msgid "To do this, you need to prepare some BurnBox json config first."
 msgstr ""
-"Chun seo a dhéanamh, ní mór duit roinnt config OnionShare json a ullmhú ar "
+"Chun seo a dhéanamh, ní mór duit roinnt config BurnBox json a ullmhú ar "
 "dtús."
 
 #: ../../source/advanced.rst:178
 msgid ""
-"Here is the main OnionShare config. In this example, it's stored in ``/home/"
-"user/.config/onionshare/onionshare.json``. You may need to adjust some of "
-"the settings, but if you already have OnionShare installed, it probably "
+"Here is the main BurnBox config. In this example, it's stored in ``/home/"
+"user/.config/burnbox/burnbox.json``. You may need to adjust some of "
+"the settings, but if you already have BurnBox installed, it probably "
 "looks much like this already::"
 msgstr ""
-"Seo é an príomh-chumraíocht OnionShare. Sa sampla seo, tá sé stóráilte i ``/"
-"home/user/.config/onionshare/onionshare.json``. Seans go mbeidh ort cuid de "
-"na socruithe a choigeartú, ach má tá OnionShare suiteáilte agat cheana féin, "
+"Seo é an príomh-chumraíocht BurnBox. Sa sampla seo, tá sé stóráilte i ``/"
+"home/user/.config/burnbox/burnbox.json``. Seans go mbeidh ort cuid de "
+"na socruithe a choigeartú, ach má tá BurnBox suiteáilte agat cheana féin, "
 "is dócha go bhfuil cuma mhaith air seo cheana féin::"
 
 #: ../../source/advanced.rst:207
 msgid ""
 "Notice the 'persistent_tabs' section. We will now create a file at ``/home/"
-"user/.config/onionshare/persistent/my-persistent-onion.json``, that looks "
+"user/.config/burnbox/persistent/my-persistent-onion.json``, that looks "
 "like this::"
 msgstr ""
 "Tabhair faoi deara an rannán 'persistent_tabs'. Cruthóimid comhad anois ag "
-"``/home/user/.config/onionshare/persistent/my-persistent-onion.json``, a "
+"``/home/user/.config/burnbox/persistent/my-persistent-onion.json``, a "
 "bhreathnaíonn mar seo::"
 
 #: ../../source/advanced.rst:247
@@ -338,32 +338,32 @@ msgstr ""
 #: ../../source/advanced.rst:249
 msgid ""
 "The easiest way to generate the onion address and private key is to first "
-"create a 'pinned' OnionShare tab in the desktop app and started the share "
+"create a 'pinned' BurnBox tab in the desktop app and started the share "
 "for the first time. This will then have saved the persistent settings to "
-"your ``.config/onionshare/persistent/`` folder with a random name. You can "
+"your ``.config/burnbox/persistent/`` folder with a random name. You can "
 "unpin that tab once you've generated it the first time. Or, you can leave it "
 "where it is, and use that persistent file in your systemd unit file below."
 msgstr ""
 "Is é an bealach is éasca chun an seoladh oinniún agus an eochair "
-"phríobháideach a ghiniúint ná cluaisín OnionShare 'pinned' a chruthú ar dtús "
+"phríobháideach a ghiniúint ná cluaisín BurnBox 'pinned' a chruthú ar dtús "
 "san app deisce agus thosaigh sé ar an sciar den chéad uair. Ansin "
 "sábhálfaidh sé seo na socruithe leanúnacha chuig d'fhillteán ``.config/"
-"onionshare/persistent/`` le hainm randamach air. Is féidir leat an cluaisín "
+"burnbox/persistent/`` le hainm randamach air. Is féidir leat an cluaisín "
 "sin a dhíphionnáil nuair a bheidh sé ginte agat den chéad uair. Nó, is "
 "féidir leat é a fhágáil san áit a bhfuil sé, agus an comhad leanúnach sin a "
 "úsáid i do chomhad aonaid systemd thíos."
 
 #: ../../source/advanced.rst:251
 msgid ""
-"Now you can create a systemd unit file in ``/etc/systemd/system/onionshare-"
+"Now you can create a systemd unit file in ``/etc/systemd/system/burnbox-"
 "cli.service``. Be sure to adjust the User and Group to your own user/group, "
-"as well as changes to any paths to the onionshare-cli binary or the paths to "
+"as well as changes to any paths to the burnbox-cli binary or the paths to "
 "your JSON configs and shares."
 msgstr ""
 "Anois is féidir leat comhad aonaid systemd a chruthú i ``/etc/systemd/system/"
-"onionshare-cli.service``. Bí cinnte an tÚsáideoir agus an Grúpa a choigeartú "
+"burnbox-cli.service``. Bí cinnte an tÚsáideoir agus an Grúpa a choigeartú "
 "do d’úsáideoir/grúpa féin, chomh maith le hathruithe ar aon chosáin chuig an "
-"dénártha onionshare-cli nó na cosáin chuig do chumraíochtaí agus scaireanna "
+"dénártha burnbox-cli nó na cosáin chuig do chumraíochtaí agus scaireanna "
 "JSON."
 
 #: ../../source/advanced.rst:253
@@ -374,11 +374,11 @@ msgstr "Ba cheart go mbeadh cuma mar seo ar an gcomhad aonaid systemd::"
 msgid ""
 "Note that although ``/home/user/my-shared-file.txt`` was defined in the "
 "``filenames`` section of the ``my-persistent-onion.json`` file, it's still "
-"necessary to specify it as the argument to the onionshare-cli command."
+"necessary to specify it as the argument to the burnbox-cli command."
 msgstr ""
 "Tabhair faoi deara, cé go raibh ``/home/user/my-shared-file.txt`` "
 "sainmhínithe sa chuid ``filenames`` den chomhad ``my-persistent-onion."
-"json``, tá sé fós riachtanach é a shonrú mar argóint don ordú onionshare-cli."
+"json``, tá sé fós riachtanach é a shonrú mar argóint don ordú burnbox-cli."
 
 #: ../../source/advanced.rst:270
 msgid ""
@@ -389,13 +389,13 @@ msgstr ""
 
 #: ../../source/advanced.rst:272
 msgid ""
-"Now you can run ``sudo systemctl start onionshare-cli.service``. If you have "
-"``journalctl`` installed, you can run ``sudo journalctl -f -t onionshare-"
+"Now you can run ``sudo systemctl start burnbox-cli.service``. If you have "
+"``journalctl`` installed, you can run ``sudo journalctl -f -t burnbox-"
 "cli``, and you should see some output of your service starting::"
 msgstr ""
-"Anois is féidir leat `` sudo systemctl start onionshare-cli.service`` a "
+"Anois is féidir leat `` sudo systemctl start burnbox-cli.service`` a "
 "rith. Má tá ``journalctl`` suiteáilte agat, is féidir leat ``sudo journalctl "
-"-f -t onionshare-cli`` a rith, agus ba cheart go bhfeicfeá roinnt aschur de "
+"-f -t burnbox-cli`` a rith, agus ba cheart go bhfeicfeá roinnt aschur de "
 "do sheirbhís ag tosú::"
 
 #: ../../source/advanced.rst:282
@@ -413,10 +413,10 @@ msgstr "Aicearraí méarchláir"
 
 #: ../../source/advanced.rst:288
 msgid ""
-"The OnionShare desktop application contains some keyboard shortcuts, for "
+"The BurnBox desktop application contains some keyboard shortcuts, for "
 "convenience and accessibility::"
 msgstr ""
-"Tá roinnt aicearraí méarchláir san fheidhmchlár deisce OnionShare, ar "
+"Tá roinnt aicearraí méarchláir san fheidhmchlár deisce BurnBox, ar "
 "mhaithe le háisiúlacht agus inrochtaineacht::"
 
 #: ../../source/advanced.rst:293
@@ -424,38 +424,38 @@ msgid "And from the main mode chooser screen::"
 msgstr "Agus ón scáileán roghnóir príomh-mhód::"
 
 #: ../../source/advanced.rst:303
-msgid "Migrating your OnionShare data to another computer"
-msgstr "Do shonraí OnionShare a ascnamh go ríomhaire eile"
+msgid "Migrating your BurnBox data to another computer"
+msgstr "Do shonraí BurnBox a ascnamh go ríomhaire eile"
 
 #: ../../source/advanced.rst:305
 msgid ""
-"You may want to migrate your OnionShare data when switching to another "
+"You may want to migrate your BurnBox data when switching to another "
 "computer. This is especially true if you had a 'persistent' onion address "
 "and you want to preserve it."
 msgstr ""
-"B’fhéidir gur mhaith leat do shonraí OnionShare a aistriú agus tú ag aistriú "
+"B’fhéidir gur mhaith leat do shonraí BurnBox a aistriú agus tú ag aistriú "
 "go ríomhaire eile. Tá sé seo fíor go háirithe má bhí seoladh oinniún "
 "'leanúnach' agat agus gur mhaith leat é a chaomhnú."
 
 #: ../../source/advanced.rst:307
 msgid ""
-"OnionShare stores all such data in a specific folder. Copy the relevant "
+"BurnBox stores all such data in a specific folder. Copy the relevant "
 "folder for your operating system below, to your new computer:"
 msgstr ""
-"Stórálann OnionShare na sonraí sin go léir i bhfillteán ar leith. Cóipeáil "
+"Stórálann BurnBox na sonraí sin go léir i bhfillteán ar leith. Cóipeáil "
 "an fillteán ábhartha le do chóras oibriúcháin thíos, chuig do ríomhaire nua:"
 
 #: ../../source/advanced.rst:309
-msgid "Linux: ``~/.config/onionshare``"
-msgstr "Linux: ``~/.config/onionshare``"
+msgid "Linux: ``~/.config/burnbox``"
+msgstr "Linux: ``~/.config/burnbox``"
 
 #: ../../source/advanced.rst:310
-msgid "macOS: ``~/Library/Application Support/OnionShare``"
-msgstr "macOS: ``~/Library/Application Support/OnionShare``"
+msgid "macOS: ``~/Library/Application Support/BurnBox``"
+msgstr "macOS: ``~/Library/Application Support/BurnBox``"
 
 #: ../../source/advanced.rst:311
-msgid "Windows: ``%APPDATA%\\OnionShare``"
-msgstr "Windows: ``%APPDATA%\\OnionShare``"
+msgid "Windows: ``%APPDATA%\\BurnBox``"
+msgstr "Windows: ``%APPDATA%\\BurnBox``"
 
 #: ../../source/advanced.rst:315
 msgid "Configuration file parameters"
@@ -463,11 +463,11 @@ msgstr "Paraiméadair comhad cumra"
 
 #: ../../source/advanced.rst:317
 msgid ""
-"OnionShare stores its settings in a JSON file. Both the CLI and the Desktop "
+"BurnBox stores its settings in a JSON file. Both the CLI and the Desktop "
 "versions use this configuration file. The CLI also lets you specify a path "
 "to a custom configuration file with ``--config``."
 msgstr ""
-"Stórálann OnionShare a shocruithe i gcomhad JSON. Úsáideann na leaganacha "
+"Stórálann BurnBox a shocruithe i gcomhad JSON. Úsáideann na leaganacha "
 "CLI agus na Deisce araon an comhad cumraíochta seo. Ligeann an CLI duit "
 "cosán a shonrú chuig comhad cumraíochta saincheaptha le ``--config``."
 
@@ -475,12 +475,12 @@ msgstr ""
 msgid ""
 "Below are the configuration file parameters and what they mean. If your "
 "configuration file has other parameters not listed here, they may be "
-"obsolete from older OnionShare versions."
+"obsolete from older BurnBox versions."
 msgstr ""
 "Seo thíos na paraiméadair chomhaid cumraíochta agus cad a chiallaíonn siad. "
 "Má tá paraiméadair eile nach bhfuil liostaithe anseo ag do chomhad "
 "cumraíochta, d'fhéadfadh go mbeadh siad as feidhm ó leaganacha níos sine "
-"OnionShare."
+"BurnBox."
 
 #: ../../source/advanced.rst:322 ../../source/advanced.rst:402
 #: ../../source/advanced.rst:413 ../../source/advanced.rst:424
@@ -523,9 +523,9 @@ msgstr "``sreang``"
 
 #: ../../source/advanced.rst:324
 msgid ""
-"The version of OnionShare. You should not ever need to change this value."
+"The version of BurnBox. You should not ever need to change this value."
 msgstr ""
-"An leagan de OnionShare. Níor cheart go gcaithfidh tú an luach seo a athrú "
+"An leagan de BurnBox. Níor cheart go gcaithfidh tú an luach seo a athrú "
 "riamh."
 
 #: ../../source/advanced.rst:325
@@ -534,11 +534,11 @@ msgstr "cineál_nasc"
 
 #: ../../source/advanced.rst:325
 msgid ""
-"The way in which OnionShare connects to Tor. Valid options are 'bundled', "
+"The way in which BurnBox connects to Tor. Valid options are 'bundled', "
 "'automatic' (use Tor Browser's Tor connection), 'control_port' or "
 "'socket_file'. Default: 'bundled'"
 msgstr ""
-"An bealach a nascann OnionShare le Tor. Is iad na roghanna bailí "
+"An bealach a nascann BurnBox le Tor. Is iad na roghanna bailí "
 "'cuinneall', 'uathoibríoch' (bain úsáid as nasc Tor Brabhsálaí Tor), "
 "'control_port' nó 'socket_file'. Réamhshocraithe: 'cuinneáilte'"
 
@@ -650,10 +650,10 @@ msgstr "``boolean``"
 
 #: ../../source/advanced.rst:333
 msgid ""
-"Whether OnionShare should automatically connect to Tor when it starts. "
+"Whether BurnBox should automatically connect to Tor when it starts. "
 "Default: False"
 msgstr ""
-"Cibé an chóir OnionShare ceangal go huathoibríoch le Tor nuair a thosaíonn "
+"Cibé an chóir BurnBox ceangal go huathoibríoch le Tor nuair a thosaíonn "
 "sé Réamhshocrú: Bréagach"
 
 #: ../../source/advanced.rst:334
@@ -662,10 +662,10 @@ msgstr "úsáid uathoibríoch"
 
 #: ../../source/advanced.rst:334
 msgid ""
-"Whether OnionShare should automatically check for updates (over Tor). This "
+"Whether BurnBox should automatically check for updates (over Tor). This "
 "setting is only valid for MacOS or Windows installations. Default: True."
 msgstr ""
-"Cibé an cheart OnionShare seiceáil go huathoibríoch le haghaidh "
+"Cibé an cheart BurnBox seiceáil go huathoibríoch le haghaidh "
 "nuashonruithe (thar Tor Níl an socrú seo bailí ach le haghaidh suiteálacha "
 "macOS nó Windows. Réamhshocraithe: Fíor."
 
@@ -674,9 +674,9 @@ msgid "autoupdate_timestamp"
 msgstr "uath_nuashonrú_stampa_ama"
 
 #: ../../source/advanced.rst:335
-msgid "The last time OnionShare checked for updates. Default: None"
+msgid "The last time BurnBox checked for updates. Default: None"
 msgstr ""
-"An uair dheireanach a sheiceáil OnionShare le haghaidh nuashonruithe. "
+"An uair dheireanach a sheiceáil BurnBox le haghaidh nuashonruithe. "
 "Réamhshocraithe: Níl aon"
 
 #: ../../source/advanced.rst:336
@@ -695,12 +695,12 @@ msgstr "cineál_droidí"
 #: ../../source/advanced.rst:337
 msgid ""
 "When ``bridges_enabled`` is True, where to load bridges from. Options are "
-"\"built-in\" (bridges shipped with OnionShare and which may get updated from "
+"\"built-in\" (bridges shipped with BurnBox and which may get updated from "
 "Tor), \"moat\" (request bridges from Tor's Moat API), or \"custom\" (user-"
 "supplied bridges). Default: \"built-in\""
 msgstr ""
 "Nuair a bhíonn ``bridges_enabled`` Fíor, cá háit as droichid a luchtú. Tá na "
-"roghanna “ionsuite” (droichid a sheoltar le OnionShare agus a d'fhéadfadh a "
+"roghanna “ionsuite” (droichid a sheoltar le BurnBox agus a d'fhéadfadh a "
 "bheith nuashonraithe ó Tor), \"moat\" (iarr droichid ó API Moat Tor), nó "
 "“saincheaptha” (droichid a sholáthraíonn an úsáideoir). Réamhshocraithe: "
 "“tógtha”"
@@ -756,11 +756,11 @@ msgstr "``Dict``"
 
 #: ../../source/advanced.rst:341
 msgid ""
-"When ``bridges_type`` is set to \"built-in\", OnionShare obtains the latest "
+"When ``bridges_type`` is set to \"built-in\", BurnBox obtains the latest "
 "built-in bridges recommended by Tor and stores them here. Default: {}"
 msgstr ""
 "Nuair a bheidh ``bridges_type`` socraithe go “ionsuite”, faigheann "
-"OnionShare na droichid ionsuite is déanaí a mholann Tor agus stóráiltear iad "
+"BurnBox na droichid ionsuite is déanaí a mholann Tor agus stóráiltear iad "
 "anseo. Réamhshocraithe: {}"
 
 #: ../../source/advanced.rst:342
@@ -775,18 +775,18 @@ msgstr "``liosta``"
 #: ../../source/advanced.rst:342
 msgid ""
 "If the user has defined any tabs as 'saved' (meaning that they are "
-"persistent each time OnionShare starts, and their onion address doesn't "
+"persistent each time BurnBox starts, and their onion address doesn't "
 "change), these are given a random identifier which gets listed here. The "
 "persistent onion is stored as a JSON file with the same name as this "
-"identifier, in a subfolder of the OnionShare configuration folder called "
+"identifier, in a subfolder of the BurnBox configuration folder called "
 "'persistent'. Default: []"
 msgstr ""
 "Má shainmhíníonn an t-úsáideoir aon chluaisíní mar 'sábháilte' (rud a "
-"chiallaíonn go bhfuil siad leanúnach gach uair a thosaíonn OnionShare, agus "
+"chiallaíonn go bhfuil siad leanúnach gach uair a thosaíonn BurnBox, agus "
 "ní athraíonn a seoladh oinniún), tugtar aitheantóir randamach dóibh seo a "
 "liostaítear anseo. Stóráiltear an oinniún leanúnach mar chomhad JSON leis an "
 "ainm céanna leis an aitheantóir seo, i bhfofhillteán den fhillteán "
-"cumraíochta OnionShare ar a dtugtar 'leanún'. Réamhshocraithe: []"
+"cumraíochta BurnBox ar a dtugtar 'leanún'. Réamhshocraithe: []"
 
 #: ../../source/advanced.rst:343
 msgid "locale"
@@ -794,13 +794,13 @@ msgstr "áitiúil"
 
 #: ../../source/advanced.rst:343
 msgid ""
-"The locale used in OnionShare. Default: None (which is the same as 'en'). "
+"The locale used in BurnBox. Default: None (which is the same as 'en'). "
 "For valid locale codes, see 'available_locales' in https://github.com/"
-"onionshare/onionshare/blob/main/cli/onionshare_cli/settings.py"
+"burnbox/burnbox/blob/main/cli/burnbox_cli/settings.py"
 msgstr ""
-"An áitiúil a úsáidtear in OnionShare. Réamhshocraithe: Níl aon (atá mar an "
+"An áitiúil a úsáidtear in BurnBox. Réamhshocraithe: Níl aon (atá mar an "
 "gcéanna le 'en'). Le haghaidh cóid bailí áitiúla, féach 'available_locales' "
-"i https://github.com/onionshare/onionshare/blob/main/cli/onionshare_cli/"
+"i https://github.com/directedbymax/burnbox/blob/main/cli/burnbox_cli/"
 "settings.py"
 
 #: ../../source/advanced.rst:344
@@ -809,10 +809,10 @@ msgstr "téama"
 
 #: ../../source/advanced.rst:344
 msgid ""
-"The theme for the OnionShare desktop app. Valid options are 0 (automatically "
+"The theme for the BurnBox desktop app. Valid options are 0 (automatically "
 "detect the user's computer's light or dark theme), 1 (light) or 2 (dark)."
 msgstr ""
-"An téama don aip deisce OnionShare. Is iad na roghanna bailí ná 0 (téama "
+"An téama don aip deisce BurnBox. Is iad na roghanna bailí ná 0 (téama "
 "éadrom nó dorcha ríomhaire an úsáideora a bhrath go huathoibríoch), 1 (solas)"
 " nó 2 (dorcha)."
 
@@ -871,10 +871,10 @@ msgstr "cliant_auth_pub_key"
 
 #: ../../source/advanced.rst:406
 msgid ""
-"The public key when using Client Authentication. Used on OnionShare's side."
+"The public key when using Client Authentication. Used on BurnBox's side."
 msgstr ""
 "An eochair phoiblí agus Fíordheimhniú Cliant á úsáid. Úsáidtear ar thaobh "
-"OnionShare."
+"BurnBox."
 
 #: ../../source/advanced.rst:410
 msgid "persistent"
@@ -911,11 +911,11 @@ msgstr "tús_uathoibríoch_ar_lainseáil"
 
 #: ../../source/advanced.rst:417
 msgid ""
-"Whether to automatically start this persistent onion when OnionShare starts "
+"Whether to automatically start this persistent onion when BurnBox starts "
 "and once Tor is connected. Default: false"
 msgstr ""
 "Cibé an gcuirfear tús leis an oinniún leanúnach seo go huathoibríoch nuair a "
-"thosaíonn OnionShare agus nuair a Réamhshocraithe: bréagach"
+"thosaíonn BurnBox agus nuair a Réamhshocraithe: bréagach"
 
 #: ../../source/advanced.rst:421
 msgid "general"
@@ -928,10 +928,10 @@ msgstr "teideal"
 #: ../../source/advanced.rst:426
 msgid ""
 "An optional custom title for displaying on the onion service. Default: null "
-"(\"OnionShare\" will be shown instead)"
+"(\"BurnBox\" will be shown instead)"
 msgstr ""
 "Teideal saincheaptha roghnach le taispeáint ar an tseirbhís oinniún. "
-"Réamhshocraithe: null (taispeánfar “OnionShare” ina ionad)"
+"Réamhshocraithe: null (taispeánfar “BurnBox” ina ionad)"
 
 #: ../../source/advanced.rst:427
 msgid "public"
@@ -1040,10 +1040,10 @@ msgstr "data_dir"
 #: ../../source/advanced.rst:452
 msgid ""
 "The path where received files or text messages will be stored. Default: the "
-"'OnionShare' folder of the user's home directory."
+"'BurnBox' folder of the user's home directory."
 msgstr ""
 "Stórálfar an cosán ina bhfuarthas comhaid nó teachtaireachtaí téacs. "
-"Réamhshocraithe: an fillteán 'OnionShare' d'eolaire baile an úsáideora."
+"Réamhshocraithe: an fillteán 'BurnBox' d'eolaire baile an úsáideora."
 
 #: ../../source/advanced.rst:453
 msgid "webhook_url"
@@ -1051,10 +1051,10 @@ msgstr "cuaille_gréasáin_url"
 
 #: ../../source/advanced.rst:453
 msgid ""
-"A webhook URL that OnionShare will POST to when it receives files or text "
+"A webhook URL that BurnBox will POST to when it receives files or text "
 "messages. Default: null"
 msgstr ""
-"URL webhook a chuirfidh OnionShare POST air nuair a fhaigheann sé comhaid nó "
+"URL webhook a chuirfidh BurnBox POST air nuair a fhaigheann sé comhaid nó "
 "teachtaireachtaí téacs. Réamhshocraithe: null"
 
 #: ../../source/advanced.rst:454
@@ -1085,10 +1085,10 @@ msgstr "disable_csp"
 
 #: ../../source/advanced.rst:464
 msgid ""
-"If set to ``true``, OnionShare won't set its default Content Security Policy "
+"If set to ``true``, BurnBox won't set its default Content Security Policy "
 "header for the website. Default: ``false``"
 msgstr ""
-"Má tá sé socraithe ar ``true``, ní shocróidh OnionShare a cheannteideal "
+"Má tá sé socraithe ar ``true``, ní shocróidh BurnBox a cheannteideal "
 "réamhshocraithe Polasaí Slándála Ábhar don láithreán gréasáin. "
 "Réamhshocraithe: ``bréag``"
 

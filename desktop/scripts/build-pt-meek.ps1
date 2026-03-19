@@ -6,4 +6,4 @@ git clone https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports
 cd meek
 git checkout $MEEK_TAG
 go build .\meek-client
-Move-Item -Path .\meek-client.exe -Destination ..\..\..\onionshare\resources\tor\meek-client.exe
+Move-Item -Path .\meek-client.exe -Destination ..\..\..\burnbox\resources\tor\meek-client.exe

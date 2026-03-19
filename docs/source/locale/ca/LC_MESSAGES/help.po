@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) Micah Lee, et al.
-# This file is distributed under the same license as the OnionShare package.
+# This file is distributed under the same license as the BurnBox package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OnionShare 2.3\n"
-"Report-Msgid-Bugs-To: onionshare-dev@lists.riseup.net\n"
+"Project-Id-Version: BurnBox 2.3\n"
+"Report-Msgid-Bugs-To: burnbox-dev@lists.riseup.net\n"
 "POT-Creation-Date: 2025-02-18 17:24+1100\n"
 "PO-Revision-Date: 2025-06-03 12:02+0000\n"
 "Last-Translator: Ecron <ecron_89@hotmail.com>\n"
@@ -29,10 +29,10 @@ msgstr "Llegiu aquest lloc web"
 
 #: ../../source/help.rst:7
 msgid ""
-"You will find instructions on how to use OnionShare. Look through all of the "
+"You will find instructions on how to use BurnBox. Look through all of the "
 "sections first to see if anything answers your questions."
 msgstr ""
-"Trobareu instruccions sobre com utilitzar l'OnionShare. Mireu totes les "
+"Trobareu instruccions sobre com utilitzar l'BurnBox. Mireu totes les "
 "seccions primer per a veure si alguna respon les vostres preguntes."
 
 #: ../../source/help.rst:10
@@ -42,12 +42,12 @@ msgstr "Reviseu els Issues del GitHub"
 #: ../../source/help.rst:12
 msgid ""
 "If it isn't on the website, please check the `GitHub issues <https://github."
-"com/onionshare/onionshare/issues>`_. It's possible someone else has "
+"com/burnbox/burnbox/issues>`_. It's possible someone else has "
 "encountered the same problem and either raised it with the developers, or "
 "maybe even posted a solution."
 msgstr ""
 "Si no hi és al lloc web, reviseu els `Issues del Github <https://github.com/"
-"onionshare/onionshare/issues>`_. És possible que algú hagi trobat el mateix "
+"burnbox/burnbox/issues>`_. És possible que algú hagi trobat el mateix "
 "problema i o bé l'hagi notificat als desenvolupadors, o bé inclús hagi "
 "publicat una solució."
 
@@ -58,13 +58,13 @@ msgstr "Envieu un Issue"
 #: ../../source/help.rst:17
 msgid ""
 "If you are unable to find a solution, or wish to ask a question or suggest a "
-"new feature, please `submit an issue <https://github.com/onionshare/"
-"onionshare/issues/new>`_. This requires `creating a GitHub account <https://"
+"new feature, please `submit an issue <https://github.com/directedbymax/"
+"burnbox/issues/new>`_. This requires `creating a GitHub account <https://"
 "help.github.com/articles/signing-up-for-a-new-github-account/>`_."
 msgstr ""
 "Si no podeu trobar una solució, o voleu demanar res o suggerir una "
-"funcionalitat nova, `envieu un issue <https://github.com/onionshare/"
-"onionshare/issues/new>`_. Per a fer-ho, cal que `creeun un compte al GitHub "
+"funcionalitat nova, `envieu un issue <https://github.com/directedbymax/"
+"burnbox/issues/new>`_. Per a fer-ho, cal que `creeun un compte al GitHub "
 "<https://help.github.com/articles/signing-up-for-a-new-github-account/>`_."
 
 #: ../../source/help.rst:20

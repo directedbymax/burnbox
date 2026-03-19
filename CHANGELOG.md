@@ -1,9 +1,9 @@
-# OnionShare Changelog
+# BurnBox Changelog
 
 ## 2.6.3
 
 * Feature: It is now possible to view what URLs are visited in Share/Website mode using the CLI tool, with `--log-filenames`.
-* Feature: It is now possible to automatically start a saved persistent onion tab, once OnionShare itself starts and once Tor is connected.
+* Feature: It is now possible to automatically start a saved persistent onion tab, once BurnBox itself starts and once Tor is connected.
 * Bug fix: It is now once again possible to request bridges and use meek as a Pluggable Transport.
 * Bug fix: Fixed a fatal error with Censorship Circumvention when no bridges are returned.
 * Bug fix: Fixed an issue with lack of gevent with SocketIO on systems that don't have it.
@@ -31,9 +31,9 @@
 
 * Release updates: Automate builds with CI, make just 64-bit Windows release, make a single universal2 release for both Intel and Apple Silicon macOS
 * Upgrade dependencies, including Tor, meek, and snowflake
-* Bug fix: Restore the primary_action mode settings in a tab after OnionShare reconnects to Tor
+* Bug fix: Restore the primary_action mode settings in a tab after BurnBox reconnects to Tor
 * Bug fix: Fix issue with auto-connecting to Tor with persistent tabs open
-* Bug fix: Fix packaging issue where Windows version of OnionShare conflicts with Windows version of Dangerzone
+* Bug fix: Fix packaging issue where Windows version of BurnBox conflicts with Windows version of Dangerzone
 * Bug fix: Fix 'Use a bridge' checkbox state change
 * Bug fix: Raise error from waitress if not shutdown
 
@@ -41,9 +41,9 @@
 
 * Major feature: a new 'Quickstart' screen, which enables toggling on or off an animated automatic connection to Tor. This allows configuring network settings prior to automatic connection.
 * Major feature: Censorship circumvention. Use new features in the upstream Tor API to try to automatically obtain bridges depending on the user's location.
-* New feature: automatically fetch the built-in bridges from the upstream Tor API rather than hardcode them in each release of OnionShare.
+* New feature: automatically fetch the built-in bridges from the upstream Tor API rather than hardcode them in each release of BurnBox.
 * New feature: keyboard shortcuts to access various modes and menus, and accessibility hints
-* Bug fix: Temporary Directory for serving the OnionShare web pages was broken on Windows
+* Bug fix: Temporary Directory for serving the BurnBox web pages was broken on Windows
 * Packaging: Packaging is more automated, and Linux Snapcraft releases are available for amd64, arm64, and armhf
 * Miscellaneous: Many dependency updates and web page theming improvements
 
@@ -74,7 +74,7 @@
 
 ## 2.3.2
 
-* New feature: Custom titles can be set for OnionShare's various modes
+* New feature: Custom titles can be set for BurnBox's various modes
 * New feature: Receive mode supports notification webhooks
 * New feature: Receive mode supports submitting messages as well as files
 * New feature: New ASCII art banner and prettier verbose output
@@ -86,7 +86,7 @@
 ## 2.3.1
 
 * Bugfix: Fix chat mode
-* Bugfix: Fix --persistent in onionshare-cli
+* Bugfix: Fix --persistent in burnbox-cli
 * Bugfix: Fix checking for updates in Windows and macOS
 
 ## 2.3
@@ -94,7 +94,7 @@
 * Major new feature: Multiple tabs, including better support for persistent services, faster Tor connections
 * New feature: Chat anonymously mode
 * New feature: All new design
-* New feature: Ability to display QR codes of OnionShare addresses
+* New feature: Ability to display QR codes of BurnBox addresses
 * New feature: Web apps have responsive design and look better on mobile
 * New feature: Flatpak and Snapcraft packaging for Linux
 * Several bug fixes
@@ -147,16 +147,16 @@
 
 ## 2.0
 
-* New feature: Receiver mode allows you to receive files with OnionShare, instead of only sending files
+* New feature: Receiver mode allows you to receive files with BurnBox, instead of only sending files
 * New feature: Support for next generation onion services
 * New feature: macOS sandbox is enabled
-* New feature: Public mode feature, for public uses of OnionShare, which when enabled turns off slugs in the URL and removes the limit on how many 404 requests can be made
+* New feature: Public mode feature, for public uses of BurnBox, which when enabled turns off slugs in the URL and removes the limit on how many 404 requests can be made
 * New feature: If you're sharing a single file, don't zip it up
 * New feature: Full support for meek_lite (Azure) bridges
 * New feature: Allow selecting your language from a dropdown
 * New translations: Bengali (বাংলা), Catalan (Català), Danish (Dansk), French (Français), Greek (Ελληνικά), Italian (Italiano), Japanese (日本語), Persian (فارسی), Portuguese Brazil (Português Brasil), Russian (Русский), Spanish (Español), Swedish (Svenska)
 * Several bugfixes
-* Invisible to users, this version includes some major refactoring of the codebase, and a robust set of unit tests which makes OnionShare easier to maintain going forward
+* Invisible to users, this version includes some major refactoring of the codebase, and a robust set of unit tests which makes BurnBox easier to maintain going forward
 
 ## 1.3.2
 
@@ -186,7 +186,7 @@
 
 * New feature: Support for Tor bridges, including obfs4proxy
 * New feature: Ability to use a persistent URL
-* New feature: Auto-stop timer, to stop OnionShare at a specified time
+* New feature: Auto-stop timer, to stop BurnBox at a specified time
 * New feature: Get notification when Tor connection dies
 * Updated versions of Python, Qt, Tor, and other dependencies that are bundled
 * Added ability to supply a custom settings file as a command line arg
@@ -197,8 +197,8 @@
 
 ## 1.1
 
-* OnionShare connects to Tor itself now, so opening Tor Browser in the background isn't required
-* In Windows and macOS, OnionShare alerts users about updates
+* BurnBox connects to Tor itself now, so opening Tor Browser in the background isn't required
+* In Windows and macOS, BurnBox alerts users about updates
 * Removed the menu bar, and adding a "Settings" button
 * Added desktop notifications, and a system tray icon
 * Ability to add multiple files and folders with a single "Add" button
@@ -210,25 +210,25 @@
 
 ## 1.0
 
-* Fixed long-standing macOS X bug that caused OnionShare to crash on older Macs (!)
+* Fixed long-standing macOS X bug that caused BurnBox to crash on older Macs (!)
 * Added settings dialog to configure connecting to Tor, including support for system Tor
 * Added support for stealth onion services (advanced option)
 * Added support for Whonix
 * Improved AppArmor profiles
 * Added progress bar for zipping up files
 * Improved the look of download progress bars
-* Allows developers to launch OnionShare from source tree, without building a package
-* Deleted legacy code, and made OnionShare purely use ephemeral Tor onion services
+* Allows developers to launch BurnBox from source tree, without building a package
+* Deleted legacy code, and made BurnBox purely use ephemeral Tor onion services
 * Switched to EFF's diceware wordlist for slugs
 
 ## 0.9.2 (Linux only)
 
 * Looks for `TOR_CONTROL_PORT` environment variable, to help Tails integration
-* Change how OnionShare checks to see if it's installed system-wide, to help Subgraph OS integration
+* Change how BurnBox checks to see if it's installed system-wide, to help Subgraph OS integration
 
 ## 0.9.1
 
-* Added Nautilus extension, so you can right-click on a file and choose "Share via OnionShare", thanks to Subgraph developers
+* Added Nautilus extension, so you can right-click on a file and choose "Share via BurnBox", thanks to Subgraph developers
 * Switch to using the term "onion service" rather than "hidden service"
 * Fix CVE-2016-5026, minor security issue related to use of /tmp directory
 * Switch from PyInstaller to cx_Freeze for Windows and OSX packaging
@@ -239,7 +239,7 @@
 * Slugs are now shorter and human-readable, with rate limiting to prevent URL guessing
 * Uses a new slug each time the server restarts
 * "Stop sharing automatically" enforces only one download
-* Users get asked if they're sure they want to close OnionShare while server is running
+* Users get asked if they're sure they want to close BurnBox while server is running
 * Added estimated time remaining progress indicator
 * Fixed frozen window while waiting for hidden service to start
 * Displays version number in both GUI and CLI
@@ -302,7 +302,7 @@
 
 ## 0.4
 
-* Fixed critical XSS bug that could deanonymize user: https://micahflee.com/2014/07/security-advisory-upgrade-to-onionshare-0-4-immediately/
+* Fixed critical XSS bug that could deanonymize user: https://micahflee.com/2014/07/security-advisory-upgrade-to-burnbox-0-4-immediately/
 * Added CSP headers in GUI to prevent any future XSS bugs from working
 * Hash urandom data before using it, to avoid leaking state of entropy
 * Constant time compare the slug to avoid timing attacks

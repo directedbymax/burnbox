@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) Micah Lee, et al.
-# This file is distributed under the same license as the OnionShare package.
+# This file is distributed under the same license as the BurnBox package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OnionShare 2.3\n"
-"Report-Msgid-Bugs-To: onionshare-dev@lists.riseup.net\n"
+"Project-Id-Version: BurnBox 2.3\n"
+"Report-Msgid-Bugs-To: burnbox-dev@lists.riseup.net\n"
 "POT-Creation-Date: 2025-02-18 17:24+1100\n"
 "PO-Revision-Date: 2025-03-30 03:01+0000\n"
 "Last-Translator: Himmel <himmel@users.noreply.hosted.weblate.org>\n"
@@ -20,14 +20,14 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../source/index.rst:2
-msgid "OnionShare's documentation"
-msgstr "OnionShare のドキュメント"
+msgid "BurnBox's documentation"
+msgstr "BurnBox のドキュメント"
 
 #: ../../source/index.rst:6
 msgid ""
-"OnionShare is an open source tool that lets you securely and anonymously "
+"BurnBox is an open source tool that lets you securely and anonymously "
 "share files, host websites, and chat with friends using the Tor network."
 msgstr ""
-"OnionShare は、Tor ネットワークを利用して、安全に、また匿名でファイルを共有し"
+"BurnBox は、Tor ネットワークを利用して、安全に、また匿名でファイルを共有し"
 "たり、ウェブサイトをホストしたり、友達とチャットしたりするためのオープンソー"
 "スのツールです。"

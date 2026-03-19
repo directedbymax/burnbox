@@ -9,21 +9,21 @@ import sys
 
 from PySide6 import QtCore, QtTest, QtWidgets
 
-from onionshare_cli.common import Common
+from burnbox_cli.common import Common
 
-from onionshare import Application, MainWindow, GuiCommon
-from onionshare.tab.mode.share_mode import ShareMode
-from onionshare.tab.mode.receive_mode import ReceiveMode
-from onionshare.tab.mode.website_mode import WebsiteMode
-from onionshare.tab.mode.chat_mode import ChatMode
-from onionshare import strings
+from burnbox import Application, MainWindow, GuiCommon
+from burnbox.tab.mode.share_mode import ShareMode
+from burnbox.tab.mode.receive_mode import ReceiveMode
+from burnbox.tab.mode.website_mode import WebsiteMode
+from burnbox.tab.mode.chat_mode import ChatMode
+from burnbox import strings
 
 
 class GuiBaseTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        common = sys.onionshare_common
-        qtapp = sys.onionshare_qtapp
+        common = sys.burnbox_common
+        qtapp = sys.burnbox_qtapp
 
         # Delete any old test data that might exist
         shutil.rmtree(common.build_data_dir(), ignore_errors=True)
@@ -44,18 +44,18 @@ class GuiBaseTest(unittest.TestCase):
         # A file called "test.txt"
         cls.tmpfile_test = os.path.join(cls.tmpdir.name, "test.txt")
         with open(cls.tmpfile_test, "w") as file:
-            file.write("onionshare")
+            file.write("burnbox")
 
         # A file called "test2.txt"
         cls.tmpfile_test2 = os.path.join(cls.tmpdir.name, "test2.txt")
         with open(cls.tmpfile_test2, "w") as file:
-            file.write("onionshare2")
+            file.write("burnbox2")
 
         # A file called "index.html"
         cls.tmpfile_index_html = os.path.join(cls.tmpdir.name, "index.html")
         with open(cls.tmpfile_index_html, "w") as file:
             file.write(
-                "<html><body><p>This is a test website hosted by OnionShare</p></body></html>"
+                "<html><body><p>This is a test website hosted by BurnBox</p></body></html>"
             )
 
         # A file called "test.html"
@@ -164,8 +164,8 @@ class GuiBaseTest(unittest.TestCase):
         self.assertTrue(self.gui.show)
 
     def window_title_seen(self):
-        """Test that the window title is OnionShare"""
-        self.assertEqual(self.gui.windowTitle(), "OnionShare")
+        """Test that the window title is BurnBox"""
+        self.assertEqual(self.gui.windowTitle(), "BurnBox")
 
     def server_status_bar_is_visible(self):
         """Test that the status bar is visible"""

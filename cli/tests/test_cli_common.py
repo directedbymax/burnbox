@@ -53,7 +53,7 @@ class TestBuildPassword:
 
         assert bool(PASSWORD_REGEX.match(test_input)) == expected
 
-    def test_build_password_unique(self, common_obj, sys_onionshare_dev_mode):
+    def test_build_password_unique(self, common_obj, sys_burnbox_dev_mode):
         assert common_obj.build_password() != common_obj.build_password()
 
 

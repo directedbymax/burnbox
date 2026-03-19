@@ -1,6 +1,6 @@
 (Note: Third-party licenses can be found under licenses/.)
 
-OnionShare
+BurnBox
 Copyright (C) 2014-2022 Micah Lee, et al. <micah@micahflee.com>
 
                     GNU GENERAL PUBLIC LICENSE

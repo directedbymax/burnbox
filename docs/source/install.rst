@@ -4,91 +4,91 @@ Installation
 Windows or macOS
 ----------------
 
-You can download OnionShare for Windows and macOS from the `OnionShare website <https://onionshare.org/>`_.
+You can download BurnBox for Windows and macOS from the `BurnBox website <https://burnbox.hideaway.chat/>`_.
 
 .. _linux:
 
 Mobile
 ----------------
 
-You can download OnionShare for Mobile from the follow links
+You can download BurnBox for Mobile from the follow links
 
 * Android
-	* Google Play: https://play.google.com/store/apps/details?id=org.onionshare.android
-	* F-Droid: https://github.com/onionshare/onionshare-android-nightly
+	* Google Play: https://play.google.com/store/apps/details?id=org.burnbox.android
+	* F-Droid: https://github.com/directedbymax/burnbox-android-nightly
 
 * iOS
-	* Apple App Store: https://apps.apple.com/app/onionshare/id1601890129
-	* Direct IPA download: https://github.com/onionshare/onionshare-ios/releases
+	* Apple App Store: https://apps.apple.com/app/burnbox/id1601890129
+	* Direct IPA download: https://github.com/directedbymax/burnbox-ios/releases
 	* Testflight: https://testflight.apple.com/join/ZCJeY65W
 
 
 Linux
 -----
 
-There are various ways to install OnionShare for Linux, but the recommended way is to use either the `Flatpak <https://flatpak.org/>`_ or the `Snap <https://snapcraft.io/>`_ package.
-Flatpak and Snapcraft ensure that you'll always use the newest version and run OnionShare inside of a sandbox.
+There are various ways to install BurnBox for Linux, but the recommended way is to use either the `Flatpak <https://flatpak.org/>`_ or the `Snap <https://snapcraft.io/>`_ package.
+Flatpak and Snapcraft ensure that you'll always use the newest version and run BurnBox inside of a sandbox.
 
 Snapcraft support is built-in to Ubuntu and Fedora comes with Flatpak support, but which you use is up to you. Both work in all Linux distributions.
 
-**Install OnionShare using Flatpak**: https://flathub.org/apps/details/org.onionshare.OnionShare
+**Install BurnBox using Flatpak**: https://flathub.org/apps/details/chat.hideaway.burnbox
 
-**Install OnionShare using Snapcraft**: https://snapcraft.io/onionshare
+**Install BurnBox using Snapcraft**: https://snapcraft.io/burnbox
 
-You can also download and install PGP-signed ``.flatpak`` or ``.snap`` packages from https://onionshare.org/dist/ if you prefer.
+You can also download and install PGP-signed ``.flatpak`` or ``.snap`` packages from https://burnbox.hideaway.chat/dist/ if you prefer.
 
 Manual Flatpak Installation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you'd like to install OnionShare manually with Flatpak using the PGP-signed `single-file bundle <https://docs.flatpak.org/en/latest/single-file-bundles.html>`_, you can do so like this:
+If you'd like to install BurnBox manually with Flatpak using the PGP-signed `single-file bundle <https://docs.flatpak.org/en/latest/single-file-bundles.html>`_, you can do so like this:
 
 - Install Flatpak by following the instructions at https://flatpak.org/setup/.
-- Add the Flathub repository by running ``flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo``. Even though you won't be downloading OnionShare from Flathub, OnionShare depends on some packages that are only available there.
-- Go to https://onionshare.org/dist/, choose the latest version of OnionShare, and download the ``.flatpak`` and ``.flatpak.asc`` files.
+- Add the Flathub repository by running ``flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo``. Even though you won't be downloading BurnBox from Flathub, BurnBox depends on some packages that are only available there.
+- Go to https://burnbox.hideaway.chat/dist/, choose the latest version of BurnBox, and download the ``.flatpak`` and ``.flatpak.asc`` files.
 - Verify the PGP signature of the ``.flatpak`` file. See :ref:`verifying_sigs` for more info.
-- Install the ``.flatpak`` file by running ``flatpak install OnionShare-VERSION.flatpak``. Replace ``VERSION`` with the version number of the file you downloaded.
+- Install the ``.flatpak`` file by running ``flatpak install BurnBox-VERSION.flatpak``. Replace ``VERSION`` with the version number of the file you downloaded.
 
-You can run OnionShare with: `flatpak run org.onionshare.OnionShare`.
+You can run BurnBox with: `flatpak run chat.hideaway.burnbox`.
 
 Manual Snapcraft Installation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If you'd like to install OnionShare manually with Snapcraft using the PGP-signed Snapcraft package, you can do so like this:
+If you'd like to install BurnBox manually with Snapcraft using the PGP-signed Snapcraft package, you can do so like this:
 
 - Install Snapcraft by following the instructions at https://snapcraft.io/docs/installing-snapd.
-- Go to https://onionshare.org/dist/, choose the latest version of OnionShare, and download the ``.snap`` and ``.snap.asc`` files.
+- Go to https://burnbox.hideaway.chat/dist/, choose the latest version of BurnBox, and download the ``.snap`` and ``.snap.asc`` files.
 - Verify the PGP signature of the ``.snap`` file. See :ref:`verifying_sigs` for more info.
-- Install the ``.snap`` file by running ``snap install --dangerous onionshare_VERSION_amd64.snap``. Replace ``VERSION`` with the version number of the file you downloaded. Note that you must use `--dangerous` because the package is not signed by the Snapcraft store, however you did verify its PGP signature, so you know it's legitimate.
+- Install the ``.snap`` file by running ``snap install --dangerous burnbox_VERSION_amd64.snap``. Replace ``VERSION`` with the version number of the file you downloaded. Note that you must use `--dangerous` because the package is not signed by the Snapcraft store, however you did verify its PGP signature, so you know it's legitimate.
 
-You can run OnionShare with: `snap run onionshare`.
+You can run BurnBox with: `snap run burnbox`.
 
 .. _pip:
 
 Command-line only
 -----------------
 
-You can install just the command-line version of OnionShare on any operating system using the Python package manager ``pip``. :ref:`cli` has more info.
+You can install just the command-line version of BurnBox on any operating system using the Python package manager ``pip``. :ref:`cli` has more info.
 
 .. _freebsd:
 
 FreeBSD
 -------
 
-Althought not being officially developed for this platform, OnionShare can also be installed on `FreeBSD <https://freebsd.org/>`_. It's available via its ports collection or as pre-built package. Should you opt to install and use OnionShare on a FreeBSD operating system, please be aware that it's **NOT** officially supported by the OnionShare project.
+Althought not being officially developed for this platform, BurnBox can also be installed on `FreeBSD <https://freebsd.org/>`_. It's available via its ports collection or as pre-built package. Should you opt to install and use BurnBox on a FreeBSD operating system, please be aware that it's **NOT** officially supported by the BurnBox project.
 
-Though not being offered and officially maintained by the OnionShare developers, the FreeBSD packages and ports do fetch and verifies the source codes from the official OnionShare repository (or its official release packages from `PyPI <https://pypi.org/project/onionshare-cli/>`_). Should you wish to check changes related to this platform, please refer to the following resources:
+Though not being offered and officially maintained by the BurnBox developers, the FreeBSD packages and ports do fetch and verifies the source codes from the official BurnBox repository (or its official release packages from `PyPI <https://pypi.org/project/burnbox-cli/>`_). Should you wish to check changes related to this platform, please refer to the following resources:
 
-- https://cgit.freebsd.org/ports/log/www/onionshare
-- https://www.freshports.org/www/onionshare
+- https://cgit.freebsd.org/ports/log/www/burnbox
+- https://www.freshports.org/www/burnbox
 
 Manual pkg Installation
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-To install the binary package, use ``pkg install pyXY-onionshare``, with ``pyXY`` specifying the version of Python the package was built for. So, in order to install OnionShare for Python 3.9, use::
+To install the binary package, use ``pkg install pyXY-burnbox``, with ``pyXY`` specifying the version of Python the package was built for. So, in order to install BurnBox for Python 3.9, use::
 
-    pkg install py39-onionshare
+    pkg install py39-burnbox
 
-There's also a **Command-line only** version of OnionShare available as pre-built package. Replace ``py39-onionshare`` by ``py39-onionshare-cli`` if you want to install that version.
+There's also a **Command-line only** version of BurnBox available as pre-built package. Replace ``py39-burnbox`` by ``py39-burnbox-cli`` if you want to install that version.
 
 For additional information and details about the FreeBSD pre-built packages, please refer to its `official Handbook section about pkg <https://docs.freebsd.org/en/books/handbook/ports/#pkgng-intro>`_.
 
@@ -97,9 +97,9 @@ Manual port Installation
 
 To install the FreeBSD port, change directory to the `ports collection <https://freebsd.org/ports/>`_ you must have checked out before and run the following::
 
-    make -s -C www/onionshare all install clean
+    make -s -C www/burnbox all install clean
 
-The ports collection also offers a dedicated port for the **Command-line only** version of OnionShare. Replace ``www/onionshare`` by ``www/onionshare-cli`` if you want to install that version.
+The ports collection also offers a dedicated port for the **Command-line only** version of BurnBox. Replace ``www/burnbox`` by ``www/burnbox-cli`` if you want to install that version.
 
 For additional information and details about the FreeBSD ports collection, please refer to its `official Handbook section about ports <https://docs.freebsd.org/en/books/handbook/ports/#ports-using>`_.
 
@@ -109,13 +109,13 @@ Verifying PGP signatures
 ------------------------
 
 You can verify that the package you download is legitimate and hasn't been tampered with by verifying its PGP signature.
-For Windows and macOS, this step is optional and provides defense in depth: the OnionShare binaries include operating system-specific signatures, and you can just rely on those alone if you'd like.
+For Windows and macOS, this step is optional and provides defense in depth: the BurnBox binaries include operating system-specific signatures, and you can just rely on those alone if you'd like.
 
 Signing key
 ^^^^^^^^^^^
 
 Packages are signed by the core developer who is responsible for the particular release. Here is the GPG
-key information for each of the core developers of OnionShare:
+key information for each of the core developers of BurnBox:
 
 * Micah Lee:
     * PGP public key fingerprint ``927F419D7EC82C2F149C1BD1403C2657CD994F73``.
@@ -134,8 +134,8 @@ You must have GnuPG installed to verify signatures. For macOS you probably want 
 Signatures
 ^^^^^^^^^^
 
-You can find the signatures (as ``.asc`` files), as well as Windows, macOS, Flatpak, Snap, and source packages, at https://onionshare.org/dist/ in the folders named for each version of OnionShare.
-You can also find them on the `GitHub Releases page <https://github.com/onionshare/onionshare/releases>`_.
+You can find the signatures (as ``.asc`` files), as well as Windows, macOS, Flatpak, Snap, and source packages, at https://burnbox.hideaway.chat/dist/ in the folders named for each version of BurnBox.
+You can also find them on the `GitHub Releases page <https://github.com/directedbymax/burnbox/releases>`_.
 
 Verifying
 ^^^^^^^^^
@@ -144,21 +144,21 @@ Once you have imported the core developers public keys into your GnuPG keychain,
 
 For Windows::
 
-    gpg --verify OnionShare-win64-2.6.msi.asc OnionShare-win64-2.6.msi (Windows 64-bit)
+    gpg --verify BurnBox-win64-2.6.msi.asc BurnBox-win64-2.6.msi (Windows 64-bit)
 
 For macOS::
 
-    gpg --verify OnionShare-2.6.dmg.asc OnionShare-2.6.dmg
+    gpg --verify BurnBox-2.6.dmg.asc BurnBox-2.6.dmg
 
 For Linux::
 
-    gpg --verify OnionShare-2.6.flatpak.asc OnionShare-2.6.flatpak (Flatpak)
+    gpg --verify BurnBox-2.6.flatpak.asc BurnBox-2.6.flatpak (Flatpak)
 
-    gpg --verify onionshare_2.6_amd64.snap.asc onionshare_2.6_amd64.snap (Snap)
+    gpg --verify burnbox_2.6_amd64.snap.asc burnbox_2.6_amd64.snap (Snap)
 
 and for the source file::
 
-    gpg --verify onionshare-2.6.tar.gz.asc onionshare-2.6.tar.gz
+    gpg --verify burnbox-2.6.tar.gz.asc burnbox-2.6.tar.gz
 
 The expected output looks like this::
 
